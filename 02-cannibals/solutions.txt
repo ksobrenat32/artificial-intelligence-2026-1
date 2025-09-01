@@ -1,0 +1,7549 @@
+Missionaries and Cannibals - All Possible Paths
+==================================================
+
+Exploring all possible paths (found 38 paths):
+
+--- Path 1 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 3, 1, 0, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 2 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (1, 3, 2, 0, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 3 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 4 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 5 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 6 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 7 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 8 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (2, 2, 1, 1, R)
+  Step 4: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 9 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 10 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 11 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 12 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 13 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 14 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 15 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 16 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 17 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 18 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 19 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 20 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 21 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 22 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 23 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 24 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 25 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 26 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 27 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 28 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 29 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 1, 3, 2, R)
+  Step 10: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 30 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 1, 3, 2, R)
+  Step 10: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 31 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 1, 3, 2, R)
+  Step 10: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 32 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 1, 3, 2, R)
+  Step 10: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 33 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 1, 3, 2, R)
+  Step 10: (0, 2, 3, 1, L)
+  Step 11: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 11 steps.
+
+--- Path 34 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 1, 3, 2, R)
+  Step 10: (1, 1, 2, 2, L)
+  Step 11: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 35 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 1, 3, 2, R)
+  Step 10: (1, 1, 2, 2, L)
+  Step 11: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 11 steps.
+
+--- Path 36 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 1, 3, 2, R)
+  Step 10: (0, 2, 3, 1, L)
+  Step 11: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 11 steps.
+
+--- Path 37 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 1, 3, 2, R)
+  Step 10: (1, 1, 2, 2, L)
+  Step 11: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 38 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 1, 3, 2, R)
+  Step 10: (1, 1, 2, 2, L)
+  Step 11: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 11 steps.
+
+==================================================
+BEST SOLUTION:
+==================================================
+Optimal solution found in 11 crossings:
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 1, 3, 2, R)
+  Step 10: (0, 2, 3, 1, L)
+  Step 11: (0, 0, 3, 3, R)
+
+==================================================
+Missionaries and Cannibals - With a boat capacity of three
+==================================================
+
+Exploring all possible paths (found 639 paths):
+
+--- Path 1 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 3, 1, 0, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 2 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 3 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (1, 3, 2, 0, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 4 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 5 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 6 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (0, 3, 3, 0, R)
+  Step 2: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 7 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (0, 3, 3, 0, R)
+  Step 2: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 8 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 9 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 10 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 11 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 12 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 13 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 14 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 15 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 16 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 17 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 18 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 19 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 20 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (2, 2, 1, 1, R)
+  Step 4: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 21 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 22 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 23 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 24 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 25 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 26 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 27 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 28 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 29 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 30 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 31 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 32 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 33 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 34 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 35 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (2, 2, 1, 1, R)
+  Step 4: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 36 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 37 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 38 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 39 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 40 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 41 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 42 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 43 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 44 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 45 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 46 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 47 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 48 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 49 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 50 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 51 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 52 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 53 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 54 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 55 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 56 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 57 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 58 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 59 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 60 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 5 steps.
+
+--- Path 61 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 62 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 63 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 64 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 65 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 66 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 67 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 68 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 69 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 2, 0, 1, L)
+  Step 5: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 70 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 2, 0, 1, L)
+  Step 5: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 71 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 2, 0, 1, L)
+  Step 5: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 72 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (0, 2, 3, 1, L)
+  Step 5: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 5 steps.
+
+--- Path 73 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 5 steps.
+
+--- Path 74 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (1, 1, 2, 2, L)
+  Step 5: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 75 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (1, 1, 2, 2, L)
+  Step 5: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 5 steps.
+
+--- Path 76 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 77 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 78 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 79 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 80 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 81 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 82 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 83 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 84 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 85 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 86 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 87 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 5 steps.
+
+--- Path 88 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 89 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 90 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 91 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 92 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 93 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 94 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 95 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 96 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 97 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 98 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 99 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 100 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 101 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 102 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 5 steps.
+
+--- Path 103 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 104 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 105 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 106 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 107 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 108 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 109 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 110 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 111 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 112 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 113 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 114 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 115 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 116 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 117 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 118 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 119 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 120 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 121 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 122 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 123 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 124 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 125 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 126 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 127 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 128 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 129 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 130 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 131 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 132 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 133 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 134 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 135 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 136 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 137 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 138 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 139 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 2, 0, 1, L)
+  Step 5: (2, 2, 1, 1, R)
+  Step 6: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 140 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 2, 0, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 141 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 2, 0, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 142 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 2, 0, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 143 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 144 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 145 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 146 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 147 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 148 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 149 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 150 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 151 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 152 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 153 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 154 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 155 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 156 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 157 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 158 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 159 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 160 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 161 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 162 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 163 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 164 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 165 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 166 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 167 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 168 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 169 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 170 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 171 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 172 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 173 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 174 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 175 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 176 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 177 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 178 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 179 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 180 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 181 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 182 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 183 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 184 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 185 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 186 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 187 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 188 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 189 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 190 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 191 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 192 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 193 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 194 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 195 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 196 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 197 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 198 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 199 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 200 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 201 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 202 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 2, 3, 1, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 203 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 204 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 1, 2, 2, L)
+  Step 7: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 205 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 1, 2, 2, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 206 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 207 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 208 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 209 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 210 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 211 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 2, 3, 1, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 212 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 213 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 1, 2, 2, L)
+  Step 7: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 214 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 1, 2, 2, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 215 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 216 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 217 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 218 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 2, 3, 1, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 219 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 220 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 1, 2, 2, L)
+  Step 7: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 221 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 1, 2, 2, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 222 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 223 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 224 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 225 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 226 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 2, 3, 1, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 227 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 1, 2, 2, L)
+  Step 7: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 228 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 1, 2, 2, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 229 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 230 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 231 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 232 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 233 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 234 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 235 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 236 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 237 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 238 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 239 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 2, 3, 1, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 240 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 241 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 1, 2, 2, L)
+  Step 7: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 242 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 1, 2, 2, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 243 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 244 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 245 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 246 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 247 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (3, 2, 0, 1, L)
+  Step 7: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 248 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (3, 2, 0, 1, L)
+  Step 7: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 249 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (3, 2, 0, 1, L)
+  Step 7: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 250 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 2, 3, 1, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 251 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 252 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 1, 2, 2, L)
+  Step 7: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 253 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 1, 2, 2, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 254 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 2, 0, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 255 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 2, 0, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 256 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 2, 0, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 257 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 2, 0, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 258 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 2, 0, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 259 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 260 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 261 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 262 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 263 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (3, 2, 0, 1, L)
+  Step 7: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 264 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (3, 2, 0, 1, L)
+  Step 7: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 265 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (3, 2, 0, 1, L)
+  Step 7: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 266 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (3, 2, 0, 1, L)
+  Step 7: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 267 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (3, 2, 0, 1, L)
+  Step 7: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 268 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (3, 2, 0, 1, L)
+  Step 7: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 269 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 270 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (3, 2, 0, 1, L)
+  Step 7: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 271 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (3, 2, 0, 1, L)
+  Step 7: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 272 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (3, 2, 0, 1, L)
+  Step 7: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 273 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 274 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 2, 3, 1, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 275 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 276 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 1, 2, 2, L)
+  Step 7: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 277 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 1, 2, 2, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 278 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 279 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 280 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 281 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 2, 3, 1, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 282 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 283 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 1, 2, 2, L)
+  Step 7: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 284 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 1, 2, 2, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 285 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 286 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 287 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 288 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 289 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 2, 3, 1, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 290 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 1, 2, 2, L)
+  Step 7: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 291 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 1, 2, 2, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 292 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 293 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 294 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 295 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 296 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 297 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 298 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 299 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 300 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 301 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 302 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 2, 3, 1, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 303 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 304 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 1, 2, 2, L)
+  Step 7: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 305 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 1, 2, 2, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 306 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 307 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 308 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 309 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 310 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 311 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 312 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 313 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 2, 3, 1, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 314 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 315 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 1, 2, 2, L)
+  Step 7: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 316 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 1, 2, 2, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 317 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 318 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 319 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 320 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 321 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 322 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 2, 3, 1, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 323 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 324 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 1, 2, 2, L)
+  Step 7: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 325 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 1, 2, 2, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 326 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 327 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 328 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 329 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 2, 3, 1, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 330 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 331 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 1, 2, 2, L)
+  Step 7: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 332 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 1, 2, 2, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 333 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 334 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 335 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 336 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 337 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 2, 3, 1, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 338 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 1, 2, 2, L)
+  Step 7: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 339 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 1, 2, 2, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 340 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 341 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 342 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 343 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 344 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 345 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 346 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 347 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 348 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 349 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 350 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 2, 3, 1, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 351 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 352 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 1, 2, 2, L)
+  Step 7: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 353 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (1, 1, 2, 2, L)
+  Step 7: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 7 steps.
+
+--- Path 354 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 355 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 356 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 357 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 358 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 359 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 360 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 361 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 362 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 363 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 364 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 365 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 366 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 367 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 368 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 369 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 370 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 371 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 372 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 373 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 374 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 375 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 376 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 377 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 378 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 379 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 380 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 381 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 382 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 383 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 384 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 385 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 386 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 387 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 388 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 389 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 390 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 391 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 392 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 393 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 394 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 395 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 396 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 397 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 398 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 399 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 400 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 401 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 402 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 403 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (3, 2, 0, 1, L)
+  Step 7: (2, 2, 1, 1, R)
+  Step 8: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 404 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 405 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 406 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 407 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 2, 0, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 408 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 2, 0, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 409 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 2, 0, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 410 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 2, 0, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 411 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 2, 0, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 412 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 2, 0, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 413 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 414 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 415 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 416 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 417 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (3, 2, 0, 1, L)
+  Step 7: (2, 2, 1, 1, R)
+  Step 8: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 418 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (3, 2, 0, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 419 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (3, 2, 0, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 420 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (3, 2, 0, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 421 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (3, 2, 0, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 422 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (3, 2, 0, 1, L)
+  Step 7: (2, 2, 1, 1, R)
+  Step 8: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 423 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (3, 2, 0, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 424 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (3, 2, 0, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 425 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (3, 2, 0, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 426 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (3, 2, 0, 1, L)
+  Step 7: (2, 2, 1, 1, R)
+  Step 8: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 427 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (3, 2, 0, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 428 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (3, 2, 0, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 429 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (3, 2, 0, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 430 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (3, 2, 0, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 431 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 432 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 433 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 434 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 435 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 436 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 437 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 438 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 439 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 440 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 441 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 442 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 443 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 444 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 445 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 446 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 447 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 448 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 449 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 450 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 451 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 452 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 453 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 454 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 455 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 456 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 457 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 458 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 459 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 460 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 461 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 462 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 463 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 464 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 465 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 466 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 467 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 468 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 469 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 470 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 471 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 472 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 473 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 474 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 475 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 476 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 477 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 478 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 479 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 480 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 481 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 482 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 483 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 484 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 485 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 486 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 487 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 488 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 489 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 490 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 491 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 492 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 493 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 494 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 495 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 496 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 497 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 498 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 499 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 500 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 501 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 9 steps.
+
+--- Path 502 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (0, 2, 3, 1, L)
+  Step 9: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 9 steps.
+
+--- Path 503 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 9 steps.
+
+--- Path 504 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 1, 2, 2, L)
+  Step 9: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 505 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 1, 2, 2, L)
+  Step 9: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 9 steps.
+
+--- Path 506 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 507 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 508 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 509 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 510 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 9 steps.
+
+--- Path 511 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (0, 2, 3, 1, L)
+  Step 9: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 9 steps.
+
+--- Path 512 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 1, 2, 2, L)
+  Step 9: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 513 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 1, 2, 2, L)
+  Step 9: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 9 steps.
+
+--- Path 514 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (3, 1, 0, 2, L)
+  Step 9: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 515 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (3, 1, 0, 2, L)
+  Step 9: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 516 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (3, 1, 0, 2, L)
+  Step 9: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 517 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 518 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 519 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 520 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 521 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 9 steps.
+
+--- Path 522 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (3, 1, 0, 2, L)
+  Step 9: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 523 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (3, 1, 0, 2, L)
+  Step 9: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 524 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (3, 1, 0, 2, L)
+  Step 9: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 525 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 526 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 527 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 528 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 529 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (0, 2, 3, 1, L)
+  Step 9: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 9 steps.
+
+--- Path 530 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 9 steps.
+
+--- Path 531 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 1, 2, 2, L)
+  Step 9: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 532 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 1, 2, 2, L)
+  Step 9: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 9 steps.
+
+--- Path 533 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (0, 2, 3, 1, L)
+  Step 9: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 9 steps.
+
+--- Path 534 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 1, 2, 2, L)
+  Step 9: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 535 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 1, 2, 2, L)
+  Step 9: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 9 steps.
+
+--- Path 536 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (3, 2, 0, 1, L)
+  Step 9: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 537 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (3, 2, 0, 1, L)
+  Step 9: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 538 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (3, 2, 0, 1, L)
+  Step 9: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 539 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 2, 0, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (0, 2, 3, 1, L)
+  Step 9: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 9 steps.
+
+--- Path 540 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 2, 0, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 1, 2, 2, L)
+  Step 9: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 541 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 2, 0, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 1, 2, 2, L)
+  Step 9: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 9 steps.
+
+--- Path 542 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 2, 0, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 543 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 2, 0, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 544 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 2, 0, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 545 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 2, 0, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 546 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 2, 0, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (0, 2, 3, 1, L)
+  Step 9: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 9 steps.
+
+--- Path 547 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 2, 0, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 9 steps.
+
+--- Path 548 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 2, 0, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 1, 2, 2, L)
+  Step 9: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 549 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 2, 0, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 1, 2, 2, L)
+  Step 9: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 9 steps.
+
+--- Path 550 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (3, 2, 0, 1, L)
+  Step 9: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 551 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (3, 2, 0, 1, L)
+  Step 9: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 552 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (3, 2, 0, 1, L)
+  Step 9: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 553 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (3, 2, 0, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 554 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (3, 2, 0, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 555 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (3, 2, 0, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 556 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (3, 2, 0, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 557 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (3, 2, 0, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 9 steps.
+
+--- Path 558 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (0, 2, 3, 1, L)
+  Step 9: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 9 steps.
+
+--- Path 559 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 1, 2, 2, L)
+  Step 9: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 560 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 1, 2, 2, L)
+  Step 9: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 9 steps.
+
+--- Path 561 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (3, 1, 0, 2, L)
+  Step 9: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 562 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (3, 1, 0, 2, L)
+  Step 9: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 563 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (3, 1, 0, 2, L)
+  Step 9: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 564 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 565 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 566 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 567 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 568 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 9 steps.
+
+--- Path 569 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (3, 1, 0, 2, L)
+  Step 9: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 570 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (3, 1, 0, 2, L)
+  Step 9: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 571 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (3, 1, 0, 2, L)
+  Step 9: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 572 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 573 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 574 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 575 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 576 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (0, 2, 3, 1, L)
+  Step 9: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 9 steps.
+
+--- Path 577 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 9 steps.
+
+--- Path 578 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 1, 2, 2, L)
+  Step 9: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 579 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 1, 2, 2, L)
+  Step 9: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 9 steps.
+
+--- Path 580 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 9 steps.
+
+--- Path 581 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (0, 2, 3, 1, L)
+  Step 9: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 9 steps.
+
+--- Path 582 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 9 steps.
+
+--- Path 583 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 1, 2, 2, L)
+  Step 9: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 584 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 1, 2, 2, L)
+  Step 9: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 9 steps.
+
+--- Path 585 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 586 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 587 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 588 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 589 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 9 steps.
+
+--- Path 590 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (0, 2, 3, 1, L)
+  Step 9: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 9 steps.
+
+--- Path 591 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 1, 2, 2, L)
+  Step 9: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 592 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 1, 2, 2, L)
+  Step 9: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 9 steps.
+
+--- Path 593 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (3, 1, 0, 2, L)
+  Step 9: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 594 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (3, 1, 0, 2, L)
+  Step 9: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 595 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (3, 1, 0, 2, L)
+  Step 9: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 596 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 597 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 598 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 599 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 600 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 9 steps.
+
+--- Path 601 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (3, 1, 0, 2, L)
+  Step 9: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 602 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (3, 1, 0, 2, L)
+  Step 9: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 603 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (3, 1, 0, 2, L)
+  Step 9: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 604 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (2, 1, 1, 2, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 605 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (2, 0, 1, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 606 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (1, 2, 2, 1, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 607 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 608 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (0, 2, 3, 1, L)
+  Step 9: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 9 steps.
+
+--- Path 609 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 9 steps.
+
+--- Path 610 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 1, 2, 2, L)
+  Step 9: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 611 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (3, 1, 0, 2, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (1, 1, 2, 2, L)
+  Step 9: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 9 steps.
+
+--- Path 612 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 1, 3, 2, R)
+  Step 10: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 613 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 1, 3, 2, R)
+  Step 10: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 614 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 1, 3, 2, R)
+  Step 10: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 615 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 2, 3, 1, R)
+  Step 10: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 616 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 2, 3, 1, R)
+  Step 10: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 617 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 2, 3, 1, R)
+  Step 10: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 618 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (1, 1, 2, 2, R)
+  Step 10: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 619 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (1, 1, 2, 2, R)
+  Step 10: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 620 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (1, 1, 2, 2, R)
+  Step 10: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 621 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (1, 1, 2, 2, R)
+  Step 10: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 622 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (1, 1, 2, 2, R)
+  Step 4: (2, 2, 1, 1, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (3, 2, 0, 1, L)
+  Step 9: (2, 2, 1, 1, R)
+  Step 10: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 623 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 0, 0, 3, R)
+  Step 2: (3, 1, 0, 2, L)
+  Step 3: (0, 1, 3, 2, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 2, 3, 1, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (1, 1, 2, 2, R)
+  Step 8: (3, 2, 0, 1, L)
+  Step 9: (2, 2, 1, 1, R)
+  Step 10: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 624 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 1, 3, 2, R)
+  Step 10: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 625 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 1, 3, 2, R)
+  Step 10: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 626 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 1, 3, 2, R)
+  Step 10: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 627 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 2, 3, 1, R)
+  Step 10: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 628 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 2, 3, 1, R)
+  Step 10: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 629 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 1, 3, 2, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 2, 3, 1, R)
+  Step 10: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 630 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (1, 1, 2, 2, R)
+  Step 10: (1, 2, 2, 1, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 631 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (1, 1, 2, 2, R)
+  Step 10: (1, 3, 2, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 632 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (1, 1, 2, 2, R)
+  Step 10: (2, 1, 1, 2, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 633 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (0, 1, 3, 2, R)
+  Step 6: (0, 3, 3, 0, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (2, 2, 1, 1, L)
+  Step 9: (1, 1, 2, 2, R)
+  Step 10: (2, 3, 1, 0, L)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 634 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 1, 3, 2, R)
+  Step 10: (0, 2, 3, 1, L)
+  Step 11: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 11 steps.
+
+--- Path 635 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 1, 3, 2, R)
+  Step 10: (1, 1, 2, 2, L)
+  Step 11: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 636 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 1, 3, 2, R)
+  Step 10: (1, 1, 2, 2, L)
+  Step 11: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 11 steps.
+
+--- Path 637 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 1, 3, 2, R)
+  Step 10: (0, 2, 3, 1, L)
+  Step 11: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 11 steps.
+
+--- Path 638 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 1, 3, 2, R)
+  Step 10: (1, 1, 2, 2, L)
+  Step 11: (1, 0, 2, 3, R)
+  --> This path BREAKS THE RULES and ends here.
+
+--- Path 639 ---
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (2, 2, 1, 1, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (3, 0, 0, 3, R)
+  Step 4: (3, 1, 0, 2, L)
+  Step 5: (1, 1, 2, 2, R)
+  Step 6: (2, 2, 1, 1, L)
+  Step 7: (0, 2, 3, 1, R)
+  Step 8: (0, 3, 3, 0, L)
+  Step 9: (0, 1, 3, 2, R)
+  Step 10: (1, 1, 2, 2, L)
+  Step 11: (0, 0, 3, 3, R)
+  --> This path REACHES THE GOAL in 11 steps.
+
+==================================================
+BEST SOLUTION:
+==================================================
+Optimal solution found in 5 crossings:
+  Step 0: (3, 3, 0, 0, L)
+  Step 1: (3, 1, 0, 2, R)
+  Step 2: (3, 2, 0, 1, L)
+  Step 3: (0, 2, 3, 1, R)
+  Step 4: (0, 3, 3, 0, L)
+  Step 5: (0, 0, 3, 3, R)
