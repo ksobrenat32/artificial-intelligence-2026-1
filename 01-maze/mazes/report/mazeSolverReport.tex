@@ -1,0 +1,177 @@
+\documentclass[letterpaper,12pt,oneside]{article}
+\usepackage[top=1in, left=1.25in, right=1.25in, bottom=1in]{geometry}
+\usepackage{bachelorstitlepageUNAM}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Comparto una plantilla para la PORTADA que us\'e en mi t\'esis
+% basada en el dise\~no gen\'erico que se usa en la Facultad de Ciencias
+% Para usarlo \'unicamente aseg\'urate de tener la l\'inea
+% \usepackage{bachelorstitlepageUNAM} y el archivo bachelorstitlepageUNAM.sty en el mismo directorio de trabajo.
+% y los campos (sin signo %) :
+%\author{Nombre del Alumno}
+%\title{T\'itulo de la tesis}
+%\faculty{Facultad}
+%\degree{Grado que obtienes}
+%\supervisor{ Tutor}
+%\cityandyear{Ciudad y anio}
+%\logouni{nombredelescudodelaunamsinespacios}
+%\logofac{NombreDeLaImagenDelEscudodeTuFacultadSinEspacios}
+% Para sugerencias y comentarios: DM en twitter.com/sglvgdor
+% Subir\'e mas adelante la plantilla para maestr\'ia
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\author{Calderon Olalde Enrique Job \\
+Ramirez del Prado Monte Rosa Evaristo \\
+Tepal Briseño Hansel Yael \\
+Ugartechea Gónzales Luis Antonio
+}
+\title{Maze solver}
+\faculty{Faculty of Engineering}
+\degree{Artificial Intelligence}
+\supervisor{Jose Jaime Camacho Escoto}
+\cityandyear{September 3, 2025}
+\logouni{img/UNAM.png}
+\logofac{img/UNAM_INGENIERIA.png}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,es-nodecimaldot,es-tabla]{babel}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{caption}
+\usepackage{hyperref}
+
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{longtable}
+
+\graphicspath{{./figs/}}
+\usepackage{setspace}
+%\usepackage[round]{natbib}
+
+\lstset{
+    language=VHDL,
+    basicstyle=\ttfamily\small,
+    keywordstyle=\color{blue}\bfseries,
+    commentstyle=\color{gray},
+    morekeywords={architecture,entity,begin,end,port,is,of,not,and,or},
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    frame=single,
+    framerule=0.8pt,
+    rulecolor=\color{black},
+    xleftmargin=1em,
+    xrightmargin=1em,
+    breaklines=true
+}
+
+\begin{document}
+\maketitle
+
+\section{Objectives}
+
+The objective of this practice is to implement and compare two intelligent agent approaches for solving a matrix-represented maze: a simple reflective agent and a goal-based. The goal is to identify the advantages, limitations, and outcomes of each strategy, as well as to understand the importance of planning in artificial intelligence systems.
+
+\section{Introduction}
+
+In the field of Artificial Intelligence, agents are entities that perceive their environment and act upon it to achieve certain goals. There are different types of agents, but in this practice, we'll focus on the following two:
+
+\begin{itemize}
+    \item \textbf{Simple reflective agents:} They make decisions based on reactive rules, responding only to the current situation without considering a long-term plan.
+    \item \textbf{Goal-based agents:} They take into account the desired goal state and plan their actions accordingly, often using search and optimization techniques to find the best path to the goal.
+\end{itemize}
+
+The complete source code of the implementation is available in the repository of GitHub : \url{https://github.com/ksobrenat32/artificial-intelligence-2026-1/tree/main/01-maze}
+\section{Development}
+
+\subsection{Problem Representation}
+
+The maze waz modeled as a matrix where:
+
+\begin{itemize}
+    \item 1: represent a wall
+    \item 0: represent a free space
+    \item S: represent the start point
+    \item M: represent the goal point
+\end{itemize}
+
+the agent's task is to move form S to M, following the maze's constraints.
+
+\subsection{Simple Reflective Agent}
+
+The reflective agent was designed to act based on simple rules: it attempts to move in the following order: right, down, left, up.
+
+\begin{itemize}
+    \item It does not plan ahead.
+    \item It does not remember previously explored routes.
+    \item It only reacts to immediate environmental conditions.
+\end{itemize}
+
+\subsubsection{Advantages}
+
+\begin{itemize}
+    \item Simplicity of implementation.
+    \item Speed of execution when the path to the goal is direct.
+\end{itemize}
+
+\subsubsection{Disadvantages}
+
+\begin{itemize}
+    \item It can get stuck in a loop or dead end.
+    \item It does not guarantee finding the goal in complex mazes.
+\end{itemize}
+
+\subsection{Goal-Based Agent}
+
+The goal-based agent for our implementation uses the Breadth-First Search (BFS) algorithm. This approach explores all possible paths in a breadth-first manner, ensuring that, if a solution exists, the shortest route to the goal is found.
+
+\begin{itemize}
+    \item Uses a queue to store partial routes.
+    \item Records visited positions to avoid repeating steps.
+    \item Evaluates neighbors in four directions (right, down, left, up).
+\end{itemize}
+
+\subsubsection{Advantages}
+
+\begin{itemize}
+    \item Always finds the goal if there is a path.
+    \item Guarantees the shortest solution in terms of number of steps.
+    \item Reflects a model closer to intelligent planning.
+\end{itemize}
+\subsubsection{Disadvantages}
+
+\begin{itemize}
+    \item Can be memory-intensive due to storing all explored paths.
+    \item May be slower in practice compared to simpler methods.
+\end{itemize}
+
+\section{Results}
+
+During testing with different mazes, the following situations were observed:
+
+\begin{itemize}
+    \item When the reflective agent performs well:
+    \begin{itemize}
+        \item In mazes with a direct path from the start to the goal.
+        \item It arrives quickly because it doesn't need to evaluate alternatives.
+    \end{itemize}
+    \item When the reflective agent fails:
+    \begin{itemize}
+        \item In scenarios where the correct path involves backtracking or bypassing obstacles.
+        \item It can get stuck and never reach the goal.
+    \end{itemize}
+    \item When the goal-based agent is superior:
+    \begin{itemize}
+        \item In complex mazes with multiple branches.
+        \item It finds the goal whenever a path exists.
+        \item It identifies the shortest path, optimizing the number of steps.
+    \end{itemize}
+\end{itemize}
+
+\section{Conclusion}
+
+The practical experience provided insight into the fundamental differences between a reactive agent and a planning agent. The simple reflective agent proved useful in simple environments, but insufficient for solving more complex problems. In contrast, the goal-based agent, although more computationally expensive, guarantees optimal results.
+
+This contrast highlights the importance of choosing the type of agent based on the problem to be solved. In real-life applications, reflective agents are useful for quick and straightforward tasks (such as alarms or sensors), while goal-based agents are essential in navigation systems, robotics, or video games, where planning is necessary to achieve complex objectives.
+
+\end{document}
