@@ -1,6 +1,7 @@
 import argparse
 from typing import List, Optional
 from collections import deque
+import ast
 
 def print_maze(maze) -> None:
     for row in maze:
@@ -121,17 +122,35 @@ def read_maze_from_file(filename):
 def main():
     # Parse maze from file on argument
     arg_parser = argparse.ArgumentParser(description="Maze Solver Comparison")
-    arg_parser.add_argument('--file', type=str, help='Path to the maze file', required=True)
+    arg_parser.add_argument('--file', type=str, help='Path to the maze file')
+    arg_parser.add_argument('--maze', type=str, help='Maze represented as a python list of lists')
     args = arg_parser.parse_args()
 
+    initial_maze = None
+    if args.maze:
+        try:
+            initial_maze = ast.literal_eval(args.maze)
+        except (ValueError, SyntaxError):
+            print("Error: Invalid format for --maze argument. Please provide a valid list of lists string.")
+            return
+    elif args.file:
+        initial_maze = read_maze_from_file(args.file)
+    else:
+        print("Error: Please provide a maze using --file or --maze.")
+        return
+
+    if not initial_maze:
+        print("Could not load maze.")
+        return
+
     # --- Initial Maze ---
-    initial_maze = read_maze_from_file(args.file)
     print("Initial Maze:")
     print_maze(initial_maze)
 
     # --- Simple Reflex Agent ---
     print("\n--- Running Simple Reflex Agent ---")
-    maze_simple = read_maze_from_file(args.file)  # Reread maze for a fresh copy
+    # Create a deep copy of the maze for the simple reflex agent
+    maze_simple = [row[:] for row in initial_maze]
     path_simple = simple_reflex_agent(maze_simple)
     
     print("Final Maze with Simple Reflex Agent path:")
@@ -145,7 +164,8 @@ def main():
 
     # --- Goal-Based Agent (BFS) ---
     print("\n--- Running Goal-Based Agent (BFS) ---")
-    maze_goal = read_maze_from_file(args.file)  # Reread maze for a fresh copy
+    # Create a deep copy of the maze for the goal-based agent
+    maze_goal = [row[:] for row in initial_maze]
     path_goal = goal_based_agent(maze_goal)
 
     print("Final Maze with Goal-Based Agent path:")
