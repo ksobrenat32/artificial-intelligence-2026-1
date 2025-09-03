@@ -1,0 +1,57 @@
+\ProvidesPackage{bachelorstitlepageUNAM}[20161012]
+\RequirePackage{graphicx}
+\@ifpackageloaded{geometry}{}{\RequirePackage[pass]{geometry}}
+\newcommand*{\faculty}[1]{\gdef\@faculty{#1}}
+\newcommand*{\@faculty}{\texttt{\string\faculty} Faculty or Institute. Please fix this.}%Texto por defecto.
+\newcommand*{\degree}[1]{\gdef\@degree{#1}}
+\newcommand*{\@degree}{\texttt{\string\degree}degree currently not set. Please fix this.}%Texto por defecto
+\newcommand*{\supervisor}[1]{\gdef\@supervisor{#1}}
+\newcommand*{\@supervisor}{\texttt{\string\supervisor} supervisor currently not set. Please fix this.}%Texto por defecto.
+\newcommand*{\cityandyear}[1]{\gdef\@cityandyear{#1}}
+\newcommand*{\@cityandyear}{\texttt{\string\cityandyear} city and year currently not set. Please fix this.}%Texto por defecto.
+\newcommand*{\logouni}[1]{\gdef\@logouni{#1}}
+\newcommand*{\@logouni}{example-image-a}
+\newcommand*{\logofac}[1]{\gdef\@logofac{#1}}
+\newcommand*{\@logofac}{example-image-b}
+
+\renewcommand*{\maketitle}{%
+	\begin{titlepage}
+		\newgeometry{left=3cm,right=3cm,bottom=2.5cm,top=2cm}
+		% Logos en las esquinas
+		\noindent
+		\begin{minipage}[t]{0.5\textwidth}
+			\raggedright
+			\includegraphics[height=2.7cm]{\@logouni}
+		\end{minipage}%
+		\begin{minipage}[t]{0.5\textwidth}
+			\raggedleft
+			\includegraphics[height=2.7cm]{\@logofac}
+		\end{minipage}%
+		% Información centrada
+		\vspace{1cm}
+		\begin{center}
+			{\large\scshape Universidad Nacional Aut\'onoma de M\'exico\par}
+			\vspace{0.7cm}
+			\hrule height2pt
+			\vspace{.3cm}
+			\hrule height1pt
+			\vspace{0.7cm}
+			{\large\scshape\@faculty\unskip\strut\par}%\@facultyorinstitute
+			\vspace{2.4cm}
+			{\large\scshape\@title\par}
+			\vspace{2.4cm}
+			\makebox[4cm][s]{\Large\bfseries S U B J E C T}\\[0.6cm]
+			{\scshape\@degree}\\[1.2cm]
+			\makebox[1cm][s]{}\\[0.8cm]
+			{\scshape\@author}\par
+			\vspace{1.1cm}
+			{ Group: 1 \\[0.8cm]
+			{\scshape\@supervisor}}
+			\vfill
+			{Semester 2026-1 \\[0.8cm]}
+			{\scshape\@cityandyear}
+			\vspace{.99cm}
+		\end{center}
+	\end{titlepage}
+}
+\endinput
