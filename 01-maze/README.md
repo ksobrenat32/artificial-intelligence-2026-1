@@ -41,6 +41,12 @@ The program and the report will be performed in teams of four.
 python agent.py --file maze.txt
 ```
 
+3. Run the GUI for simulations:
+
+```sh
+python3 01-maze/maze_gui_auto.py --file 01-maze/mazes/<maze_number>.txt
+```
+
 ### Using a string representation
 
 ```sh
