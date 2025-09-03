@@ -21,3 +21,28 @@ Finally, write a report with the following sections:
 
 The program and the report will be performed in teams of four.
 
+## Testing
+
+### Using a file
+
+1. Create a text file representing the maze, for example `maze.txt`:
+
+```
+11111
+10001
+10101
+10001
+11111
+```
+
+2. Run the program with the `--file` argument:
+
+```sh
+python agent.py --file maze.txt
+```
+
+### Using a string representation
+
+```sh
+python 01-maze/agent.py --maze "[['S','0','1'],['0','1','M'],['0','0','0']]"
+```
