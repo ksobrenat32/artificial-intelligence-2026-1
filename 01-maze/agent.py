@@ -159,6 +159,7 @@ def main():
     if path_simple:
         steps_simple = len(path_simple) - 1
         print(f"Steps taken by Simple Reflex Agent: {steps_simple}")
+        print(f"PATH: {path_simple}")
     else:
         print("Simple Reflex Agent could not find a path.")
 
@@ -174,6 +175,7 @@ def main():
     if path_goal:
         steps_goal = len(path_goal) - 1
         print(f"Steps taken by Goal-Based Agent: {steps_goal}")
+        print(f"PATH: {path_goal}")
     else:
         print("Goal-Based Agent could not find a path.")
 
