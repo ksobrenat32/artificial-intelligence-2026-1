@@ -84,7 +84,7 @@ class MissionariesAndCannibals:
         valid_solutions = []
         queue = deque([[self.initial_state]])
         moves = self.get_possible_moves()
-        max_depth = 15
+        max_depth = 100
         
         while queue:
             path = queue.popleft()
@@ -176,15 +176,23 @@ def print_all_paths(solver) -> None:
 
 
 if __name__ == '__main__':
-    print("Missionaries and Cannibals - All Possible Paths")
-    print("="*50)
+    # print("Missionaries and Cannibals - All Possible Paths")
+    # print("="*50)
 
-    solver = MissionariesAndCannibals(missionaries=3, cannibals=3, capacity=2)
+    # solver = MissionariesAndCannibals(missionaries=3, cannibals=3, capacity=2)
+    # print_all_paths(solver)
+
+    # print("\n" + "="*50)
+    # print("Missionaries and Cannibals - With a boat capacity of three")
+    # print("="*50)
+
+    # solver = MissionariesAndCannibals(missionaries=3, cannibals=3, capacity=3)
+    # print_all_paths(solver)
+
+    # print("\n" + "="*50)
+    # print("Missionaries and Cannibals - With 9 cannibals and 10 missionaries")
+    # print("="*50)
+
+    solver = MissionariesAndCannibals(missionaries=10, cannibals=9, capacity=2)
     print_all_paths(solver)
 
-    print("\n" + "="*50)
-    print("Missionaries and Cannibals - With a boat capacity of three")
-    print("="*50)
-
-    solver = MissionariesAndCannibals(missionaries=3, cannibals=3, capacity=3)
-    print_all_paths(solver)
