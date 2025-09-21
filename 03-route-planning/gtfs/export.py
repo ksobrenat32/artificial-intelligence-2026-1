@@ -1,5 +1,4 @@
 import pandas as pd
-import io
 
 # --- Data Loading ---
 agency = pd.read_csv("agency.txt")
@@ -48,12 +47,20 @@ final_df = final_df[[
     'route_long_name',
     'route_short_name',
     'stop_name',
+    'stop_lat',
+    'stop_lon',
     'stop_name_next',
+    'stop_lat_next',
+    'stop_lon_next',
     'time_of_journey'
 ]]
 final_df = final_df.rename(columns={
     'stop_name': 'origin_stop',
-    'stop_name_next': 'destiny_stop'
+    'stop_lat': 'origin_lat',
+    'stop_lon': 'origin_lon',
+    'stop_name_next': 'destiny_stop',
+    'stop_lat_next': 'destiny_lat',
+    'stop_lon_next': 'destiny_lon'
 })
 
 # 10. Sort the final dataframe by agency and route names
