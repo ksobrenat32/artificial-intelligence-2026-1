@@ -20,11 +20,17 @@ class TransitGraph:
         # distance tolerance to consider stops as the same (500[m] ~ 0.0045)
         self.coordinate_tolerance = 0.0045
 
-    def find_nearby_stop(self, stop_name: str, lat: float, lon: float) -> Optional[str]:
+    def find_nearby_stop(self, stop_name: str, lat: float, lon: float, agency: Optional[str] = None) -> Optional[str]:
         """Find if there is already joined stops with the same name within tolerance distance"""
         if stop_name in self.stops_by_name:
             for existing_stop_id in self.stops_by_name[stop_name]:
                 existing_info = self.stop_info[existing_stop_id]
+
+                # for Mexibus consider name matching only
+                if agency == "Mexibus" or (existing_info.get('agencies') and "Mexibus" in existing_info['agencies']):
+                    return existing_stop_id
+
+                # for other use coordinates too
                 lat_diff = abs(existing_info['lat'] - lat)
                 lon_diff = abs(existing_info['lon'] - lon)
 
@@ -33,22 +39,26 @@ class TransitGraph:
 
         return None
 
-    def create_stop_id(self, stop_name: str, lat: float, lon: float) -> str:
+    def create_stop_id(self, stop_name: str, lat: float, lon: float, agency: Optional[str] = None) -> str:
         """Create a stop ID"""
+        # for Mexibus use only name
+        if agency == "Mexibus":
+            return f"{stop_name}@mexibus"
+
         lat_rounded = round(lat, 6)
         lon_rounded = round(lon, 6)
         return f"{stop_name}@{lat_rounded},{lon_rounded}"
 
     def add_stop_info(self, stop_name: str, lat: float, lon: float, agency: Optional[str] = None) -> str:
         """Add stop info"""
-        existing_stop_id = self.find_nearby_stop(stop_name, lat, lon)
+        existing_stop_id = self.find_nearby_stop(stop_name, lat, lon, agency)
         if existing_stop_id:
             if agency:
                 self.stop_info[existing_stop_id]['agencies'].add(agency)
                 self.stop_agencies[stop_name].add(agency)
             return existing_stop_id
 
-        stop_id = self.create_stop_id(stop_name, lat, lon)
+        stop_id = self.create_stop_id(stop_name, lat, lon, agency)
 
         if stop_id not in self.stop_info:
             self.stop_info[stop_id] = {
