@@ -214,3 +214,16 @@ __marimo__/
 *.fdb_latexmk
 *.fls
 *.gz
+
+# Temporary files created by editors
+*~
+*.swp
+*.swo
+*.tmp
+*.temp
+*.bak
+*.orig
+*.backup
+*.rej
+*.~*
+.vscode/
