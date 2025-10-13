@@ -220,33 +220,7 @@ public:
                 auto end = std::chrono::high_resolution_clock::now();
                 std::chrono::duration<double> elapsed = end - start;
                 
-
                 std::cout << "\nSolution found in " << path.length() << " moves: " << path << '\n';
-
-                std::cout << "\nPrinting solution steps:" << '\n';
-                Board stepBoard = initialBoard;
-                int emptyR = startEmptyRow;
-                int emptyC = startEmptyCol;
-
-                for (size_t i = 0; i < path.length(); ++i) {
-                    char move = path[i];
-                    if (move == 'u') {
-                        std::swap(stepBoard[emptyR][emptyC], stepBoard[emptyR - 1][emptyC]);
-                        emptyR--;
-                    } else if (move == 'd') {
-                        std::swap(stepBoard[emptyR][emptyC], stepBoard[emptyR + 1][emptyC]);
-                        emptyR++;
-                    } else if (move == 'l') {
-                        std::swap(stepBoard[emptyR][emptyC], stepBoard[emptyR][emptyC - 1]);
-                        emptyC--;
-                    } else if (move == 'r') {
-                        std::swap(stepBoard[emptyR][emptyC], stepBoard[emptyR][emptyC + 1]);
-                        emptyC++;
-                    }
-                    showCurrentState(stepBoard, move, i + 1);
-                }
-                std::cout << "\nSolution Found! :D" << '\n';
-
                 std::cout << "\nTime taken: " << elapsed.count() << " seconds" << '\n';
                 return;
             }
@@ -262,18 +236,32 @@ int main() {
     std::ios::sync_with_stdio(false);
     std::cin.tie(NULL);
 
-    Board startingBoard;
-
-    std::cout << "Enter the 4x4 board configuration (use 0 for the empty space):" << '\n';
-    for(int r = 0; r < 4; ++r) {
-        for(int c = 0; c < 4; ++c) {
-            int value;
-            std::cin >> value;
-            startingBoard[r][c] = value;
-        }
-    }
-
-    FifteenPuzzleSolver solver(startingBoard);
+    // Test 01
+    FifteenPuzzleSolver solver({
+        1, 4, 11, 12,
+        5, 9, 6, 14,
+        13, 3, 2, 15,
+        8, 10, 0, 7
+    });
     solver.Solve();
+
+    // Test 02
+    FifteenPuzzleSolver solver2({
+        9, 7, 5, 8,
+        14, 1, 10, 2,
+        15, 3, 13, 4,
+        6, 11, 12, 0
+    });
+    solver2.Solve();
+
+    // Test 03
+    FifteenPuzzleSolver solver3({
+        1, 2, 11, 0,
+        7, 9, 4, 3,
+        5, 6, 8, 14,
+        13, 15, 10, 12
+    });
+    solver3.Solve();
+
     return 0;
 }
