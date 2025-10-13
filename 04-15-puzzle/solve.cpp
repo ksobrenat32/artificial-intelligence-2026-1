@@ -1,4 +1,6 @@
 #include <bits/stdc++.h>
+#pragma GCC optimize("O3")
+#pragma GCC target("avx2")
 
 // A more readable type alias for the board
 using Board = std::array<std::array<int, 4>, 4>;
@@ -16,7 +18,7 @@ void printBoard(const Board& board) {
                 }
             }
         }
-        std::cout << std::endl;
+        std::cout << '\n';
     }
 }
 
@@ -119,7 +121,7 @@ private:
     }
 
     void showCurrentState(const Board& board, char move, int moveNumber) {
-        std::cout << "\nMove #" << moveNumber << ": '" << move << "'" << std::endl;
+        std::cout << "\nMove #" << moveNumber << ": '" << move << "'" << '\n';
         printBoard(board);
     }
 
@@ -197,7 +199,7 @@ public:
         }
     }
     void Solve() {
-        std::cout << "\nInitial Board State:" << std::endl;
+        std::cout << "\nInitial Board State:" << '\n';
         printBoard(initialBoard);
 
         int initial_h = calculateHeuristic(initialBoard);
@@ -210,9 +212,9 @@ public:
             path.clear();
             int t = search(boardCopy, startEmptyRow, startEmptyCol, 0, ' ', depthLimit, path);
             if (t == 0) {
-                std::cout << "\nSolution found in " << path.length() << " moves: " << path << std::endl;
+                std::cout << "\nSolution found in " << path.length() << " moves: " << path << '\n';
 
-                std::cout << "\nPrinting solution steps:" << std::endl;
+                std::cout << "\nPrinting solution steps:" << '\n';
                 Board stepBoard = initialBoard;
                 int emptyR = startEmptyRow;
                 int emptyC = startEmptyCol;
@@ -234,21 +236,24 @@ public:
                     }
                     showCurrentState(stepBoard, move, i + 1);
                 }
-                std::cout << "\nSolution Found! :D" << std::endl;
+                std::cout << "\nSolution Found! :D" << '\n';
                 return;
             }
 
             if (t == INT_MAX) break;
             depthLimit = t;
         }
-        std::cout << "No solution found within reasonable depth :(" << std::endl;
+        std::cout << "No solution found within reasonable depth :(" << '\n';
     }
 };
 
 int main() {
+    std::ios::sync_with_stdio(false);
+    std::cin.tie(NULL);
+
     Board startingBoard;
 
-    std::cout << "Enter the 4x4 board configuration (use 0 for the empty space):" << std::endl;
+    std::cout << "Enter the 4x4 board configuration (use 0 for the empty space):" << '\n';
     for(int r = 0; r < 4; ++r) {
         for(int c = 0; c < 4; ++c) {
             int value;
