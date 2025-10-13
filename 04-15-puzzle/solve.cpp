@@ -202,6 +202,9 @@ public:
         std::cout << "\nInitial Board State:" << '\n';
         printBoard(initialBoard);
 
+        // Start timer
+        auto start = std::chrono::high_resolution_clock::now();
+
         int initial_h = calculateHeuristic(initialBoard);
         std::string path = "";
 
@@ -212,6 +215,12 @@ public:
             path.clear();
             int t = search(boardCopy, startEmptyRow, startEmptyCol, 0, ' ', depthLimit, path);
             if (t == 0) {
+
+                // Stop timer
+                auto end = std::chrono::high_resolution_clock::now();
+                std::chrono::duration<double> elapsed = end - start;
+                
+
                 std::cout << "\nSolution found in " << path.length() << " moves: " << path << '\n';
 
                 std::cout << "\nPrinting solution steps:" << '\n';
@@ -237,6 +246,8 @@ public:
                     showCurrentState(stepBoard, move, i + 1);
                 }
                 std::cout << "\nSolution Found! :D" << '\n';
+
+                std::cout << "\nTime taken: " << elapsed.count() << " seconds" << '\n';
                 return;
             }
 
