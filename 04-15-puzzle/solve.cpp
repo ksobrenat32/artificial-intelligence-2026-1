@@ -33,21 +33,89 @@ private:
         {13, 14, 15, 0}
     }};
 
-    // Calculates the Manhattan Distance heuristic,
-    // the sum of the horizontal and vertical distances of each tile from its goal position.
-    int calculateManhattanDistance(const Board& board) const {
-        int distance = 0;
+    // Calculates the Heuristic function,
+    // which accounts for the actual moves needed to arrange tiles in rows and columns
+    int calculateHeuristic(const Board& board) const {
+        int rowConflicts = 0;
+        for (int r = 0; r < 4; ++r) {
+            int tilesInRow = 0;
+            int emptySpots = 0;
+
+            //count tiles belonging to this row and empty spots
+            for (int c = 0; c < 4; ++c) {
+                int tileValue = board[r][c];
+                if (tileValue != 0) {
+                    int goalRow = (tileValue - 1) / 4;
+                    if (goalRow == r) {
+                        tilesInRow++;
+                    }
+                } else {
+                    emptySpots++;
+                }
+            }
+
+            // count tiles that should be in this row but are elsewhere
+            int tilesOutsideRow = 0;
+            for (int otherRow = 0; otherRow < 4; ++otherRow) {
+                if (otherRow == r) continue;
+                for (int c = 0; c < 4; ++c) {
+                    int tileValue = board[otherRow][c];
+                    if (tileValue != 0) {
+                        int goalRow = (tileValue - 1) / 4;
+                        if (goalRow == r) {
+                            tilesOutsideRow++;
+                        }
+                    }
+                }
+            }
+
+            rowConflicts += tilesOutsideRow;
+        }
+
+        int colConflicts = 0;
+        for (int c = 0; c < 4; ++c) {
+            int tilesInCol = 0;
+            int emptySpots = 0;
+            // count tiles belonging to this column and empty spots
+            for (int r = 0; r < 4; ++r) {
+                int tileValue = board[r][c];
+                if (tileValue != 0) {
+                    int goalCol = (tileValue - 1) % 4;
+                    if (goalCol == c) {
+                        tilesInCol++;
+                    }
+                } else {
+                    emptySpots++;
+                }
+            }
+            // count tiles that should be in this column but are elsewhere
+            int tilesOutsideCol = 0;
+            for (int otherCol = 0; otherCol < 4; ++otherCol) {
+                if (otherCol == c) continue;
+                for (int r = 0; r < 4; ++r) {
+                    int tileValue = board[r][otherCol];
+                    if (tileValue != 0) {
+                        int goalCol = (tileValue - 1) % 4;
+                        if (goalCol == c) {
+                            tilesOutsideCol++;
+                        }
+                    }
+                }
+            }
+            colConflicts += tilesOutsideCol;
+        }
+        int manhattanDistance = 0;
         for (int r = 0; r < 4; ++r) {
             for (int c = 0; c < 4; ++c) {
                 int tileValue = board[r][c];
                 if (tileValue != 0) {
                     int goalRow = (tileValue - 1) / 4;
                     int goalCol = (tileValue - 1) % 4;
-                    distance += std::abs(r - goalRow) + std::abs(c - goalCol);
+                    manhattanDistance += std::abs(r - goalRow) + std::abs(c - goalCol);
                 }
             }
         }
-        return distance;
+        return manhattanDistance + 2 * (rowConflicts + colConflicts);
     }
 
     void showCurrentState(const Board& board, char move, int moveNumber) {
@@ -58,7 +126,7 @@ private:
     // The recursive search function, it explores paths up to a certain `depthLimit`.
     bool search(Board& currentBoard, int emptyR, int emptyC, int g_cost, char lastMove, int depthLimit, std::string& path) {
         // If f exceeds the current depth limit, we prune this branch.
-        int h_cost = calculateManhattanDistance(currentBoard);
+        int h_cost = calculateHeuristic(currentBoard);
         if (g_cost + h_cost > depthLimit) {
             return false;
         }
@@ -123,17 +191,15 @@ public:
                 if (boardState[r][c] == 0) {
                     startEmptyRow = r;
                     startEmptyCol = c;
-
                 }
             }
         }
     }
-
     void Solve() {
         std::cout << "\nInitial Board State:" << std::endl;
         printBoard(initialBoard);
 
-        int initial_h = calculateManhattanDistance(initialBoard);
+        int initial_h = calculateHeuristic(initialBoard);
         std::string path = "";
 
         // Depth limit starts from the initial heuristic value
