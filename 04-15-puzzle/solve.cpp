@@ -123,26 +123,24 @@ private:
         printBoard(board);
     }
 
-    // The recursive search function, it explores paths up to a certain `depthLimit`.
-    bool search(Board& currentBoard, int emptyR, int emptyC, int g_cost, char lastMove, int depthLimit, std::string& path) {
-        // If f exceeds the current depth limit, we prune this branch.
+    // Modified IDA* search: returns 0 when solution found, otherwise returns the minimum f that exceeded the depth limit
+    int search(Board& currentBoard, int emptyR, int emptyC, int g_cost, char lastMove, int depthLimit, std::string& path) {
         int h_cost = calculateHeuristic(currentBoard);
-        if (g_cost + h_cost > depthLimit) {
-            return false;
-        }
+        int f = g_cost + h_cost;
+        if (f > depthLimit) return f;
 
-        // If already at the goal state, break
-        if (currentBoard == goalBoard) {
-            return true;
-        }
+        if (currentBoard == goalBoard) return 0;
+
+        int minThreshold = INT_MAX;
 
         // Down
         if (emptyR < 3 && lastMove != 'u') {
             std::swap(currentBoard[emptyR][emptyC], currentBoard[emptyR + 1][emptyC]);
             path += 'd';
-            if (search(currentBoard, emptyR + 1, emptyC, g_cost + 1, 'd', depthLimit, path)) return true;
+            int t = search(currentBoard, emptyR + 1, emptyC, g_cost + 1, 'd', depthLimit, path);
+            if (t == 0) return 0;
+            if (t < minThreshold) minThreshold = t;
 
-            // Undo the move (backtrack)
             path.pop_back();
             std::swap(currentBoard[emptyR][emptyC], currentBoard[emptyR + 1][emptyC]);
         }
@@ -151,9 +149,10 @@ private:
         if (emptyR > 0 && lastMove != 'd') {
             std::swap(currentBoard[emptyR][emptyC], currentBoard[emptyR - 1][emptyC]);
             path += 'u';
-            if (search(currentBoard, emptyR - 1, emptyC, g_cost + 1, 'u', depthLimit, path)) return true;
+            int t = search(currentBoard, emptyR - 1, emptyC, g_cost + 1, 'u', depthLimit, path);
+            if (t == 0) return 0;
+            if (t < minThreshold) minThreshold = t;
 
-            // Undo the move (backtrack)
             path.pop_back();
             std::swap(currentBoard[emptyR][emptyC], currentBoard[emptyR - 1][emptyC]);
         }
@@ -162,9 +161,10 @@ private:
         if (emptyC < 3 && lastMove != 'l') {
             std::swap(currentBoard[emptyR][emptyC], currentBoard[emptyR][emptyC + 1]);
             path += 'r';
-            if (search(currentBoard, emptyR, emptyC + 1, g_cost + 1, 'r', depthLimit, path)) return true;
+            int t = search(currentBoard, emptyR, emptyC + 1, g_cost + 1, 'r', depthLimit, path);
+            if (t == 0) return 0;
+            if (t < minThreshold) minThreshold = t;
 
-            // Undo the move (backtrack)
             path.pop_back();
             std::swap(currentBoard[emptyR][emptyC], currentBoard[emptyR][emptyC + 1]);
         }
@@ -173,14 +173,15 @@ private:
         if (emptyC > 0 && lastMove != 'r') {
             std::swap(currentBoard[emptyR][emptyC], currentBoard[emptyR][emptyC - 1]);
             path += 'l';
-            if (search(currentBoard, emptyR, emptyC - 1, g_cost + 1, 'l', depthLimit, path)) return true;
+            int t = search(currentBoard, emptyR, emptyC - 1, g_cost + 1, 'l', depthLimit, path);
+            if (t == 0) return 0;
+            if (t < minThreshold) minThreshold = t;
 
-            // Undo the move (backtrack)
             path.pop_back();
             std::swap(currentBoard[emptyR][emptyC], currentBoard[emptyR][emptyC - 1]);
         }
 
-        return false; // No solution found
+        return minThreshold;
     }
 
 public:
@@ -202,11 +203,13 @@ public:
         int initial_h = calculateHeuristic(initialBoard);
         std::string path = "";
 
-        // Depth limit starts from the initial heuristic value
-        for (int depthLimit = initial_h; depthLimit < 100; ++depthLimit) {
+        int depthLimit = initial_h;
+        const int MAX_ITERS = 1000;
+        for (int iter = 0; iter < MAX_ITERS; ++iter) {
             Board boardCopy = initialBoard;
-
-            if (search(boardCopy, startEmptyRow, startEmptyCol, 0, ' ', depthLimit, path)) {
+            path.clear();
+            int t = search(boardCopy, startEmptyRow, startEmptyCol, 0, ' ', depthLimit, path);
+            if (t == 0) {
                 std::cout << "\nSolution found in " << path.length() << " moves: " << path << std::endl;
 
                 std::cout << "\nPrinting solution steps:" << std::endl;
@@ -234,6 +237,9 @@ public:
                 std::cout << "\nSolution Found! :D" << std::endl;
                 return;
             }
+
+            if (t == INT_MAX) break;
+            depthLimit = t;
         }
         std::cout << "No solution found within reasonable depth :(" << std::endl;
     }
