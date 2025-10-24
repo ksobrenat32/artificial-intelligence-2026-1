@@ -156,9 +156,8 @@ func actionHandler(w http.ResponseWriter, r *http.Request) {
 	}
 
 	var req ActionRequest
-	// decode request body
 	if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
-		http.Error(w, "invalid request", http.StatusBadRequest)
+		http.Error(w, "Invalid request body", http.StatusBadRequest)
 		return
 	}
 
