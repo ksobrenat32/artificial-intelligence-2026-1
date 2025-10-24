@@ -49,6 +49,46 @@ func extractGameID(path string) (string, error) {
 	return "", fmt.Errorf("invalid path format")
 }
 
+// pretty-print minimal del mundo para debugging
+func printGameState(gs *GameState) {
+	var b strings.Builder
+	b.WriteString("=== Wumpus World ===\n")
+	// imprimimos filas desde arriba para que se vea como un mapa
+	for y := GridSize - 1; y >= 0; y-- {
+		for x := 0; x < GridSize; x++ {
+			ch := '.'
+			sq := gs.World[x][y]
+			// Prioridad: agente > wumpus (si vivo) > gold > pit
+			if gs.Agent.X == x && gs.Agent.Y == y {
+				switch gs.Agent.Direction {
+				case East:
+					ch = '>'
+				case North:
+					ch = '^'
+				case West:
+					ch = '<'
+				case South:
+					ch = 'v'
+				default:
+					ch = 'A'
+				}
+			} else if sq.HasWumpus && gs.WumpusAlive {
+				ch = 'W'
+			} else if sq.HasGold {
+				ch = 'G'
+			} else if sq.HasPit {
+				ch = 'O'
+			}
+			b.WriteString(fmt.Sprintf(" %c", ch))
+		}
+		b.WriteString("\n")
+	}
+	b.WriteString(fmt.Sprintf("Agent=(%d,%d) Dir=%d Arrow=%v Gold=%v Score=%d GameOver=%v WumpusAlive=%v\n",
+		gs.Agent.X, gs.Agent.Y, gs.Agent.Direction, gs.Agent.HasArrow, gs.Agent.HasGold, gs.Score, gs.GameOver, gs.WumpusAlive))
+	b.WriteString("====================\n")
+	log.Print(b.String())
+}
+
 func main() {
 	http.HandleFunc("/game/new", func(w http.ResponseWriter, r *http.Request) {
 		if r.Method != http.MethodPost {
@@ -93,6 +133,9 @@ func newGameHandler(w http.ResponseWriter, r *http.Request) {
 	w.WriteHeader(http.StatusCreated)
 	json.NewEncoder(w).Encode(resp)
 	log.Println("New game created with ID:", gameID)
+
+	// imprimir estado del mundo para debugging
+	printGameState(gs)
 }
 
 // actionHandler processes a player's action for a specific game
@@ -120,6 +163,9 @@ func actionHandler(w http.ResponseWriter, r *http.Request) {
 
 	gs.processAction(req.Action)
 	log.Println("Processed action for game ID:", gameID, "Action:", req.Action)
+
+	// imprimir estado del mundo tras la acción
+	printGameState(gs)
 
 	// Clean up finished games from memory
 	if gs.GameOver {
