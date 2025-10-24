@@ -146,7 +146,7 @@ func (gs *GameState) getPerception() Perception {
 		if gs.Agent.HasGold && gs.Agent.X == 0 && gs.Agent.Y == 0 {
 			msg = "You climbed out with the gold! VICTORY!"
 		} else if sq.HasPit || (sq.HasWumpus && gs.WumpusAlive) {
-			msg = "You have died a miserable death. GAME OVER."
+			msg = "You Died. GAME OVER."
 		} else {
 			msg = "You climbed out empty-handed. GAME OVER."
 		}
