@@ -89,7 +89,17 @@ func printGameState(gs *GameState) {
 	log.Print(b.String())
 }
 
+func serveReadmeHandler(w http.ResponseWriter, r *http.Request) {
+	if r.Method != http.MethodGet {
+		http.Error(w, "Method not allowed", http.StatusMethodNotAllowed)
+		return
+	}
+
+	http.ServeFile(w, r, "README.md")
+}
+
 func main() {
+	http.HandleFunc("/", serveReadmeHandler)
 	http.HandleFunc("/game/new", func(w http.ResponseWriter, r *http.Request) {
 		if r.Method != http.MethodPost {
 			http.Error(w, "Method not allowed", http.StatusMethodNotAllowed)
