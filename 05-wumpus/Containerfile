@@ -22,6 +22,8 @@ FROM scratch
 
 # Copy the binary from builder
 COPY --from=builder /app/wumpus-server /wumpus-server
+# Copy the README for reference
+COPY --from=builder /app/README.md /README.md
 
 # Expose the port the server runs on
 EXPOSE 8080
