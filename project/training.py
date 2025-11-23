@@ -19,9 +19,16 @@ class ModelTrainer:
         """
         df = pd.read_csv(self.dataset_path)
 
+        # Remove rows with missing label_id
+        print(f"Total records before cleaning: {len(df)}")
+        df = df.dropna(subset=['label_id'])
+        print(f"Total records after removing NaN labels: {len(df)}")
+        
         # Use the label_id column directly as labels
-        df['label'] = df['label_id']
+        df['label'] = df['label_id'].astype(int)
         id2label = {0: 'sesgo_genero_masculino', 1: 'sesgo_genero_femenino', 2: 'sesgo_edad_joven', 3: 'sesgo_edad_mayor', 4: 'sesgo_nacionalidad', 5: 'neutral_inclusivo'}
+        
+        print(f"Label distribution:\n{df['label'].value_counts().sort_index()}")
 
         # Split the dataset
         train_df, test_df = train_test_split(df, test_size=0.2, stratify=df['label'], random_state=42)
