@@ -1,0 +1,812 @@
+texto,etiqueta,explicacion,label_id
+Se solicita auxiliar administrativo (solo varones).,sesgo_genero_masculino,"Indica que únicamente se aceptan varones, una discriminación directa por género.",0
+"Se necesita chofer: hombre responsable, 30-45 años.",sesgo_genero_masculino,"Solicita específicamente un hombre para el puesto, condicionando la selección por género.",0
+Se buscan operarios para montaje. Hombres preferidos.,sesgo_genero_masculino,"Manifiesta una preferencia por hombres para el puesto, lo que constituye un sesgo de género.",0
+Puesto de portero nocturno: se pide personal masculino.,sesgo_genero_masculino,"Solicita explícitamente personal masculino para el puesto, excluyendo a otras identidades de género.",0
+Equipo de mudanzas: solo hombres fuertes.,sesgo_genero_masculino,"Exige que los postulantes sean hombres, ligando el trabajo físico únicamente al género masculino.",0
+Se busca supervisor con presencia masculina.,sesgo_genero_masculino,"Requiere rasgos asociados a la masculinidad para el puesto, favoreciendo a los hombres.",0
+Necesitamos comerciales agresivos; perfil masculino.,sesgo_genero_masculino,Vincula un rasgo profesional (agresividad) con el sexo masculino y pide ese perfil específicamente.,0
+Oferta para mecánico — mujeres abstenerse.,sesgo_genero_masculino,"Ordena a las mujeres que no postulen, lo que constituye una exclusión basada en género.",0
+Se requiere personal de seguridad: candidatos masculinos.,sesgo_genero_masculino,"Solicita explícitamente candidatos masculinos para seguridad, excluyendo a mujeres y otras identidades.",0
+Buscamos técnico electrónico: solo candidatos varones.,sesgo_genero_masculino,"Limita la candidatura a varones, lo que constituye discriminación por género en la oferta laboral.",0
+Se busca recepcionista: hombres preferidos.,sesgo_genero_masculino,"Expresa preferencia explícita por hombres para el puesto, excluyendo o desalentando a otras identidades de género.",0
+Buscamos un jefe fuerte y decidido (solo hombres).,sesgo_genero_masculino,Asocia cualidades de liderazgo solo a hombres y limita el puesto a ese género.,0
+Vacante: conductor — solo se contratan varones.,sesgo_genero_masculino,"Indica contratación exclusiva de varones, una discriminación directa por género.",0
+Gerente de obra: se buscan hombres con experiencia.,sesgo_genero_masculino,"El anuncio pide 'hombres', lo que representa una preferencia de género.",0
+Cajero varón para turno nocturno.,sesgo_genero_masculino,"Indica 'varón', excluyendo a candidatas mujeres y mostrando discriminación por género.",0
+"Se busca administrativo, solo hombres.",sesgo_genero_masculino,"Exige explícitamente que solo hombres puedan postular, excluyendo a personas de otros géneros.",0
+Vacante: recepcionista (hombre).,sesgo_genero_masculino,Indica entre paréntesis que buscan específicamente a un hombre para el puesto.,0
+Se necesita conductor varón con experiencia.,sesgo_genero_masculino,"Usa el término 'varón', señalando preferencia por candidatos masculinos.",0
+"Solicitamos vendedor, preferentemente masculino.",sesgo_genero_masculino,Expresa una preferencia explícita por personas de género masculino.,0
+Buscamos ingeniero de software (sexo masculino).,sesgo_genero_masculino,"Especifica el 'sexo masculino' como requisito, discriminando por género.",0
+Puesto de seguridad: solo para personal masculino.,sesgo_genero_masculino,"Restringe el puesto únicamente a personal masculino, excluyendo a otros géneros.",0
+Camarero: se solicita chico joven.,sesgo_genero_masculino,"Recluta usando 'chico', indicando preferencia por candidatos masculinos jóvenes.",0
+"Se requiere jefe de obra, hombres con liderazgo.",sesgo_genero_masculino,"Menciona explícitamente 'hombres', favoreciendo candidatos masculinos para el cargo.",0
+Trabajo en obra: candidatos varones únicamente.,sesgo_genero_masculino,"Limita la postulación solo a varones, constituyendo discriminación por género.",0
+"Oferta: montador, candidato masculino.",sesgo_genero_masculino,"Indica que el candidato debe ser masculino, manifestando sesgo de género.",0
+"Necesitamos un contable, hombres entre 25 y 40 años.",sesgo_genero_masculino,Limita el puesto por género indicando que solo se buscan hombres de cierta edad.,0
+Chofer hombre con experiencia en camión de carga.,sesgo_genero_masculino,"Especifica el requisito de ser hombre para el cargo, excluyendo a candidatas femeninas.",0
+Guardia de seguridad: solo varones.,sesgo_genero_masculino,Declara explícitamente que el puesto está reservado únicamente para varones.,0
+Se solicita personal masculino para trabajos de mudanza.,sesgo_genero_masculino,"Requiere personal masculino, lo que discrimina a posibles candidatas mujeres.",0
+"Buscamos un ejecutivo comercial, perfil agresivo y masculino.",sesgo_genero_masculino,Asocia rasgos de desempeño con la masculinidad y limita el perfil deseado a lo masculino.,0
+Puesto para jefe de taller — preferiblemente hombre.,sesgo_genero_masculino,Expresa una preferencia de género por hombres para el cargo de liderazgo.,0
+Auxiliar de mantenimiento (exclusivo para caballeros).,sesgo_genero_masculino,Utiliza lenguaje que excluye a las mujeres al indicar exclusividad para caballeros.,0
+"Se contrata encargado de obra, solo hombres capacitados.",sesgo_genero_masculino,"Restringe el proceso de selección a hombres, impidiendo la postulación femenina.",0
+Se busca recepcionista: sólo hombres.,sesgo_genero_masculino,"Excluye explícitamente a mujeres al indicar 'sólo hombres', especificando el género masculino.",0
+"Vacante chofer, preferiblemente varón.",sesgo_genero_masculino,"Indica preferencia por candidatos varones, lo que constituye discriminación de género.",0
+Se necesita guardia de seguridad para hombres.,sesgo_genero_masculino,"Requiere explícitamente 'para hombres', excluyendo a otras identidades de género.",0
+Buscamos vendedor: hombres 25-35 años.,sesgo_genero_masculino,"Especifica edad y género masculino ('hombres'), indicativo de sesgo de género.",0
+Puesto mecánico: solo para hombres.,sesgo_genero_masculino,La frase 'solo para hombres' excluye a mujeres y muestra preferencia por masculinidad.,0
+Se solicita vendedor fuerte y masculino.,sesgo_genero_masculino,"Asocia características físicas y la palabra 'masculino', favoreciendo candidatos hombres.",0
+Oferta: enfermero masculino para turno noche.,sesgo_genero_masculino,"Especifica 'masculino', limitando el puesto a hombres y generando sesgo.",0
+Se requiere estilista masculino.,sesgo_genero_masculino,La exigencia de 'masculino' excluye a estilistas de otros géneros.,0
+"Vacante: soldador — candidatos hombres, imprescindible fuerza y resistencia.",sesgo_genero_masculino,"Indica preferencia por hombres usando criterios físicos, lo que puede excluir a mujeres capacitadas.",0
+Buscamos entrenador físico masculino para equipo deportivo.,sesgo_genero_masculino,"Especifica que el entrenador debe ser masculino, excluyendo a entrenadoras y mostrando sesgo de género.",0
+Se requiere montador industrial — hombres preferidos por horario intensivo.,sesgo_genero_masculino,"Justifica la preferencia por hombres con estereotipo sobre disponibilidad horaria, discriminando a mujeres.",0
+Oferta: vendedor puerta a puerta — se priorizarán candidatos varones.,sesgo_genero_masculino,"Declara priorización de varones, favoreciendo candidatos masculinos y generando discriminación de género.",0
+Se busca hombre para puesto de seguridad.,sesgo_genero_masculino,"Solicita explícitamente 'hombre', excluyendo a mujeres y mostrando preferencia de género.",0
+Vacante: operario — preferentemente varón.,sesgo_genero_masculino,"Indica una preferencia por 'varón', lo que constituye sesgo de género en la selección.",0
+"Necesitamos un líder fuerte y decidido, hombres con experiencia.",sesgo_genero_masculino,"Combina la petición explícita de 'hombres' con estereotipos de masculinidad ('fuerte'), excluyendo a otras identidades.",0
+"Buscamos un comercial: atractivo, enérgico y con presencia masculina.",sesgo_genero_masculino,"Requiere 'presencia masculina', favoreciendo rasgos asociados a hombres y discriminando a mujeres.",0
+Puesto para técnico: solo para candidatos masculinos.,sesgo_genero_masculino,"Exclusión explícita ('solo para... masculinos'), prohibiendo la postulación de mujeres.",0
+Se valorará a hombres con habilidades físicas para carga y descarga.,sesgo_genero_masculino,Asocia la capacidad física al género masculino y sitúa a los hombres como preferidos para la tarea.,0
+Se requiere conductor: varón de entre 25 y 45 años.,sesgo_genero_masculino,"Especifica 'varón' en los requisitos, introduciendo discriminación por género.",0
+Equipo de ventas busca chicos extrovertidos y competitivos.,sesgo_genero_masculino,"Usa 'chicos', dirigiendo la oferta a hombres y excluyendo verbalmente a mujeres.",0
+Administrador de obra: buscamos hombres con carácter y autoridad.,sesgo_genero_masculino,Relaciona rasgos de autoridad con los hombres y solicita específicamente candidatos masculinos.,0
+Auxiliar de bodega — convocamos solo a varones por turno nocturno.,sesgo_genero_masculino,"Exclusión explícita de mujeres ('solo a varones') bajo la justificación del turno, mostrando discriminación de género.",0
+Se busca ingeniero de sistemas (solo hombres).,sesgo_genero_masculino,Excluye explícitamente a las mujeres indicando que solo se aceptan hombres.,0
+Oferta para vendedores: se prefieren candidatos masculinos.,sesgo_genero_masculino,"Manifiesta una preferencia de género hacia candidatos masculinos, discriminando a mujeres.",0
+Se busca conductor — solo hombres.,sesgo_genero_masculino,Excluye explícitamente a las mujeres al indicar que solo se aceptan hombres.,0
+Vacante para técnico de mantenimiento: se prefiere candidato varón por fuerza física.,sesgo_genero_masculino,Prefiere hombres basándose en una suposición estereotipada sobre la fuerza física.,0
+Empresa busca comercial con perfil competitivo (hombres preferidos).,sesgo_genero_masculino,"Indica preferencia por hombres para el puesto, favoreciendo un género sobre otro.",0
+"Se requiere vigilante nocturno, hombres entre 25-40 años.",sesgo_genero_masculino,Solicita específicamente hombres y limita por género en la oferta.,0
+Necesitamos mecánico: solo masculino.,sesgo_genero_masculino,Excluye a candidatas mujeres al exigir que el puesto sea ocupado por un hombre.,0
+Buscamos repartidor: candidatos masculinos.,sesgo_genero_masculino,Especifica el género masculino como requisito para el puesto.,0
+Puesto de seguridad privada: se valorará la masculinidad y el porte.,sesgo_genero_masculino,"Asocia características valoradas con la masculinidad, favoreciendo a hombres.",0
+Oferta para jefe de obra: hombres con experiencia.,sesgo_genero_masculino,Indica explícitamente que se buscan hombres para el cargo directivo.,0
+Se buscan ayudantes de obra — solo varones.,sesgo_genero_masculino,Exclusión directa de mujeres al limitar la contratación a varones.,0
+"Urgente: camarero de barra, preferentemente hombre joven.",sesgo_genero_masculino,"Expresa preferencia por hombres jóvenes, introduciendo sesgo de género en la selección.",0
+Se necesita conductor de camión — solo hombres.,sesgo_genero_masculino,"Excluye explícitamente a las mujeres al indicar ""solo hombres"", discriminación por género.",0
+Buscamos guardia de seguridad (hombres entre 25 y 40 años).,sesgo_genero_masculino,"Prefiere expresamente a candidatos masculinos, imponiendo requisito de sexo que discrimina.",0
+Puesto de operario de planta: se valorará candidato varón con buena resistencia física.,sesgo_genero_masculino,"Sugiere preferencia por varones basada en estereotipo de fuerza física, excluyendo indirectamente a mujeres.",0
+Se solicita carpintero — puesto para hombres.,sesgo_genero_masculino,"Declara que el puesto es ""para hombres"", excluyendo por género y mostrando sesgo masculino.",0
+Necesitamos técnico de climatización: imprescindible sexo masculino.,sesgo_genero_masculino,"Requiere explícitamente el ""sexo masculino"", constituyendo discriminación directa por género.",0
+Se busca gerente de obra con perfil masculino y mano firme.,sesgo_genero_masculino,"Asocia liderazgo y autoridad a un ""perfil masculino"", fomentando estereotipos de género y preferencia por hombres.",0
+Se necesita mecánico; se valorarán candidatos masculinos.,sesgo_genero_masculino,"Declara explícitamente preferencia por candidatos masculinos, mostrando sesgo de género.",0
+"Se buscan albañiles, solo varones.",sesgo_genero_masculino,"Establece que solo se aceptan varones, excluyendo a mujeres y otras identidades.",0
+Jefe de obra: hombres con liderazgo.,sesgo_genero_masculino,"Asocia la posición de liderazgo con hombres, implicando que el candidato ideal debe ser masculino.",0
+Se necesita trabajador para mudanzas; se buscan chicos fuertes.,sesgo_genero_masculino,"Usa 'chicos' y un rasgo físico estereotípicamente masculino, favoreciendo a hombres.",0
+Vacante para camarero: solo hombres para turno de noche.,sesgo_genero_masculino,"Restringe la vacante a hombres para un turno específico, discriminando por género.",0
+"Se solicitan vendedores, preferentemente varones dinámicos.",sesgo_genero_masculino,Indica preferencia por varones y usa lenguaje que asocia ciertas cualidades al género masculino.,0
+"Se busca electricista, solo hombres.",sesgo_genero_masculino,"Exclusión explícita de mujeres al exigir 'solo hombres', indicando discriminación por género.",0
+Se necesita conductor varón para reparto nocturno.,sesgo_genero_masculino,"Uso del término 'varón' que restringe la vacante a hombres, excluyendo a candidatas femeninas.",0
+"Se solicita guardia de seguridad, preferentemente masculino.",sesgo_genero_masculino,"Preferencia explícita por personas masculinas, lo que favorece a hombres sobre mujeres.",0
+Buscamos jefe de obra: hombre responsable y fuerte.,sesgo_genero_masculino,"Se especifica 'hombre' y se asocia el puesto con fuerza física, estereotipando y excluyendo mujeres.",0
+Vacante: operario — se valora experiencia en trabajos pesados; se busca hombre.,sesgo_genero_masculino,La frase 'se busca hombre' limita la contratación a varones y asocia el rol a labores consideradas masculinas.,0
+Se necesita técnico de mantenimiento (solo caballeros).,sesgo_genero_masculino,"Uso de 'caballeros' excluye explícitamente a mujeres, imponiendo un requisito de género.",0
+Contratamos vendedor: idealmente un hombre carismático.,sesgo_genero_masculino,"Se expresa preferencia por un 'hombre', vinculando habilidades comerciales a un género específico.",0
+Oferta: conductor de camión - candidatos hombres preferidos.,sesgo_genero_masculino,La preferencia por 'hombres' discrimina a posibles candidatas femeninas para el puesto.,0
+Se requiere fontanero; se aceptan solo varones con experiencia.,sesgo_genero_masculino,Indicaciones de 'solo varones' excluyen mujeres y constituyen un requisito de género injustificado.,0
+Buscamos gerente con perfil masculino para liderar equipo mixto.,sesgo_genero_masculino,"Pedir un 'perfil masculino' impone características de género para el liderazgo, favoreciendo a hombres.",0
+Puesto para padre de familia con disponibilidad nocturna.,sesgo_genero_masculino,"Relaciona el puesto con la figura masculina de 'padre de familia', excluyendo a quienes no encajan en ese rol.",0
+Requerimos ejecutivo de cuentas: se priorizarán candidatos masculinos.,sesgo_genero_masculino,"Declara prioridad por candidatos masculinos, discriminando a mujeres y otros géneros.",0
+"Se busca operario, sólo hombres.",sesgo_genero_masculino,"Exige explícitamente candidatos masculinos ('solo hombres'), excluyendo mujeres.",0
+"Recepcionista masculino, de 25 a 35 años.",sesgo_genero_masculino,"Especifica el sexo 'masculino' y un rango de edad, favoreciendo a varones.",0
+Preferible conductor varón con experiencia.,sesgo_genero_masculino,"Indica preferencia explícita por 'varón', discriminando por género.",0
+"Se necesitan camareros, solo varones.",sesgo_genero_masculino,"Requiere exclusivamente personal masculino ('solo varones'), excluyendo mujeres.",0
+Buscamos un líder fuerte y competitivo (hombres preferidos).,sesgo_genero_masculino,"Combina rasgos estereotípicamente masculinos con la nota 'hombres preferidos', mostrando sesgo de género.",0
+"Auxiliar de bodega: hombres jóvenes, resistentes.",sesgo_genero_masculino,"Solicita específicamente 'hombres jóvenes', asociando el trabajo a características físicas masculinas y excluyendo mujeres.",0
+Marketing: puesto para hombre con carácter asertivo.,sesgo_genero_masculino,"Aclara que el puesto es 'para hombre', aplicando una preferencia de género explícita.",0
+"Se ofrece puesto de seguridad, destinado a varones.",sesgo_genero_masculino,"Declara que el puesto está 'destinado a varones', discriminando por sexo.",0
+Solicitamos técnico mecánico (solo varón).,sesgo_genero_masculino,La indicación 'solo varón' excluye a candidatas femeninas de forma explícita.,0
+Vacante: vendedor puerta a puerta — candidatos masculinos.,sesgo_genero_masculino,"Especifica 'candidatos masculinos', mostrando una clara preferencia por hombres.",0
+Se busca recepcionista (solo varones).,sesgo_genero_masculino,"Requiere explícitamente solo varones, excluyendo a mujeres y otras identidades de género.",0
+"Se busca operario de fábrica, hombres preferentemente.",sesgo_genero_masculino,"Expresa preferencia por candidatos masculinos, discriminando por género.",0
+Solicitamos conductor de camión — solo hombres con experiencia.,sesgo_genero_masculino,"Indica que únicamente se considerarán hombres, exclusión directa por género.",0
+Buscamos guardias de seguridad: hombres fuertes.,sesgo_genero_masculino,"Combina especificación de género con estereotipo físico masculino, favoreciendo a hombres.",0
+Se busca personal masculino para trabajo en bodega.,sesgo_genero_masculino,Excluye explícitamente a mujeres al indicar que el personal debe ser masculino.,0
+Preferimos candidatos hombres para puesto de seguridad.,sesgo_genero_masculino,"Indica preferencia por hombres, lo que discrimina a solicitantes de otros géneros.",0
+Se requiere conductor varón con experiencia.,sesgo_genero_masculino,"Solicita específicamente 'varón', excluyendo a mujeres y otros géneros.",0
+Vacante exclusiva para caballeros con presencia impecable.,sesgo_genero_masculino,Uso de 'caballeros' y exclusividad que limita la oferta a hombres.,0
+Buscamos jóvenes varones para equipo de ventas agresivas.,sesgo_genero_masculino,Se dirige sólo a varones y asocia el rol con rasgos estereotípicamente masculinos.,0
+"Se necesita albañil hombre, imprescindible fuerza física.",sesgo_genero_masculino,"Recluta explícitamente a hombres, excluyendo potencialmente a mujeres cualificadas.",0
+Solo hombres: técnico de mantenimiento nocturno.,sesgo_genero_masculino,La frase 'solo hombres' prohíbe la participación de mujeres y otros géneros.,0
+Se valorará actitud competitiva típica de hombres.,sesgo_genero_masculino,"Asume que ciertas cualidades son 'típicas de hombres', promoviendo estereotipos y sesgo.",0
+Equipo de obras: se requiere personal masculino para trabajo pesado.,sesgo_genero_masculino,"Asume que solo los hombres pueden realizar trabajo pesado, excluyendo a mujeres por estereotipo de género.",0
+Vacante para técnico: se valora actitud masculina.,sesgo_genero_masculino,Valorar una 'actitud masculina' implica preferencia por rasgos asociados a hombres y discrimina por género.,0
+Se busca líder de taller (hombre preferido).,sesgo_genero_masculino,Manifiesta una preferencia por candidatos masculinos para un rol de liderazgo.,0
+Puestos de seguridad: solo apto para hombres.,sesgo_genero_masculino,"Excluye explícitamente a mujeres del puesto, indicando sesgo hacia candidatos masculinos.",0
+Se busca conductor para reparto: solo hombres.,sesgo_genero_masculino,"La frase especifica explícitamente una preferencia exclusiva por hombres ('solo hombres'), lo que constituye discriminación por género y un sesgo hacia candidatos masculinos.",0
+Vacante para modelo publicitario masculino.,sesgo_genero_masculino,"Requiere explícitamente que el modelo sea masculino, excluyendo a personas de otros géneros.",0
+Oferta: repartidor. Solo hombres con licencia.,sesgo_genero_masculino,"Limita la vacante a hombres mediante 'solo hombres', constituyendo un sesgo de género.",0
+Solicitamos varón entre 25 y 40 años.,sesgo_genero_masculino,"Requisito explícito de género masculino, excluye a mujeres y a personas no binarias.",0
+Se necesita chofer; mujeres abstenerse.,sesgo_genero_masculino,"Orden explícita de exclusión de mujeres, discriminación directa por género.",0
+Puesto ideal para padres responsables.,sesgo_genero_masculino,"Promueve una expectativa basada en la figura masculina de 'padre', excluye otras identidades parentales.",0
+Se busca chico para prácticas de ingeniería.,sesgo_genero_masculino,"Uso de 'chico' dirige la oferta a hombres jóvenes, generando exclusión de mujeres.",0
+Puesto: jefe de obra. Se valorará experiencia de varón.,sesgo_genero_masculino,"Indica que la experiencia de candidatos varones será valorada, favoreciendo al género masculino.",0
+Se busca asistente administrativo (solo hombres) con carácter enérgico y capacidad para trabajo bajo presión.,sesgo_genero_masculino,"La oferta excluye explícitamente a las mujeres al indicar 'solo hombres', además asocia rasgos de carácter (enérgico, tolerancia a la presión) como requisitos implícitos de género, lo que constituye discriminación por sexo.",0
+Se prefiere candidato del sexo masculino para roles técnicos.,sesgo_genero_masculino,"Expresa preferencia por el sexo masculino en áreas técnicas, fomentando estereotipos de género.",0
+Solo hombres: operario en planta con carga pesada.,sesgo_genero_masculino,Texto excluyente que limita la vacante únicamente a hombres.,0
+Buscamos un jefe de ventas — hombres con liderazgo.,sesgo_genero_masculino,Asocia liderazgo con hombres y dirige la oferta solo a candidatos masculinos.,0
+Preferible candidato masculino con experiencia en construcción.,sesgo_genero_masculino,"Indica preferencia por el sexo masculino, reforzando un sesgo en la selección.",0
+Se busca hombre para puesto de seguridad nocturna.,sesgo_genero_masculino,"Requiere explícitamente 'hombre', excluye a las mujeres y otros géneros.",0
+Se requieren jóvenes varones para trabajo de mudanzas.,sesgo_genero_masculino,"Demanda específicamente 'varones', favorece a hombres y discrimina por género.",0
+Se necesita conductor (solo varones).,sesgo_genero_masculino,"Reclutamiento restringido a varones mediante la cláusula 'solo varones', discriminando por género.",0
+Se solicita asistente personal masculino.,sesgo_genero_masculino,"Especifica que el asistente debe ser masculino, excluyendo expresamente a mujeres.",0
+"Se requiere guardia de seguridad, hombres entre 25 y 40 años.",sesgo_genero_masculino,"Exige específicamente que los postulantes sean hombres, imponiendo un criterio de género.",0
+Vacante: gerente de ventas. Preferiblemente varón.,sesgo_genero_masculino,"Expresa una preferencia por candidatos varones, favoreciendo el género masculino.",0
+"Se busca recepcionista, preferentemente hombre.",sesgo_genero_masculino,"Expresa una preferencia explícita por candidatos masculinos, excluyendo implícitamente a mujeres.",0
+Buscamos programador; se priorizarán candidatos masculinos.,sesgo_genero_masculino,"Declara que se dará prioridad a postulantes masculinos, señalando una preferencia de género.",0
+Se necesita asistente con carácter varonil y presencia imponente.,sesgo_genero_masculino,"Asocia cualidades deseadas al género masculino, favoreciendo a hombres y excluyendo a otras identidades.",0
+"Se busca recepcionista, solo hombres.",sesgo_genero_masculino,"Indica explícitamente que únicamente se aceptan candidatos hombres, excluyendo a mujeres.",0
+Buscamos vendedor con perfil masculino y buena presencia.,sesgo_genero_masculino,"Requiere un 'perfil masculino', favoreciendo a hombres y asociando aptitudes a un género.",0
+Mujeres abstenerse — puesto para operarios hombres.,sesgo_genero_masculino,"Exhorta explícitamente a mujeres a no postularse y declara el puesto destinado a hombres, constituyendo sesgo claro.",0
+Niñera para cuidado nocturno — solo chicas.,sesgo_genero_femenino,"Reclutamiento exclusivo para mujeres, usando término de género ('niñera') y 'solo chicas'.",1
+"Se busca asistente de recursos humanos, preferentemente mujer.",sesgo_genero_femenino,Preferencia explícita por candidatas femeninas para el puesto.,1
+Se busca secretaria administrativa (solo mujeres).,sesgo_genero_femenino,"Solicita explícitamente mujeres, excluyendo otros géneros.",1
+Se solicita azafata para eventos y atención VIP.,sesgo_genero_femenino,El término 'azafata' es femenino y sugiere que el cargo está dirigido a mujeres.,1
+"Buscamos esteticista mujer, preferentemente joven.",sesgo_genero_femenino,"Prefiere candidatas femeninas al indicar 'mujer', creando una barrera por género.",1
+"Se requiere niñera con experiencia, solo mujeres.",sesgo_genero_femenino,"Clasifica el puesto como exclusivo para mujeres, impidiendo la postulación de no mujeres.",1
+Oferta: azafata para eventos (solo mujeres jóvenes).,sesgo_genero_femenino,"Exige explícitamente mujeres y añade criterio de edad, discriminando por género y edad.",1
+Se busca vendedora con don de gentes.,sesgo_genero_femenino,El uso de la forma femenina 'vendedora' y la redacción sugiere preferencia por candidatas mujeres.,1
+"Recepcionista mujer, buena presencia requerida.",sesgo_genero_femenino,"Solicita específicamente 'mujer', lo que discrimina por género independientemente de las habilidades.",1
+Necesitamos chica para atención al cliente.,sesgo_genero_femenino,"Usa el término 'chica', indicando preferencia de género y excluyendo a otras identidades.",1
+Se busca secretaria: solo mujeres.,sesgo_genero_femenino,Excluye explícitamente a candidatos no femeninos al exigir que el puesto sea ocupado únicamente por mujeres.,1
+Urgente: contratar señorita para mostrar amabilidad en tienda.,sesgo_genero_femenino,"Uso de 'señorita' y asociación de amabilidad a mujeres, promoviendo estereotipos y preferencia por género.",1
+Se busca diseñadora con estilo femenino.,sesgo_genero_femenino,"Exige identidad o estética femenina para el cargo, imponiendo una preferencia de género innecesaria.",1
+Buscamos madre responsable para coordinar actividades infantiles.,sesgo_genero_femenino,"Asume que la aptitud para el puesto depende de ser madre, lo que discrimina por género y estado parental.",1
+"Vacante: enfermera, solo mujeres.",sesgo_genero_femenino,Imposición de género en una profesión que puede ser desempeñada por cualquier persona; exclusión directa.,1
+Se requiere mujer para puesto de ventas puerta a puerta.,sesgo_genero_femenino,"Requisito explícito de sexo femenino para un puesto que no lo justifica, discriminación por género.",1
+Preferimos mujeres para tareas de cuidado y atención.,sesgo_genero_femenino,"Asume que las labores de cuidado corresponden a mujeres, reforzando roles de género estereotipados.",1
+Buscamos recepcionista femenina para atención cálida y acogedora.,sesgo_genero_femenino,Uso de 'femenina' y asociación con características estereotípicas de cuidado.,1
+Buscamos candidata dinámica para el equipo de marketing.,sesgo_genero_femenino,El uso de 'candidata' implica que se buscan mujeres en lugar de postulantes de cualquier género.,1
+"Se busca secretaria, preferentemente mujer.",sesgo_genero_femenino,"Expresa preferencia por mujeres para el puesto y usa el femenino, excluyendo o desincentivando a otros géneros.",1
+"Camarera de piso, se priorizará a mujeres.",sesgo_genero_femenino,Indica prioridad por candidatas femeninas para un puesto de limpieza/hospitalidad.,1
+Se solicita enfermera — se valorará ser madre.,sesgo_genero_femenino,"Atribuye el rol a mujeres y añade preferencia por la condición de madre, lo que discrimina por género y estado familiar.",1
+Dependienta alegre y femenina para tienda boutique.,sesgo_genero_femenino,Uso de 'dependienta' y adjetivo 'femenina' perpetúan el estereotipo de género para el rol.,1
+Asistente personal para ejecutivo — preferiblemente mujer con tacto y empatía.,sesgo_genero_femenino,"Preferencia por mujer asociada a cualidades estereotípicamente femeninas (tacto, empatía).",1
+Se necesita niñera con experiencia (mujeres únicamente).,sesgo_genero_femenino,El anuncio exige explícitamente candidatas femeninas para tareas de cuidado.,1
+Recepcionista: mujeres entre 22 y 30 años.,sesgo_genero_femenino,"Combina requisito de género con límites de edad, discriminando por sexo y edad.",1
+Oficial doméstica: solo mujeres.,sesgo_genero_femenino,Exclusión explícita de otros géneros al indicar 'solo mujeres'.,1
+Buscamos chica para atención al cliente.,sesgo_genero_femenino,Uso de 'chica' sugiere que solo se consideran mujeres para el puesto.,1
+Vendedora con buena presencia y sonrisa.,sesgo_genero_femenino,"Uso del sustantivo femenino ('vendedora') y énfasis en apariencia y sonrisa, asociando el puesto a mujeres.",1
+"Se busca secretaria, preferentemente mujer.",sesgo_genero_femenino,"Indica explícitamente una preferencia por candidatas femeninas, excluyendo o desalentando a hombres.",1
+Puesto de secretaria ejecutiva — se valorará que sea mujer.,sesgo_genero_femenino,"Sugiere preferencia por candidatas femeninas, lo que constituye un sesgo de género.",1
+Se busca cuidadora de niños (solo mujeres).,sesgo_genero_femenino,Limita el puesto a mujeres excluyendo explícitamente a hombres para tareas de cuidado.,1
+Profesor/a de primaria: se prefiere mujer.,sesgo_genero_femenino,"Aunque admite ambos géneros en forma escrita, declara una preferencia explícita por mujeres.",1
+Modelo femenina para catálogo (urgente).,sesgo_genero_femenino,"Solicita específicamente 'femenina', excluyendo a candidatos de otros géneros.",1
+"Cocinera para restaurante, solo mujeres por turno nocturno.",sesgo_genero_femenino,"Reserva el puesto nocturno únicamente para mujeres, lo que constituye discriminación de género.",1
+Se necesita enfermera titulada — no se considerarán hombres.,sesgo_genero_femenino,Exclusión explícita de candidatos masculinos; exige ser mujer para el puesto.,1
+Vacante: azafata para eventos.,sesgo_genero_femenino,Uso de un término de género femenino ('azafata') que implica preferencia por mujeres.,1
+Puesto de asistente personal para empresario — solo mujeres.,sesgo_genero_femenino,Reclutamiento restrictivo que exige explícitamente el género femenino.,1
+"Empresa solicita recepcionista mujer, preferiblemente joven.",sesgo_genero_femenino,"Prefiere candidatos femeninos y añade criterio de edad, reforzando estereotipos.",1
+"Se busca secretaria, solo mujeres.",sesgo_genero_femenino,Excluye explícitamente a candidatos no femeninos al indicar 'solo mujeres'.,1
+"Se requiere camarera con experiencia, preferentemente mujeres.",sesgo_genero_femenino,"El anuncio solicita preferencia por mujeres para el puesto de camarera, mostrando discriminación por género.",1
+Vacante promotora de eventos — se valora belleza y simpatía.,sesgo_genero_femenino,"Usa el rol femenino 'promotora' y enfatiza cualidades físicas, asociadas estereotípicamente a mujeres.",1
+Se busca asistente personal femenina para ejecutivo.,sesgo_genero_femenino,"Especifica que la asistente debe ser mujer, excluyendo a candidatos de otros géneros.",1
+Se requieren limpiadoras para limpieza de oficinas (mujeres preferidas).,sesgo_genero_femenino,"Expresa preferencia por mujeres para tareas de limpieza, mostrando sesgo de género.",1
+Oferta: niñera responsable — solo mujeres.,sesgo_genero_femenino,"Limita el puesto de cuidado infantil a mujeres, imponiendo un criterio de género.",1
+Se necesitan vendedoras para tienda comercial.,sesgo_genero_femenino,"El anuncio pide exclusivamente vendedoras (forma femenina), excluyendo a los hombres.",1
+Preferible candidata joven con buena presencia y sonrisa.,sesgo_genero_femenino,"Usa 'candidata' y criterios de apariencia, asumiendo que el puesto debe ser ocupado por una mujer.",1
+Buscamos mujer para atención al cliente presencial.,sesgo_genero_femenino,Solicita explícitamente una mujer para desempeñar tareas de atención al cliente.,1
+Se solicita candidata joven para atención al cliente.,sesgo_genero_femenino,Uso del femenino 'candidata' e indicación de características (joven) que limitan por género y edad.,1
+Buscamos una asistente organizada y cariñosa.,sesgo_genero_femenino,"Atribuye roles emocionales y estereotipos asociados a mujeres (cariñosa), sugiriendo preferencia de género.",1
+Solo se contratarán mujeres para el puesto de recepcionista.,sesgo_genero_femenino,Exclusión explícita de candidatos no femeninos; discriminación directa por género.,1
+Cuidar personas mayores — se requiere mujer responsable.,sesgo_genero_femenino,"Reclutamiento que exige ser mujer para un rol de cuidado, basándose en roles de género tradicionales.",1
+"Contratamos modelo femenina para escaparate, preferentemente joven.",sesgo_genero_femenino,"Pide específicamente modelo femenina y añade preferencia por juventud, apuntando a estereotipos sobre la mujer.",1
+"Se busca dependienta para tienda de lencería, solo candidatas femeninas.",sesgo_genero_femenino,"Restricción explícita a mujeres para el puesto, excluyendo a otros géneros.",1
+Necesitamos asistente de guardería — debe ser una mujer cariñosa.,sesgo_genero_femenino,Exige ser mujer y asigna cualidades de cuidado asociadas tradicionalmente al género femenino.,1
+Buscamos enfermera con sensibilidad maternal.,sesgo_genero_femenino,"Asume que la 'sensibilidad maternal' es un requisito femenino, reforzando estereotipos de género.",1
+"Camarera para restaurante, se valorará apariencia femenina.",sesgo_genero_femenino,Solicita específicamente mujeres y asocia el puesto con rasgos femeninos estereotipados.,1
+"Se ofrece puesto de secretaria, preferiblemente señorita.",sesgo_genero_femenino,"Preferencia de género explícita hacia mujeres, utilizando un término que excluye a hombres.",1
+Se necesita vendedora con buen aspecto físico.,sesgo_genero_femenino,"Dirigido específicamente a mujeres y enfatiza atributos físicos, reforzando estereotipos de género.",1
+"Se busca recepcionista, solo mujeres.",sesgo_genero_femenino,Exclusión explícita de candidatos masculinos al requerir únicamente mujeres.,1
+"Oferta: estilista femenina para salón, solo mujeres.",sesgo_genero_femenino,"Especifica que la estilista debe ser mujer ('femenina'/'solo mujeres'), favoreciendo a un género.",1
+"Empresa solicita administrativa doméstica, mujeres únicamente.",sesgo_genero_femenino,El requisito 'mujeres únicamente' excluye candidatos no femeninos y refleja sesgo de género.,1
+Se busca cuidadora de niños; postulantes mujeres.,sesgo_genero_femenino,"Solicita explícitamente que las postulantes sean mujeres, discriminando por género.",1
+"Se requiere coordinadora de eventos, solo mujeres.",sesgo_genero_femenino,"La palabra 'solo mujeres' limita la contratación a candidatas femeninas, mostrando sesgo.",1
+Contrato para dependienta — preferentemente mujer.,sesgo_genero_femenino,Indica una preferencia de género que puede discriminar a candidatos no femeninos.,1
+"Se busca azafata de imagen, joven y femenina.",sesgo_genero_femenino,"Combina exigencia de género con características estereotípicas (juventud, 'femenina').",1
+"Oferta: cajera para tienda, solo mujeres.",sesgo_genero_femenino,Recluta únicamente a mujeres al indicar 'solo mujeres' para el rol de cajera.,1
+Buscamos empleada para atención al cliente.,sesgo_genero_femenino,"Usa el femenino ('empleada'), implicando que se espera que la persona sea mujer.",1
+Recepcionista: preferible candidata femenina.,sesgo_genero_femenino,"Indica preferencia por una candidata femenina, favoreciendo a mujeres sobre hombres.",1
+"Se busca secretaria administrativa, solo mujeres.",sesgo_genero_femenino,"Solicita explícitamente solo mujeres, excluye a candidatos hombres por género.",1
+Puesto de ventas: preferimos mujeres por su 'sensibilidad' hacia los clientes.,sesgo_genero_femenino,"Justifica la preferencia por mujeres mediante un estereotipo de sensibilidad, discriminando por género.",1
+"Se busca promotora — solo mujeres, imagen femenina obligatoria.",sesgo_genero_femenino,"Excluye hombres explícitamente y exige una 'imagen femenina', imponiendo criterios de género.",1
+Vacante: asistente administrativa — mujeres comunicativas y empáticas.,sesgo_genero_femenino,"Asocia rasgos estereotipados (comunicativa, empática) al sexo femenino y especifica preferencia de género.",1
+"Se ofrece puesto para mamá responsable, solo mujeres con hijos.",sesgo_genero_femenino,"Limita la candidatura a mujeres y además requiere una condición parental, excluyendo a hombres y a mujeres sin hijos.",1
+Se necesita anfitriona bella para eventos (mujer).,sesgo_genero_femenino,"Especifica el sexo requerido y valora la apariencia física, discriminando por género y aspecto.",1
+Buscamos ejecutiva con presencia femenina y buen aspecto.,sesgo_genero_femenino,"Se exige una 'presencia femenina' y énfasis en la apariencia, favoreciendo a mujeres por su sexo.",1
+Se requiere mujer para trabajo de cuidado infantil.,sesgo_genero_femenino,"Solicita específicamente a mujeres para tareas de cuidado, reforzando roles de género y excluyendo a hombres.",1
+Solo mujeres: buscamos vendedora con actitud cálida y maternal.,sesgo_genero_femenino,Exclusión explícita de hombres y uso de estereotipos (maternal) asociados a las mujeres.,1
+Preferentemente mujer para puesto de recepcionista.,sesgo_genero_femenino,"Indica una preferencia por el sexo femenino para el puesto, lo que constituye discriminación de género.",1
+Se busca secretaria joven y femenina para atención al cliente.,sesgo_genero_femenino,"Prefiere explícitamente a mujeres y añade un criterio de apariencia/sexo, excluyendo a candidatos masculinos.",1
+Contratamos secretaria para oficina (candidata ideal: mujer).,sesgo_genero_femenino,"Indica preferencia por una mujer en el rol administrativo, discriminando por género.",1
+Se busca recepcionista: solo mujeres.,sesgo_genero_femenino,Excluye explícitamente a hombres al requerir únicamente mujeres para el puesto.,1
+"Buscamos vendedora para atención al cliente, ideal candidata femenina.",sesgo_genero_femenino,"Preferencia explícita por candidatas femeninas para el puesto, discriminando por género.",1
+"Se requiere vendedora puerta a puerta, solo mujeres.",sesgo_genero_femenino,Establece un requisito de género femenino para el trabajo de ventas.,1
+"Cocinera para restaurante, solo mujeres.",sesgo_genero_femenino,Limita el acceso al puesto exclusivamente a mujeres.,1
+"Oferta: asistente de limpieza, se valorará que sea mujer.",sesgo_genero_femenino,Sugiere preferencia por mujeres para un rol tradicionalmente estereotipado.,1
+Buscamos educadora infantil (mujer).,sesgo_genero_femenino,La mención del género femenino como requisito discrimina a otros postulantes.,1
+"Se necesita asesora de ventas, ideal para mujeres.",sesgo_genero_femenino,"Indica que el puesto es más adecuado para mujeres, favoreciendo ese género.",1
+Recepcionista (solo mujeres).,sesgo_genero_femenino,"Requiere exclusivamente mujeres, excluyendo a otros géneros.",1
+"Se busca secretaria, preferentemente mujer.",sesgo_genero_femenino,Expresa una preferencia explícita por candidatas de sexo femenino.,1
+Se busca acompañante escolar femenina para niños pequeños.,sesgo_genero_femenino,"Exige que la persona sea femenina para el cuidado de niños, imponiendo una restricción de género.",1
+Buscamos recepcionista femenina y amable.,sesgo_genero_femenino,"Combina un requisito de género explícito ('femenina') con rasgos estereotipados, excluyendo a otros géneros.",1
+Oferta: estilista femenina para salón de belleza.,sesgo_genero_femenino,La especificación 'femenina' restringe el puesto a personas de un solo género.,1
+Se solicita camarera para turno de noche.,sesgo_genero_femenino,El uso de 'camarera' indica preferencia por candidatas femeninas para el puesto.,1
+Contratamos madre con disponibilidad para jornada parcial.,sesgo_genero_femenino,"Pide específicamente 'madre', limitando la oferta a mujeres y asociando el rol a la maternidad.",1
+Buscamos enfermera con experiencia (solo mujeres).,sesgo_genero_femenino,"A pesar de que la experiencia es relevante, la exigencia 'solo mujeres' impone un requisito de género no justificable.",1
+Contratamos camarera para turno nocturno; imprescindible ser mujer.,sesgo_genero_femenino,"Establece un requisito de género ('imprescindible ser mujer'), excluyendo hombres.",1
+"Se necesita vendedora para boutique, preferentemente mujer.",sesgo_genero_femenino,"Indica preferencia por mujeres para el puesto de ventas, lo que constituye sesgo de género.",1
+Vacante: asistente personal (mujer).,sesgo_genero_femenino,"Especifica entre paréntesis que la persona debe ser mujer, excluyendo otros géneros.",1
+"Se necesita vendedora de tienda, mujeres con buena presencia.",sesgo_genero_femenino,"Describe el puesto en femenino y exige candidatas mujeres, basando la selección en género.",1
+"Se busca recepcionista, solo mujeres.",sesgo_genero_femenino,Excluye explícitamente a los hombres al solicitar únicamente mujeres.,1
+Se buscan chicas para atención al cliente.,sesgo_genero_femenino,El uso de 'chicas' indica preferencia por mujeres y excluye a otros géneros.,1
+Buscamos chica para atención al cliente.,sesgo_genero_femenino,Uso de 'chica' dirige la oferta específicamente a mujeres jóvenes.,1
+Se necesita empleada doméstica para limpieza del hogar.,sesgo_genero_femenino,El término 'empleada' y el rol doméstico perpetúan la expectativa de que el puesto es para mujeres.,1
+Se busca recepcionista — preferiblemente mujer.,sesgo_genero_femenino,Indica una preferencia explícita por candidatas mujeres.,1
+Se necesita vendedora para boutique de ropa.,sesgo_genero_femenino,Uso del sustantivo femenino 'vendedora' que implica preferencia por mujeres.,1
+Se busca secretaria (solo mujeres).,sesgo_genero_femenino,Exigencia explícita de sexo femenino al decir 'solo mujeres'.,1
+Se requiere azafata para eventos corporativos.,sesgo_genero_femenino,Término femenino 'azafata' que sugiere que el puesto es para mujeres.,1
+Se necesita chica para atención al cliente.,sesgo_genero_femenino,"Solicita explícitamente 'chica', lo que excluye a candidatos masculinos o no binarios.",1
+Se requiere azafata para eventos.,sesgo_genero_femenino,"El término 'azafata' designa exclusivamente a mujeres, restringiendo el acceso por género.",1
+Necesitamos vendedora con buena presencia.,sesgo_genero_femenino,Usa la forma femenina 'vendedora' y sugiere un requisito de apariencia asociado a mujeres.,1
+"Se busca secretaria administrativa, solo mujeres.",sesgo_genero_femenino,Excluye candidatos no femeninos al exigir explícitamente 'solo mujeres' para el puesto.,1
+Buscamos azafata para evento (solo mujeres).,sesgo_genero_femenino,Uso del término femenino y exclusión explícita de otros géneros.,1
+Se necesita modelo femenina para campaña publicitaria.,sesgo_genero_femenino,"Exige específicamente que el/la modelo sea mujer, especificando el género.",1
+"Buscamos cuidadora de personas mayores, mujeres preferentemente.",sesgo_genero_femenino,"Favorece candidatas femeninas para un puesto asociado a cuidados, reforzando estereotipos.",1
+Empresa busca mujer para cuidado de personas mayores.,sesgo_genero_femenino,"Requiere específicamente 'mujer', asignando el rol de cuidado a un género concreto.",1
+Se solicita azafata para eventos corporativos.,sesgo_genero_femenino,"Uso de la palabra femenina 'azafata', que excluye explícitamente a otros géneros.",1
+Se prefiere madre responsable para puesto de asistencia escolar.,sesgo_genero_femenino,"Preferencia por 'madre', vinculando la idoneidad al rol maternal y excluyendo a quienes no sean mujeres.",1
+"Solicitamos consultora comercial, edad 25-35, mujeres.",sesgo_genero_femenino,"Indica explícitamente que buscan candidatas mujeres, excluyendo por género.",1
+Empresa busca mujer para puestos de RRHH.,sesgo_genero_femenino,"Reclutamiento dirigido explícitamente a 'mujer', excluyendo otros géneros.",1
+Se busca modelo femenina para campaña publicitaria.,sesgo_genero_femenino,"Indicación explícita de 'femenina', exigiendo sexo femenino para el puesto.",1
+Buscamos dama administrativa para oficina.,sesgo_genero_femenino,Término 'dama' es un marcador de género que dirige la oferta a mujeres.,1
+Se solicita enfermera con experiencia.,sesgo_genero_femenino,Uso del sustantivo femenino 'enfermera' que implica preferencia por candidatas mujeres.,1
+Se necesita secretaria amable y femenina.,sesgo_genero_femenino,"Solicita rasgos asociados a lo femenino y utiliza la palabra 'femenina', mostrando sesgo de género.",1
+Vacante: estilista (solo damas).,sesgo_genero_femenino,Indica que el puesto está reservado únicamente para mujeres.,1
+Buscamos mujer para cuidado de personas mayores.,sesgo_genero_femenino,"Indica explícitamente que el candidato debe ser mujer, mostrando sesgo de género.",1
+Buscamos niñera con experiencia para horario nocturno.,sesgo_genero_femenino,"Uso del término 'niñera' implica que el puesto es para mujeres, reforzando un rol de género.",1
+"Oferta: promotora de productos, solo para mujeres.",sesgo_genero_femenino,Restricción clara del puesto a personas de género femenino.,1
+Buscamos guía turística femenina para grupo escolar.,sesgo_genero_femenino,"Pide específicamente una persona femenina, mostrando preferencia de género.",1
+Asistente de ventas — preferiblemente mamá joven.,sesgo_genero_femenino,"Dirigido a mujeres (madres), introduciendo una preferencia de género y rol familiar.",1
+Necesitamos recepcionista (solo mujeres).,sesgo_genero_femenino,Excluye a candidatos masculinos indicando que solo se aceptan mujeres.,1
+"Se busca secretaria para oficina, mujeres preferentemente.",sesgo_genero_femenino,Favorece explícitamente a mujeres para el puesto por motivos de género.,1
+"Camarera para restaurante, buena presencia y sonrisa.",sesgo_genero_femenino,El título femenino 'camarera' y requisitos estereotípicos (presencia/sonrisa) sugieren preferencia por mujeres.,1
+Empresa busca trabajadora doméstica con experiencia.,sesgo_genero_femenino,"El empleo se anuncia en femenino ('trabajadora'), reforzando el estereotipo de que esas labores son de mujeres.",1
+Se solicita enfermera con experiencia.,sesgo_genero_femenino,Uso del término femenino que implica preferencia de género para el puesto.,1
+Se necesita dependienta con don de gentes y empatía (mujer preferible).,sesgo_genero_femenino,Indica preferencia por mujer y asocia el puesto con rasgos estereotípicamente femeninos.,1
+Contratamos niñera/empleada doméstica — mujeres preferidas.,sesgo_genero_femenino,"Expresa preferencia por mujeres para tareas domésticas y de cuidado, generando sesgo de género.",1
+Auxiliar de enfermería (preferentemente mujeres).,sesgo_genero_femenino,La cláusula 'preferentemente mujeres' expresa una preferencia de género discriminatoria.,1
+Incorporamos vendedora para tienda de ropa femenina.,sesgo_genero_femenino,"El puesto se anuncia en femenino ('vendedora'), implicando que se busca una mujer.",1
+"Se busca administrativa; preferiblemente mujer, ordenada y con buena presencia.",sesgo_genero_femenino,"La oferta expresa una preferencia explícita por mujeres y asigna características estereotípicas (ordenada, buena presencia), lo que constituye discriminación por género.",1
+"Se busca recepcionista, preferentemente mujer, para atención al cliente.",sesgo_genero_femenino,"La oferta expresa una preferencia explícita por candidatas femeninas ('preferentemente mujer'), excluyendo o desalentando a candidatos hombres y mostrando un sesgo de género hacia mujeres.",1
+Se requiere vendedora con buena presencia y trato amable.,sesgo_genero_femenino,"Título femenino ('vendedora') y énfasis en la apariencia y amabilidad, reforzando estereotipos de género.",1
+Buscamos candidatos entre 22 y 28 años.,sesgo_edad_joven,Especifica un rango de edad concreto que discrimina fuera de ese tramo etario.,2
+"Recién graduado en ingeniería, sin experiencia previa.",sesgo_edad_joven,"Preferencia por 'recién graduado', que favorece a quienes tienen menor edad o están al inicio de su carrera.",2
+Oferta dirigida a jóvenes profesionales y estudiantes.,sesgo_edad_joven,"Se centra en 'jóvenes' y estudiantes, lo que implica una preferencia por candidatos de menor edad.",2
+Buscamos talento joven con mentalidad digital.,sesgo_edad_joven,"Asocia la cualidad deseada ('mentalidad digital') con ser joven, favoreciendo a candidatos jóvenes.",2
+Solo perfiles jóvenes: hasta 30 años.,sesgo_edad_joven,"Declara explícitamente que solo se consideran candidatos hasta una edad máxima, discriminando por edad.",2
+Se buscan jóvenes dinámicos para puesto de ventas.,sesgo_edad_joven,"Prefiere explícitamente candidatos 'jóvenes', excluyendo implícitamente a personas de mayor edad.",2
+"Programa para recién graduados, no se aceptan mayores de 28 años.",sesgo_edad_joven,"Establece un límite de edad que excluye a solicitantes mayores, favoreciendo solo a jóvenes.",2
+Se busca joven dinámico para equipo de ventas.,sesgo_edad_joven,"Solicita específicamente 'joven', favoreciendo candidatos de menor edad.",2
+Preferible menor de 30 años para puesto administrativo.,sesgo_edad_joven,Impone un límite de edad explícito que discrimina a personas mayores de 30.,2
+Buscamos recién graduado sin experiencia previa.,sesgo_edad_joven,La expresión 'recién graduado' favorece candidatos jóvenes y excluye a quienes cambiaron de carrera más tarde.,2
+Ambiente laboral joven; candidatos mayores no encajan.,sesgo_edad_joven,Declara explícitamente que las personas mayores no son adecuadas para el puesto.,2
+Vacante ideal para estudiantes y jóvenes profesionales.,sesgo_edad_joven,"Dirige la oferta a estudiantes y jóvenes, limitando el acceso por edad.",2
+Se valorará energía y estilo juvenil.,sesgo_edad_joven,"Prefiere características asociadas a la juventud, lo que puede excluir a trabajadores de mayor edad.",2
+"Puesto junior: menos de 2 años de experiencia, preferiblemente menores de 28.",sesgo_edad_joven,Combina requisitos de poca experiencia con una preferencia de edad explícita.,2
+Buscamos talento joven para startup tecnológica.,sesgo_edad_joven,La mención 'talento joven' indica preferencia por candidatos de edad menor.,2
+"Se busca administrativo, preferiblemente menor de 30 años.",sesgo_edad_joven,Imposición explícita de un límite de edad que favorece a candidatos jóvenes.,2
+Puesto para diseñador gráfico: solo candidatos de hasta 28 años.,sesgo_edad_joven,"Establece un tope de edad concreto (hasta 28), discriminando por edad a favor de jóvenes.",2
+Se requiere representante de ventas con energía juvenil.,sesgo_edad_joven,La expresión 'juvenil' sugiere preferencia por personas jóvenes en lugar de basarse en habilidades.,2
+Necesitamos community manager con estilo millennial.,sesgo_edad_joven,"Hace referencia a una cohorte generacional ('millennial'), implicando preferencia por una franja de edad.",2
+Vacante ideal para estudiantes o jóvenes con poca experiencia.,sesgo_edad_joven,"Dirigida a 'estudiantes' y 'jóvenes', lo que indica preferencia por perfiles jóvenes.",2
+Preferimos candidatos entre 20 y 30 años.,sesgo_edad_joven,"Indica una franja de edad preferente, lo que constituye discriminación por edad.",2
+No se considerarán candidatos mayores de 40 años.,sesgo_edad_joven,"Exclusión directa de personas por su edad ('mayores de 40'), discriminación evidente.",2
+Buscamos personas con mentalidad joven y energía.,sesgo_edad_joven,Uso de 'mentalidad joven' y 'energía' como criterios implícitos de preferencia por jóvenes.,2
+Buscamos jóvenes dinámicos para el área de ventas.,sesgo_edad_joven,"Menciona explícitamente 'jóvenes', favoreciendo candidatos jóvenes y excluyendo a personas mayores.",2
+Se solicita personal menor de 30 años para atención al cliente.,sesgo_edad_joven,"Establece un límite de edad concreto ('menor de 30'), lo que discrimina por edad.",2
+Solo para recién graduados en Ingeniería.,sesgo_edad_joven,"Prefiere 'recién graduados', implicando una preferencia por candidatos jóvenes con poca experiencia.",2
+"Equipo joven y proactivo, preferimos candidatos de hasta 35 años.",sesgo_edad_joven,"Combina la descripción 'joven' con un tope de edad ('hasta 35'), excluyendo a mayores.",2
+Puesto dirigido a menores de 28 años con alta disponibilidad.,sesgo_edad_joven,"Establece un requisito de edad ('menores de 28'), excluyendo a quienes son mayores.",2
+Buscamos becario/a con mentalidad juvenil y poca experiencia.,sesgo_edad_joven,"Asocia 'mentalidad juvenil' y falta de experiencia con la idoneidad, promoviendo preferencia por jóvenes.",2
+Empresa busca programador joven y dinámico (menor de 30 años).,sesgo_edad_joven,"La oferta solicita explícitamente 'joven' y un límite de edad ('menor de 30 años'), favoreciendo candidatos jóvenes y excluyendo potencialmente a solicitantes mayores, lo que constituye sesgo por edad.",2
+Vacante junior: ideal si eres menor de 28 años.,sesgo_edad_joven,"Relaciona el puesto con una edad específica, favoreciendo a candidatos jóvenes.",2
+Buscamos jóvenes proactivos para equipo dinámico y moderno.,sesgo_edad_joven,La oferta solicita 'jóvenes' como requisito implícito para encajar en la cultura del equipo.,2
+"Puesto para recién licenciado, preferentemente menores de 28 años.",sesgo_edad_joven,"Combina 'recién licenciado' con una preferencia de edad, excluyendo candidatos con mayor edad o experiencia previa.",2
+Se busca vendedor entre 20 y 30 años para conectar con público joven.,sesgo_edad_joven,Establece un rango de edad y justifica la discriminación indicando que debe 'conectar' por edad con clientes.,2
+Solo se valorarán candidatos menores de 40 años.,sesgo_edad_joven,"Declara explícitamente una exclusión basada en la edad máxima, favoreciendo a los más jóvenes.",2
+Prácticas para jóvenes con energía — Plaza limitada a menores de 25 años.,sesgo_edad_joven,"Combina la exigencia de juventud con un límite de edad claro, excluyendo candidatos mayores.",2
+Recién graduados sin experiencia: oportunidad para jóvenes dinámicos.,sesgo_edad_joven,"Al pedir 'recién graduados' y describir 'jóvenes', la oferta favorece a candidatos jóvenes frente a candidatos con más edad.",2
+Preferible candidato menor de 35 años.,sesgo_edad_joven,"Indica preferencia por una edad específica por debajo de 35, discriminando por edad.",2
+"Buscamos persona joven, con ganas de aprender y punto de vista fresco.",sesgo_edad_joven,La descripción pide explícitamente 'joven' y asocia cualidades positivas solo a la juventud.,2
+Se busca community manager joven (máximo 30 años).,sesgo_edad_joven,"Establece una edad máxima explícita, excluyendo a personas mayores y favoreciendo candidatos jóvenes.",2
+Se valorará pertenecer a la generación Z o millennials.,sesgo_edad_joven,"Hace referencia explícita a generaciones jóvenes, favoreciendo por edad.",2
+"Se busca administrativo, preferentemente menor de 30 años.",sesgo_edad_joven,"Solicita explícitamente un límite de edad por debajo de 30, favoreciendo candidatos jóvenes.",2
+Se requiere ejecutivo/a con apariencia joven y actitud dinámica.,sesgo_edad_joven,"Menciona explícitamente 'apariencia joven', discriminando por edad y favoreciendo candidatos jóvenes.",2
+Auxiliar contable: preferiblemente jóvenes sin experiencia previa.,sesgo_edad_joven,La preferencia por 'jóvenes' y por falta de experiencia señala un sesgo hacia candidatos de menor edad.,2
+Vacante para marketero joven y dinámico.,sesgo_edad_joven,"Usa el término 'joven', indicando preferencia por candidatos de menor edad.",2
+"Buscamos desarrollador(a) web, preferentemente menores de 30 años.",sesgo_edad_joven,"La frase exige o prefiere una edad específica ('menores de 30 años'), favoreciendo candidatos jóvenes y excluyendo implícitamente a personas mayores, lo que constituye un sesgo por edad hacia la juventud.",2
+"Contrato temporal para recién egresados, se valorará edad entre 20 y 25.",sesgo_edad_joven,"Indica un rango de edad específico (20-25) y prioriza recién egresados, favoreciendo a jóvenes.",2
+"Buscamos programador junior, ideal para estudiantes y recién graduados.",sesgo_edad_joven,"Favorece a recién graduados y estudiantes, lo que apunta a candidatos jóvenes.",2
+Puesto de reparto: se necesita persona joven y en buena forma física.,sesgo_edad_joven,"Relaciona la capacidad física requerida con la juventud, excluyendo a mayores.",2
+Contratamos solo a menores de 28 para prácticas remuneradas.,sesgo_edad_joven,Limita explícitamente las prácticas a personas por debajo de cierta edad.,2
+Se valorará experiencia de hasta 2 años; preferimos recién incorporados al mercado laboral.,sesgo_edad_joven,"Prefiere candidatos con poca experiencia laboral, lo que suele favorecer a personas jóvenes.",2
+Se solicita personal con look juvenil para atención presencial.,sesgo_edad_joven,"Exige una apariencia 'juvenil', discriminando por edad y aspecto físico asociado a juventud.",2
+Se busca joven programador para startup.,sesgo_edad_joven,"La palabra 'joven' indica preferencia por candidatos de menor edad, excluyendo implícitamente a personas mayores.",2
+Preferible candidato entre 20 y 30 años.,sesgo_edad_joven,"Se especifica un rango de edad que limita la contratación a personas jóvenes, discriminando por edad.",2
+Solo se contratará a menores de 35 años.,sesgo_edad_joven,"La frase establece un límite máximo de edad ('menores de 35'), excluyendo a quienes son mayores.",2
+Buscamos perfil joven y con energía.,sesgo_edad_joven,Asociar 'joven' y 'energía' presupone preferencia por la juventud y descarta otras edades.,2
+"Recién graduados bienvenidos, mayores no aplican.",sesgo_edad_joven,"Invita explícitamente a recién graduados y rechaza a personas mayores, manifestando discriminación por edad.",2
+Vacante para jóvenes talentos (18-25 años).,sesgo_edad_joven,"Se fija un rango de edad juvenil (18-25), limitando la oferta a candidatos muy jóvenes.",2
+Se valorará que tengas poca trayectoria y seas menor de 30.,sesgo_edad_joven,"Combina preferencia por poca experiencia con un tope de edad, favoreciendo a candidatos jóvenes.",2
+Oferta dirigida a jóvenes sin cargas familiares.,sesgo_edad_joven,Al pedir 'jóvenes sin cargas familiares' se busca implícitamente a personas más jóvenes y sin responsabilidades asociadas a mayor edad.,2
+"Preferimos candidatos junior, máximo 28 años.",sesgo_edad_joven,La exigencia de 'máximo 28 años' junto a 'junior' establece una barrera de edad contra personas mayores.,2
+Buscamos estudiante o profesional joven para prácticas.,sesgo_edad_joven,La mención de 'estudiante' y 'profesional joven' orienta la vacante exclusivamente a personas de edad temprana.,2
+Se busca personal joven para atención al cliente.,sesgo_edad_joven,"Solicita explícitamente candidatos 'jóvenes', excluyendo o desincentivando a personas mayores.",2
+Preferible menor de 30 años para puesto de marketing.,sesgo_edad_joven,Establece un límite de edad específico que favorece a personas jóvenes.,2
+Buscamos estudiantes o recién graduados con ganas de aprender.,sesgo_edad_joven,Prefiere perfiles típicamente jóvenes como estudiantes o recién titulados.,2
+Solo se considerarán candidatos menores de 35.,sesgo_edad_joven,Indica una condición de exclusión basada en la edad máxima.,2
+Se requiere energía y dinamismo; idealmente personas entre 20 y 30 años.,sesgo_edad_joven,"Asocia cualidades deseadas con un rango de edad concreto, favoreciendo a jóvenes.",2
+Vacante para community manager: buscamos perfil joven y creativo.,sesgo_edad_joven,"Pide un 'perfil joven', lo que discrimina por edad al preferir a personas jóvenes.",2
+Se valorará aspecto y energía juvenil.,sesgo_edad_joven,"Asocia cualidades deseables con 'juventud' (apariencia y energía), favoreciendo a candidatos más jóvenes.",2
+Ideal para estudiantes y jóvenes en busca de experiencia.,sesgo_edad_joven,"Dirige la vacante a estudiantes y jóvenes, excluyendo implícitamente a candidatos de mayor edad.",2
+No se considerarán candidatos mayores de 35 años.,sesgo_edad_joven,"Establece una exclusión explícita por edad, discriminando contra personas mayores de 35.",2
+Se busca persona con mentalidad joven y tecnológica.,sesgo_edad_joven,"Solicita una 'mentalidad joven', vinculando idoneidad al atributo de juventud y generando sesgo etario.",2
+Puesto para jóvenes talentos sin experiencia previa.,sesgo_edad_joven,"Promueve la idea de talentos 'jóvenes' y sin experiencia, excluyendo a candidatos experimentados o mayores.",2
+Contrato orientado a recién incorporados (edad máxima 28).,sesgo_edad_joven,"Impone un requisito de edad máxima, favoreciendo a candidatos jóvenes y discriminando por edad.",2
+"Se busca secretaria, preferiblemente menor de 30 años.",sesgo_edad_joven,"Impone una preferencia por candidatos por debajo de una edad específica, discriminando a personas mayores.",2
+Empresa busca desarrolladores jóvenes y con energía.,sesgo_edad_joven,La mención explícita de 'jóvenes' favorece a personas jóvenes y excluye implícitamente a candidatos de mayor edad.,2
+Puesto ideal para recién graduados sin experiencia.,sesgo_edad_joven,"Al dirigirse a 'recién graduados' se asume preferencia por candidatos jóvenes, limitando el acceso a profesionales mayores.",2
+Solo aceptamos candidatos entre 20 y 28 años.,sesgo_edad_joven,"Establece un rango de edad explícito que excluye a personas fuera de ese rango, favoreciendo únicamente a jóvenes.",2
+Buscamos community manager con perfil juvenil.,sesgo_edad_joven,"La expresión 'perfil juvenil' sugiere preferencia por características asociadas a la juventud, discriminando por edad.",2
+Vacante para jóvenes dinámicos y amantes de lo digital.,sesgo_edad_joven,"Se dirige explícitamente a 'jóvenes', implicando que no se consideran candidatos de mayor edad.",2
+"Se requiere apariencia joven, preferiblemente menores de 35.",sesgo_edad_joven,Solicitar 'apariencia joven' y un límite de edad es una discriminación directa por edad.,2
+Programa de empleo para menores de 25 años.,sesgo_edad_joven,"Limita la participación solo a personas menores de una edad específica, excluyendo a candidatos mayores.",2
+Buscamos talento joven para atraer público joven.,sesgo_edad_joven,"Justifica la selección por edad como estrategia comercial, lo que constituye un sesgo hacia personas jóvenes.",2
+Puesto para jóvenes sin cargas familiares.,sesgo_edad_joven,"Al requerir 'jóvenes sin cargas familiares' se discrimina por edad y por situación familiar, favoreciendo a personas jóvenes.",2
+Buscamos 'nativos digitales' para manejo de redes sociales.,sesgo_edad_joven,El término 'nativos digitales' estereotipa por edad y da ventaja a personas más jóvenes.,2
+Oportunidad para recién egresados y menores de 28 años.,sesgo_edad_joven,"Combina 'recién egresados' y un límite de edad, favoreciendo explícitamente a candidatos jóvenes.",2
+Se buscan jóvenes entre 18 y 30 años para atención al cliente.,sesgo_edad_joven,Indica un rango de edad específico que excluye a personas mayores; favorece a candidatos jóvenes.,2
+"Vacante solo para menores de 35 años, experiencia no requerida.",sesgo_edad_joven,Establece un límite de edad máximo que discrimina a aspirantes mayores.,2
+"Buscamos talento joven, recién graduados.",sesgo_edad_joven,"Prefiere explícitamente a recién graduados, lo que implica preferencia por candidatos jóvenes.",2
+Puesto para jóvenes hasta 28 años con alta energía.,sesgo_edad_joven,"Fija una edad máxima y asocia características (energía) a la juventud, excluyendo a mayores.",2
+Oferta para estudiantes y jóvenes profesionales.,sesgo_edad_joven,"Dirige la vacante a estudiantes y jóvenes, dejando fuera a personas en otras etapas de vida.",2
+Se valorará ser joven (máx. 30 años) para rol dinámico.,sesgo_edad_joven,"Menciona un máximo de edad como criterio deseable, lo cual discrimina por edad.",2
+Puesto para jóvenes entre 20 y 25 años.,sesgo_edad_joven,Establece un rango de edad concreto que excluye a quienes no estén en ese tramo.,2
+Solo para jóvenes: contrato temporal para personas sin cargas familiares.,sesgo_edad_joven,"Solicita explícitamente 'jóvenes' y asume condiciones asociadas a la juventud, discriminando por edad.",2
+Buscamos jóvenes entre 20 y 30 años para puesto de marketing.,sesgo_edad_joven,Exige un rango de edad específico que favorece únicamente a candidatos jóvenes.,2
+"Se necesita personal joven, dinámico y con energía.",sesgo_edad_joven,"Menciona explícitamente 'joven', excluyendo implícitamente a personas mayores.",2
+"Preferible recién graduado, sin más de 2 años de experiencia.",sesgo_edad_joven,Busca perfiles de entrada que normalmente corresponden a personas jóvenes.,2
+Solo estudiantes o menores de 25 años.,sesgo_edad_joven,"Requiere ser estudiante o tener una edad máxima, discriminando por edad.",2
+Se valorará experiencia juvenil y proactividad.,sesgo_edad_joven,El término 'juvenil' sugiere preferencia por la juventud frente a otras edades.,2
+Puesto ideal para recién graduados de la universidad.,sesgo_edad_joven,Indica que el puesto está pensado para personas en etapas tempranas de carrera (jóvenes).,2
+Contratamos exclusivamente personal joven de 20 a 30 años.,sesgo_edad_joven,"Declara exclusividad por rango de edad, excluyendo a candidaturas fuera de ese rango.",2
+Necesitamos jóvenes creativos y flexibles (18-29 años).,sesgo_edad_joven,"Combina un rango de edad con características asociadas a la juventud, generando sesgo etario.",2
+Becarios: plazas solo para jóvenes menores de 26 años.,sesgo_edad_joven,"Restringe las plazas a menores de cierta edad, discriminando a mayores que podrían ser becarios.",2
+Buscamos desarrolladores jóvenes entre 22 y 32 años.,sesgo_edad_joven,"Especifica un rango etario para el puesto, favoreciendo candidatos jóvenes y excluyendo a otros.",2
+"Se busca personal joven, máximo 30 años.",sesgo_edad_joven,"Expresa un límite de edad explícito y favorece a candidatos jóvenes, discriminando por edad.",2
+Buscamos recién graduado sin experiencia.,sesgo_edad_joven,Al pedir 'recién graduado' se asume preferencia por personas jóvenes en etapas iniciales de su carrera.,2
+Preferible candidato menor de 25 años.,sesgo_edad_joven,"Indica preferencia por una edad concreta por debajo de 25 años, excluyendo candidatos mayores.",2
+"Ambiente dinámico y juvenil, sólo personas jóvenes.",sesgo_edad_joven,"Se requiere ser 'joven' para encajar con la cultura del puesto, lo que constituye sesgo por edad.",2
+Buscamos community manager de máxima 30 años.,sesgo_edad_joven,"Solicita una edad máxima concreta, discriminando por edad a quienes superen ese umbral.",2
+Vacante dirigida a jóvenes sin experiencia.,sesgo_edad_joven,Asocia 'jóvenes' con falta de experiencia y limita la búsqueda a ese grupo etario.,2
+Empresa busca talento joven y moderno.,sesgo_edad_joven,"Promueve una preferencia por 'joven' y 'moderno', excluyendo implícitamente a candidatos mayores.",2
+Se valorará preferencia por candidatos menores de 35.,sesgo_edad_joven,"Indica una preferencia por personas por debajo de una edad concreta, generando sesgo etario.",2
+Oferta ideal para recién licenciados que busquen su primer empleo.,sesgo_edad_joven,"Apunta a recién licenciados, que normalmente son jóvenes, restringiendo la vacante a ese grupo.",2
+Puesto pensado para millennials y generación Z.,sesgo_edad_joven,"Dirige la oferta a generaciones jóvenes específicas, excluyendo otras cohortes por edad.",2
+Se busca personal joven para ambiente dinámico y de ritmo rápido.,sesgo_edad_joven,"Relaciona características del puesto con 'personal joven', implicando que otras edades no encajan.",2
+Solo candidatos menores de 25 años serán considerados.,sesgo_edad_joven,Imposición explícita de un máximo de edad que descarta automáticamente a postulantes mayores.,2
+Equipo dinámico busca integrantes jóvenes para crecer juntos.,sesgo_edad_joven,La mención de 'jóvenes' sugiere preferencia por edad y puede excluir a candidatos más veteranos.,2
+Empresa busca jóvenes talentos para puesto de ventas.,sesgo_edad_joven,"Uso de 'jóvenes' como requisito preferente, excluyendo implícitamente a personas mayores.",2
+Se valorará que seas menor de 28 años.,sesgo_edad_joven,"Expresa una preferencia clara por candidatos menores de una edad concreta, discriminando por edad.",2
+Puesto ideal para personas de entre 22 y 27 años.,sesgo_edad_joven,"Define un rango de edad joven como requisito ideal, excluyendo a quienes no estén en ese rango.",2
+"Vacante: programador junior (0-2 años de experiencia), ideal para menores de 25.",sesgo_edad_joven,"Asocia nivel de experiencia y una edad máxima, privilegiando a candidatos jóvenes.",2
+Se requiere energía y actitud joven para atención al cliente.,sesgo_edad_joven,Solicitar 'actitud joven' usa un estereotipo de edad como criterio de selección.,2
+Puesto para estudiantes o profesionales jóvenes.,sesgo_edad_joven,"Indica preferencia por estudiantes y 'jóvenes', excluyendo a quienes no encajen en esas categorías.",2
+Solo candidatos menores de 35 serán considerados.,sesgo_edad_joven,Clara exclusión por edad mediante un requisito máximo.,2
+Buscamos talento joven con perfil tech (18-28 años).,sesgo_edad_joven,"Combina un rango de edad explícito con la palabra 'joven', excluyendo a mayores de 28.",2
+Se priorizarán candidatos menores de 35 años.,sesgo_edad_joven,"Establece una prioridad basada en una edad máxima, favoreciendo a candidatos jóvenes.",2
+Perfil buscado: generación Z o millennials con ganas de innovar.,sesgo_edad_joven,"Hace referencia a generaciones jóvenes, implicando preferencia por candidatos de menor edad.",2
+Oferta para jóvenes sin cargas familiares y con alta movilidad.,sesgo_edad_joven,"Solicita características asociadas a la juventud (sin responsabilidades familiares), excluyendo a candidatos mayores.",2
+Se buscan jóvenes entre 20 y 30 años para atención al cliente.,sesgo_edad_joven,"Especifica un rango de edad joven, excluyendo a personas mayores y favoreciendo candidatos jóvenes.",2
+"Buscamos personal joven, proactivo y con energía.",sesgo_edad_joven,"Indica una preferencia explícita por candidatos 'jóvenes', lo que discrimina por edad.",2
+Preferible candidatos menores de 35 años para el puesto.,sesgo_edad_joven,"Establece un límite máximo de edad, favoreciendo a postulantes jóvenes sobre los mayores.",2
+Vacante para recién graduados sin experiencia previa.,sesgo_edad_joven,"Dirigida a recién graduados, lo que suele implicar preferencia por perfiles jóvenes.",2
+Buscamos desarrolladores para un equipo joven y moderno.,sesgo_edad_mayor,La preferencia por un 'equipo joven' sugiere que candidatos mayores no son bienvenidos.,3
+Solo se considerarán candidatos recién graduados.,sesgo_edad_mayor,Al exigir ser recién graduado se excluyen implícitamente perfiles con más edad y experiencia.,3
+Empresa joven busca personal dinámico y con mentalidad juvenil.,sesgo_edad_mayor,"Prefiere rasgos asociados a la juventud ('mentalidad juvenil'), lo que desplaza a personas mayores.",3
+"Se busca community manager, máximo 30 años.",sesgo_edad_mayor,"Establece un límite de edad explícito que excluye a personas mayores, discriminación por edad.",3
+Se valorará mentalidad millennial y espíritu juvenil.,sesgo_edad_mayor,"Requiere atributos asociados a generaciones más jóvenes, lo que discrimina implícitamente a personas mayores.",3
+Empresa con ambiente joven; no apto para mayores.,sesgo_edad_mayor,"Indica que el puesto no es adecuado para personas mayores, expresando una exclusión por edad.",3
+Perfil: jóvenes estudiantes o recién egresados.,sesgo_edad_mayor,"Prefiere candidatos vinculados a etapas tempranas de carrera, lo que excluye a quienes son de mayor edad.",3
+No se considerarán candidatos mayores de 40.,sesgo_edad_mayor,"Declara explícitamente la exclusión de personas mayores de cierta edad, manifestando discriminación por edad.",3
+Buscamos recién graduados sin experiencia previa.,sesgo_edad_mayor,La exigencia de ser recién graduado favorece implícitamente a candidatos jóvenes y perjudica a personas mayores con trayectoria.,3
+Preferible menor de 30 años.,sesgo_edad_mayor,"Indica preferencia por candidatos más jóvenes, lo que discrimina a postulantes de mayor edad.",3
+Edad máxima 35 años.,sesgo_edad_mayor,"Establece un límite de edad que excluye a personas mayores, constituyendo discriminación por edad.",3
+Se busca personal joven y dinámico.,sesgo_edad_mayor,"Favorece explícitamente a candidatos jóvenes, implicando exclusión o desventaja para personas de mayor edad.",3
+"Preferible candidato menor de 28 años, con energía y ganas de aprender.",sesgo_edad_mayor,"Expresa preferencia por una edad inferior, implicando que candidatos mayores no encajan.",3
+Puesto ideal para personas jóvenes y dinámicas (edad máxima 32).,sesgo_edad_mayor,Limita la edad máxima y asocia cualidades positivas únicamente a personas jóvenes.,3
+No se buscan candidatos con más de 40 años para esta posición operativa.,sesgo_edad_mayor,"Rechaza de forma directa a personas mayores de 40, excluyendo por edad.",3
+Se valorará preferentemente a candidatos menores de 26 años.,sesgo_edad_mayor,"Indica preferencia por edad joven, lo que discrimina a candidatos mayores.",3
+Se valora apariencia juvenil; mayores abstenerse.,sesgo_edad_mayor,"Solicita rasgos asociados a la juventud y pide que las personas mayores no apliquen, discriminando por edad.",3
+Puesto para jóvenes sin cargas familiares (preferiblemente menores de 30).,sesgo_edad_mayor,"Combina preferencia de edad con condición familiar para excluir a candidatos mayores o con responsabilidades, lo que es discriminatorio.",3
+Preferimos candidatos menores de 28 años para este rol.,sesgo_edad_mayor,"Establece un límite de edad que impide a personas mayores postularse, constituyendo sesgo por edad.",3
+Buscamos millennial o Gen Z para integrarse al equipo.,sesgo_edad_mayor,Solicitar cohortes generacionales específicas implica preferencia por grupos de edad más jóvenes y excluye a generaciones mayores.,3
+Ideal para menores de 30: buscamos perfiles modernos y con mentalidad juvenil.,sesgo_edad_mayor,"Asocia capacidad y adecuación al trabajo con ser joven, marginando a personas mayores.",3
+Oferta dirigida exclusivamente a candidatos entre 18 y 29 años.,sesgo_edad_mayor,"Establece un rango de edad que excluye a quienes son mayores, discriminación por edad.",3
+No aplican personas de edad avanzada; buscamos frescura y rapidez.,sesgo_edad_mayor,Descarta explícitamente a personas de mayor edad asociando negativamente su capacidad.,3
+Se prefieren personas jóvenes para adaptarse al ritmo de la startup (máx. 33 años).,sesgo_edad_mayor,Preferencia por edad joven y límite de edad que excluye a candidatos mayores.,3
+Buscamos jóvenes dinámicos entre 22 y 30 años para atención al cliente.,sesgo_edad_mayor,"Especifica un rango de edad que excluye a personas mayores, favoreciendo únicamente a candidatos jóvenes.",3
+Se requiere personal menor de 35 años para trabajo de venta puerta a puerta.,sesgo_edad_mayor,Imposición de un límite máximo de edad que discrimina contra solicitantes mayores de 35 años.,3
+Solo aceptamos recién graduados; no se consideran candidatos mayores.,sesgo_edad_mayor,La preferencia por recién graduados excluye indirectamente a candidatos con más edad y experiencia.,3
+Preferible candidato sin muchas responsabilidades familiares (idealmente menores de 40).,sesgo_edad_mayor,"Relaciona responsabilidades familiares y edad, estableciendo una preferencia por menores de 40 que discrimina a mayores.",3
+No se aceptan candidatos mayores de 40 años.,sesgo_edad_mayor,"Prohíbe explícitamente la contratación de personas por encima de cierta edad, lo que constituye discriminación por edad.",3
+Buscamos persona con actitud joven y energía juvenil.,sesgo_edad_mayor,"Usa características asociadas a la juventud como requisito, excluyendo indirectamente a quienes son mayores.",3
+Ideal para menores de 35 que recién comienzan su carrera.,sesgo_edad_mayor,"Indica preferencia por candidatos menores de una edad concreta, restringiendo la oportunidad a personas jóvenes.",3
+Solo para jóvenes talentos.,sesgo_edad_mayor,"La frase favorece explícitamente a 'jóvenes', creando una barrera para candidatos de mayor edad.",3
+Buscamos talento joven y con energía; no se consideran profesionales senior.,sesgo_edad_mayor,Descarta a profesionales senior por preferencia explícita por candidatos jóvenes.,3
+Preferible persona sin cargas familiares y con mentalidad juvenil.,sesgo_edad_mayor,"Asocia 'mentalidad juvenil' y ausencia de cargas familiares a idoneidad, excluyendo implícitamente a mayores.",3
+No apto para candidatos mayores de 40 años.,sesgo_edad_mayor,Rechaza explícitamente a personas que superen una determinada edad.,3
+"Equipo joven, se busca persona que encaje con la edad del grupo.",sesgo_edad_mayor,"Solicita afinidad por la edad del equipo, lo que discrimina por edad.",3
+Buscamos personal junior: preferible entre 22 y 30 años.,sesgo_edad_mayor,"Limita la búsqueda a un rango de edad concreto, excluyendo a personas mayores.",3
+Puestos destinados a profesionales menores de 30 años.,sesgo_edad_mayor,"Indica que la oferta está dirigida únicamente a menores de cierta edad, excluyendo mayores.",3
+No se considerarán solicitudes de mayores de 45 años.,sesgo_edad_mayor,"Rechaza explícitamente candidaturas por encima de una edad determinada, constituyendo discriminación por edad.",3
+"Buscamos recién graduados, ideal para menores de 28.",sesgo_edad_mayor,La exigencia de ser recién graduado y el límite de edad excluyen a candidatos mayores con experiencia.,3
+Preferible recién graduado sin más de 2 años de experiencia.,sesgo_edad_mayor,Al solicitar recién graduados se está priorizando candidatos jóvenes y descartando implícitamente a candidatos de mayor edad.,3
+"Se busca personal joven, entre 22 y 30 años.",sesgo_edad_mayor,"Establece un rango de edad que excluye explícitamente a personas mayores, favoreciendo candidatos más jóvenes.",3
+Solo aplican menores de 35 años.,sesgo_edad_mayor,Restricción de edad explícita que impide la postulación de personas mayores de 35.,3
+Oferta dirigida a jóvenes talentos.,sesgo_edad_mayor,"La expresión 'jóvenes talentos' limita la convocatoria a personas jóvenes, excluyendo a mayores.",3
+No se aceptan postulantes mayores de 40.,sesgo_edad_mayor,Prohibición explícita por edad; discriminación directa contra personas mayores de 40.,3
+Puesto ideal para personas con energía y actitud juvenil.,sesgo_edad_mayor,Valorar 'actitud juvenil' excluye implícitamente a personas mayores por su edad.,3
+Se busca personal tech-savvy entre 20 y 30 años.,sesgo_edad_mayor,Rango de edad específico que discrimina contra quienes son mayores de 30.,3
+Preferimos candidatos con apariencia y actitud joven.,sesgo_edad_mayor,La preferencia por 'apariencia joven' implica exclusión de personas mayores.,3
+"Vacante para menores de 28 años, ideal para recién incorporados.",sesgo_edad_mayor,Impone un límite de edad que discrimina a quienes son mayores de la cifra indicada.,3
+Se valorará más a candidatos de perfil juvenil y recientes en el mercado laboral.,sesgo_edad_mayor,"Favorece explícitamente a candidatos jóvenes, lo que constituye sesgo por edad.",3
+Puesto ideal para recién graduados (edad máxima 27).,sesgo_edad_mayor,"Establece una edad máxima explícita, discriminando a candidatos mayores.",3
+Vacante solo para jóvenes dinámicos; mayores abstenerse.,sesgo_edad_mayor,Excluye directamente a personas de mayor edad con la frase 'mayores abstenerse'.,3
+No se aceptan candidatos mayores de 40 años.,sesgo_edad_mayor,Rechaza explícitamente a solicitantes por superar una edad determinada.,3
+Buscamos recién graduados sin experiencia previa (edad máxima 28).,sesgo_edad_mayor,"Impone una edad máxima y favorece a recién graduados, excluyendo a personas mayores.",3
+"Candidato ideal: dinámico, con mentalidad joven.",sesgo_edad_mayor,Uso de 'mentalidad joven' como criterio implícito para preferir a personas jóvenes sobre mayores.,3
+"Solo para menores de 30 años, posición temporal.",sesgo_edad_mayor,Restricción explícita de edad que impide aplicar a personas mayores de 30.,3
+Se requiere energía juvenil; mayores de 45 abstenerse.,sesgo_edad_mayor,Combina término discriminatorio y una instrucción directa para que mayores no apliquen.,3
+"Edad entre 18 y 32 años, imprescindible.",sesgo_edad_mayor,Rango de edad obligatorio que excluye a quienes sean mayores del límite superior.,3
+"Empresa moderna, buscamos gente joven para nuestro equipo.",sesgo_edad_mayor,"Frase que expresa preferencia por jóvenes, implicando desventaja para personas mayores.",3
+Ambiente de trabajo para jóvenes; no se considerarán personas mayores.,sesgo_edad_mayor,"Afirma explícitamente que las personas mayores no serán consideradas, lo que es discriminatorio por edad.",3
+Preferible candidata menor de 35 años.,sesgo_edad_mayor,"Establece una preferencia por edad máxima, discriminando a solicitantes mayores.",3
+Ideal para personas con energía juvenil y mente fresca.,sesgo_edad_mayor,"Sugiere que solo quienes aparenten juventud son adecuados, lo que discrimina a personas mayores.",3
+Edad máxima 40 años.,sesgo_edad_mayor,Establece un límite de edad que excluye automáticamente a candidatos mayores a esa cifra.,3
+Se prefiere personal joven para adaptarse al ritmo de la empresa.,sesgo_edad_mayor,"La preferencia por 'personal joven' implica que los mayores son menos deseables, generando sesgo por edad.",3
+Buscamos personal para redes sociales: edad entre 20 y 30 años.,sesgo_edad_mayor,"Define un rango de edad que limita la contratación a personas jóvenes, excluyendo mayores de 30.",3
+Se buscan candidatos con menos de 35 años para puesto operativo.,sesgo_edad_mayor,"Indica explícitamente un requisito de edad máxima, excluyendo a quienes superen los 35 años.",3
+"Requerimos recién graduado en marketing, hasta 26 años.",sesgo_edad_mayor,"Combina 'recién graduado' con un tope de edad, lo que impide la postulación de profesionales mayores.",3
+"Vacante: comercial, perfil joven y dinámico.",sesgo_edad_mayor,La expresión 'joven' sugiere preferencia por personas más jóvenes y excluye implícitamente a mayores.,3
+"Se busca community manager, preferiblemente menor de 30 años.",sesgo_edad_mayor,Hace una preferencia explícita por candidatos más jóvenes indicando un límite de edad.,3
+"Se busca recepcionista, preferiblemente menor de 35 años.",sesgo_edad_mayor,"La frase expresa una preferencia explícita por candidatos jóvenes ('menor de 35 años'), excluyendo o desalentando a personas de mayor edad y constituyendo discriminación por edad.",3
+Se buscan jóvenes dinámicos (18-30 años) para atención al cliente.,sesgo_edad_mayor,"Declara un rango de edad específico que excluye a personas mayores, favoreciendo solo a jóvenes.",3
+Se valora apariencia juvenil; no apto para mayores.,sesgo_edad_mayor,"Asocia la idoneidad al aspecto juvenil y descarta a personas mayores, constituyendo sesgo por edad.",3
+Solo personas jóvenes — no mayores de 40 — para atención al cliente.,sesgo_edad_mayor,"Declara explícitamente que los mayores de 40 no serán considerados, constituuyendo discriminación por edad.",3
+Se prefiere personal menor de 32 años para tareas físicas.,sesgo_edad_mayor,"La preferencia por una edad máxima excluye a trabajadores mayores, aun cuando la tarea podría realizarse por ellos.",3
+Puesto de diseño: ideal para menores de 29 años.,sesgo_edad_mayor,"Califica el perfil como 'ideal' para menores de cierta edad, favoreciendo a candidatos jóvenes sobre mayores.",3
+Necesitamos becario universitario (no mayores de 25 años).,sesgo_edad_mayor,"Establece un límite de edad para una posición formativa, excluyendo a posibles becarios mayores de 25.",3
+Candidato ideal: menor de 35 y con disponibilidad nocturna.,sesgo_edad_mayor,Incluye un requisito de edad que excluye a postulantes mayores de 35.,3
+Preferimos perfiles junior y menores de 28 años.,sesgo_edad_mayor,"Combina preferencia por nivel junior con un tope de edad, discriminando a candidatos mayores.",3
+Se requiere actitud joven y adaptabilidad al ritmo.,sesgo_edad_mayor,"Pide 'actitud joven', lo que estereotipa y puede excluir a personas mayores por suponer menor adaptabilidad.",3
+Vacante para quienes estén empezando su carrera (no mayores de 30).,sesgo_edad_mayor,Dirigida a quienes comienzan su carrera con una exclusión explícita de mayores de 30 años.,3
+Se buscan candidatos jóvenes y dinámicos para atención al cliente.,sesgo_edad_mayor,"Prefiere explícitamente candidatos 'jóvenes', desalentando a personas de mayor edad y excluyendo por edad.",3
+No mayores de 35 años.,sesgo_edad_mayor,"Establece un límite de edad máximo que excluye a personas mayores, discriminación por edad.",3
+Preferible edad entre 22 y 30 años.,sesgo_edad_mayor,"Indica una preferencia por un rango etario bajo, marginando a candidatos de más edad.",3
+Buscamos recién egresados; no se considerarán perfiles senior.,sesgo_edad_mayor,Excluye implícitamente a personas con más experiencia/edad al priorizar solo recién egresados.,3
+"Perfil juvenil, con energía; no aplican mayores de 40.",sesgo_edad_mayor,Combina términos que favorecen la juventud con una prohibición explícita para mayores de 40 años.,3
+Sólo se aceptan postulantes menores de 28 años.,sesgo_edad_mayor,"Requisito de edad máxima que excluye a personas mayores, constituyendo discriminación por edad.",3
+Se busca frescura juvenil; experiencia avanzada no es bienvenida.,sesgo_edad_mayor,"Valora la 'frescura juvenil' y descarta experiencia extensa, lo que desalienta a candidatos mayores.",3
+Se valorará actitud joven acorde a la cultura de la empresa.,sesgo_edad_mayor,La preferencia por una 'actitud joven' excluye o desincentiva a personas de mayor edad.,3
+No contratar mayores de 45 años.,sesgo_edad_mayor,"Prohibición explícita de contratar a personas mayores de una determinada edad, discriminatoria.",3
+Se prefieren candidatos de menos de 30 años para puestos operativos.,sesgo_edad_mayor,"Preferencia por menores de 30 años para ciertas tareas, lo que excluye a solicitantes mayores.",3
+"Se busca asistente administrativo, máximo 30 años.",sesgo_edad_mayor,Establece un límite de edad máximo explícito que excluye a personas mayores de 30 años.,3
+Oferta para programador junior (preferiblemente menores de 28 años).,sesgo_edad_mayor,"Prefiere candidatos por debajo de una edad concreta, discriminando a candidatos mayores.",3
+Buscamos jóvenes dinámicos de entre 20 y 30 años.,sesgo_edad_mayor,"Establece un rango de edad que excluye a personas mayores, favoreciendo solo candidatos jóvenes.",3
+No se considerarán candidatos mayores de 35 años.,sesgo_edad_mayor,"Declara explícitamente una edad máxima, discriminando a quienes superan ese umbral.",3
+Oferta dirigida a candidatos menores de 30.,sesgo_edad_mayor,"Indica una preferencia por menores de cierta edad, excluyendo a trabajadores mayores.",3
+Puesto junior: solo para menores de 26 años.,sesgo_edad_mayor,"Restringe la vacante a personas por debajo de una edad específica, lo que constituye sesgo por edad.",3
+Se busca personal entre 18 y 25 años para atención al cliente.,sesgo_edad_mayor,"Fija un rango de edad joven, lo que impide la postulación de candidatos mayores.",3
+Ideal para recién graduados; perfil joven requerido.,sesgo_edad_mayor,Al priorizar 'recién graduados' y 'perfil joven' se discrimina indirectamente a personas de mayor edad.,3
+Preferible personal menor de 28 años con alta energía.,sesgo_edad_mayor,La preferencia por edad y 'energía' sugiere exclusión de candidatos mayores.,3
+Buscamos talento joven para integrarse al equipo.,sesgo_edad_mayor,La expresión 'talento joven' implica una preferencia de edad que puede excluir a mayores.,3
+Se solicita vendedor entre 22 y 29 años.,sesgo_edad_mayor,"Establece un rango etario limitado que discrimina a candidatos fuera de ese rango, incluidos mayores.",3
+Preferimos profesionales en inicio de carrera (edad máxima 29).,sesgo_edad_mayor,"Combina 'inicio de carrera' con un límite de edad explícito, excluyendo a quienes son mayores.",3
+Se buscan jóvenes dinámicos para el puesto.,sesgo_edad_mayor,"Prefiere explícitamente a 'jóvenes', implicando exclusión o desventaja para personas mayores.",3
+Preferible menor de 30 años.,sesgo_edad_mayor,Establece un límite de edad que discrimina a quienes son mayores de 30.,3
+Se valoran candidatos recién graduados.,sesgo_edad_mayor,"Busca recién graduados, lo que desfavorece a postulantes con mayor edad o experiencia previa fuera de ese rango.",3
+Oferta dirigida a personas jóvenes y con energía.,sesgo_edad_mayor,"Asocia cualidades positivas a la juventud, implicando que las personas mayores no cumplen esas características.",3
+No se considerarán candidatos mayores de 40 años.,sesgo_edad_mayor,"Exclusión explícita basada en la edad, discriminando a quienes superan los 40 años.",3
+Buscamos talento joven para integrarse al equipo.,sesgo_edad_mayor,"Prioriza 'talento joven', sugiriendo preferencia por personas menores frente a mayores.",3
+Buscamos talento joven con mentalidad fresca (no apto para mayores).,sesgo_edad_mayor,"Uso explícito de 'no apto para mayores' y valoriza la juventud, excluyendo a personas de mayor edad.",3
+No contratar a mayores de 45 años debido a ritmos de trabajo exigentes.,sesgo_edad_mayor,"Exclusión directa basada en la edad, justificando la discriminación por requerimientos de ritmo laboral.",3
+Oferta para jóvenes sin experiencia que quieran crecer en la empresa.,sesgo_edad_mayor,"La convocatoria se dirige solo a 'jóvenes', lo que implica la exclusión de candidatos de mayor edad.",3
+Se valora energía juvenil; abstenerse candidatos de más de 50 años.,sesgo_edad_mayor,Combina la preferencia por 'energía juvenil' con una instrucción explícita para que mayores de 50 no apliquen.,3
+Vacante para millennials y generación Z; no aplican generaciones anteriores.,sesgo_edad_mayor,La mención explícita de generaciones más jóvenes excluye y discrimina a generaciones mayores.,3
+Preferimos candidatos de entre 20 y 32 años por cultura de equipo.,sesgo_edad_mayor,"Preferencia por un rango de edad concreto que impide la participación de personas mayores, justificándolo por 'cultura'.",3
+"Se busca personal joven, entre 22 y 30 años.",sesgo_edad_mayor,Establece un rango de edad que excluye a personas mayores; discriminación por edad.,3
+Preferentemente menores de 35 años para puesto de atención al cliente.,sesgo_edad_mayor,"Indica preferencia por candidatos más jóvenes, lo que desfavorece a mayores de 35.",3
+Preferimos candidatos de entre 22 y 30 años.,sesgo_edad_mayor,"Define un rango de edad que excluye a quienes son mayores, constituyendo un sesgo por edad.",3
+No contratamos personal mayor de 50 años.,sesgo_edad_mayor,"Afirma de forma directa la exclusión de personas mayores de cierta edad, siendo una discriminación por edad.",3
+Buscamos jóvenes talentos (no mayores de 30) para nuestro equipo comercial.,sesgo_edad_mayor,"Excluye explícitamente a candidatos mayores de 30 años, favoreciendo a personas más jóvenes.",3
+Se requieren recién graduados; no se considerarán postulaciones de personas de más de 35 años.,sesgo_edad_mayor,Declara directamente que candidaturas de personas mayores de 35 no serán consideradas.,3
+"Puesto para menores de 25, preferencia para perfiles jóvenes.",sesgo_edad_mayor,Establece una edad máxima y una preferencia explícita por candidatos jóvenes.,3
+Chofer — contratación solo para ciudadanos de la Unión Europea.,sesgo_nacionalidad,"Limita la oferta a personas de una determinada ciudadanía (UE), excluyendo a otros por su nacionalidad.",4
+Buscamos ingeniero — no se aceptan postulantes extranjeros.,sesgo_nacionalidad,"Descarta a cualquier persona catalogada como ""extranjera"", basando la selección en la nacionalidad en lugar de competencias.",4
+Camarero — preferimos candidatos latinoamericanos.,sesgo_nacionalidad,"Otorga preferencia a una región/nacionalidad específica, lo que es un sesgo por origen nacional o étnico.",4
+Solo para mexicanos con experiencia.,sesgo_nacionalidad,Limita la vacante a una nacionalidad específica sin relación clara con las habilidades requeridas.,4
+Se busca únicamente ciudadanos españoles para el puesto.,sesgo_nacionalidad,Excluye candidatos por no ser ciudadanos españoles; discriminación basada en nacionalidad.,4
+Recepcionista — no contrataremos inmigrantes.,sesgo_nacionalidad,"Rechaza a personas por su condición de inmigrante (vinculada a nacionalidad/estatus migratorio), lo que es discriminatorio.",4
+Desarrollador — se buscan únicamente candidatos extranjeros.,sesgo_nacionalidad,"Requiere ser extranjero como criterio de contratación, discriminando en función de la nacionalidad local vs. extranjera.",4
+"Se busca diseñador gráfico, solo para argentinos.",sesgo_nacionalidad,Exclusión explícita de personas que no sean de determinada nacionalidad; discrimina por origen nacional.,4
+Se necesita recepcionista — no extranjeros.,sesgo_nacionalidad,"Rechaza de forma general a personas de otras nacionalidades, constituyendo discriminación por nacionalidad.",4
+Se contrata recepcionista: solo ciudadanos mexicanos.,sesgo_nacionalidad,Excluye explícitamente a candidatos que no sean de una nacionalidad específica.,4
+Buscamos ingeniero — preferible de nacionalidad española.,sesgo_nacionalidad,Indica una preferencia basada en la nacionalidad del candidato.,4
+Puesto de conductor: se requiere ser ciudadano estadounidense.,sesgo_nacionalidad,"Condiciona el empleo a la ciudadanía de un país concreto, implicando sesgo por nacionalidad.",4
+Preferible candidato con pasaporte europeo.,sesgo_nacionalidad,Da ventaja a personas de determinadas nacionalidades al exigir/privilegiar un pasaporte.,4
+Oferta para vendedor: solo residentes con nacionalidad colombiana o chilena.,sesgo_nacionalidad,"Restringe la contratación a dos nacionalidades específicas, manifestando sesgo nacional.",4
+Solo se contratarán candidatos españoles.,sesgo_nacionalidad,Excluye explícitamente a personas que no sean de nacionalidad española; requisito basado en nacionalidad.,4
+Vacante: administrativo — preferimos mexicanos nativos.,sesgo_nacionalidad,"Prefiere candidatos por su nacionalidad en lugar de competencias o autorización laboral, lo que constituye sesgo por nacionalidad.",4
+No se contratan inmigrantes; se dará preferencia a ciudadanos locales.,sesgo_nacionalidad,"Discimina en función del estatus migratorio y la nacionalidad, favoreciendo a locales.",4
+Vacante para supervisor: solo para nacionales peruanos.,sesgo_nacionalidad,Limita la postulación exclusivamente a personas de una determinada nacionalidad.,4
+Puesto: traductor — únicamente ciudadanos argentinos.,sesgo_nacionalidad,"Exige ser de una nacionalidad concreta, excluyendo a otros postulantes.",4
+Oferta solo para ciudadanos de Estados Unidos.,sesgo_nacionalidad,"Limita la convocatoria exclusivamente a una ciudadanía concreta, exclusión basada en nacionalidad.",4
+Se prefieren candidatos españoles o portugueses antes que marroquíes.,sesgo_nacionalidad,"Establece una jerarquía entre nacionalidades, mostrando discriminación por origen nacional.",4
+Se evita contratar a personas de nacionalidad rumana.,sesgo_nacionalidad,"Declara explícitamente la intención de no contratar por nacionalidad, conducta discriminatoria.",4
+Requerimos nacionalidad chilena por motivos administrativos.,sesgo_nacionalidad,"Solicita una nacionalidad específica como requisito, lo cual es una restricción por nacionalidad.",4
+Contrato disponible únicamente para ciudadanos estadounidenses.,sesgo_nacionalidad,"Restringe el empleo a ciudadanos de un país específico, excluyendo otras nacionalidades.",4
+"Se buscan desarrolladores, preferiblemente chinos.",sesgo_nacionalidad,"Indica preferencia por candidatos de nacionalidad china, implicando sesgo por origen.",4
+Se priorizará a candidatos venezolanos.,sesgo_nacionalidad,Preferencia explícita por la nacionalidad venezolana sobre otras nacionalidades.,4
+Solo aplican argentinos o residentes permanentes.,sesgo_nacionalidad,Limita la postulación a personas de una nacionalidad concreta o estatus migratorio específico.,4
+Requerimos ciudadanía colombiana para el puesto.,sesgo_nacionalidad,"Establece como requisito la ciudadanía colombiana, discriminando a quienes no la poseen.",4
+No se aceptan extranjeros.,sesgo_nacionalidad,Exclusión explícita de personas consideradas 'extranjeras' por su nacionalidad.,4
+Preferible que el candidato sea mexicano.,sesgo_nacionalidad,"Indica preferencia por nacionalidad específica, discriminando por origen.",4
+Se busca administrativo. Solo candidatos con pasaporte español.,sesgo_nacionalidad,Excluye a personas por no tener pasaporte español; requisito de nacionalidad.,4
+Se busca personal europeo únicamente.,sesgo_nacionalidad,"Limita la selección a personas de una región/nacionalidad concreta, lo que constituye sesgo por nacionalidad.",4
+Contratamos solo trabajadores de nacionalidad argentina.,sesgo_nacionalidad,"Exclusión explícita de otros nacionales, decisión basada en la nacionalidad.",4
+No aceptamos postulaciones de nacionales peruanos.,sesgo_nacionalidad,Prohíbe candidaturas basadas únicamente en la nacionalidad peruana; es discriminatorio.,4
+Vacante exclusiva para residentes y ciudadanos chilenos.,sesgo_nacionalidad,Restringe la oferta a una nacionalidad/residencia específica sin justificarlo por requisitos legales.,4
+Se dará prioridad a candidatos británicos.,sesgo_nacionalidad,"Otorga trato preferencial por nacionalidad, favoreciendo a británicos sobre otros.",4
+Requiere ser ciudadano estadounidense.,sesgo_nacionalidad,"Condiciona el empleo a la ciudadanía estadounidense, excluyendo por nacionalidad.",4
+Preferimos candidatos extranjeros (no mexicanos).,sesgo_nacionalidad,Hace una preferencia/exclusión basada en la nacionalidad en lugar de criterios profesionales.,4
+No contratamos a candidatos de nacionalidad venezolana.,sesgo_nacionalidad,"Rechaza explícitamente postulantes por su nacionalidad, constituyendo discriminación.",4
+Se busca asistente — candidatos suramericanos no serán considerados.,sesgo_nacionalidad,"Descarta candidatos por su origen geográfico/nacional (suramericanos), lo que constituye sesgo por nacionalidad.",4
+Contratamos exclusivamente a trabajadores de la Unión Europea.,sesgo_nacionalidad,"Restringe la contratación a personas de una agrupación de nacionalidades (UE), excluyendo a otras nacionalidades.",4
+Se requiere DNI español (solo españoles).,sesgo_nacionalidad,"Pide un documento de identidad nacional concreto y aclara exclusión de no españoles, discriminando por nacionalidad.",4
+Solo aceptamos solicitudes de personas con nacionalidad peruana.,sesgo_nacionalidad,"Exige específicamente la nacionalidad peruana para postular, excluyendo a quienes no la poseen.",4
+Se prefiere candidato europeo.,sesgo_nacionalidad,"Favorece a candidatos por pertenecer a una región/nacionalidad (europea), introduciendo sesgo nacional/continental.",4
+No contratamos extranjeros.,sesgo_nacionalidad,"Rechaza explícitamente a personas por ser extranjeras, lo que es discriminación por nacionalidad.",4
+Vacante abierta únicamente para ciudadanos argentinos.,sesgo_nacionalidad,"Limita la oferta laboral exclusivamente a personas con la nacionalidad argentina, discriminando por país.",4
+Se requiere pasaporte chileno para aplicar.,sesgo_nacionalidad,"Condiciona la postulación a tener documentación de una nacionalidad concreta (chilena), excluyendo a otras nacionalidades.",4
+Se busca recepcionista — preferencia por mexicanos.,sesgo_nacionalidad,"Indica una preferencia basada en la nacionalidad (mexicana), favoreciendo a un grupo nacional sobre otros.",4
+Buscamos ingeniero: solo ciudadanos españoles.,sesgo_nacionalidad,Excluye candidatos por su nacionalidad al requerir específicamente ser ciudadano español.,4
+Buscamos personal que hable español nativo y sea de Perú.,sesgo_nacionalidad,"Combina requisito de idioma con exigencia de ser de una nacionalidad concreta, discriminando por origen.",4
+No contratamos a personas de nacionalidad india.,sesgo_nacionalidad,Exclusión explícita por nacionalidad (discriminación directa contra personas indias).,4
+Puesto de limpieza: se buscan venezolanos.,sesgo_nacionalidad,"Solicita explícitamente personas de una nacionalidad concreta para el puesto, lo que constituye sesgo.",4
+"Buscamos ingeniero, preferentemente mexicano.",sesgo_nacionalidad,"Indica una preferencia por candidatos de una nacionalidad específica, favoreciendo a mexicanos.",4
+Se requiere ser ciudadano estadounidense para aplicar.,sesgo_nacionalidad,"Pide ciudadanía de un país concreto como condición para postular, discriminando por nacionalidad.",4
+No aceptamos solicitudes de extranjeros.,sesgo_nacionalidad,Rechaza de forma general a personas de otras nacionalidades; exclusión directa por nacionalidad.,4
+Vacante: enfermero — solo residentes de Colombia.,sesgo_nacionalidad,"Limita la candidatura a personas residentes en un país específico, vinculando el puesto a nacionalidad/residencia.",4
+Se valorará más a candidatos argentinos.,sesgo_nacionalidad,Manifiesta una valoración preferente por la nacionalidad argentina frente a otras nacionalidades.,4
+Contratamos únicamente personal de la Unión Europea.,sesgo_nacionalidad,"Restringe la contratación a personas de una región/nacionalidad determinada, excluyendo a otros.",4
+Solicitamos personal nativo de Perú para atención al cliente.,sesgo_nacionalidad,"Pide que el candidato sea nativo de un país determinado, favoreciendo la nacionalidad sobre la idoneidad.",4
+Requerimos pasaporte chileno.,sesgo_nacionalidad,"Exige un documento de identidad nacional específico como requisito, discriminando por nacionalidad.",4
+Se necesita cocinero — no se considerarán postulantes de nacionalidades africanas.,sesgo_nacionalidad,"Descarta candidatos por su nacionalidad o región de origen, constituyendo sesgo nacional.",4
+Se busca asistente administrativo — solo candidatos españoles.,sesgo_nacionalidad,"La oferta excluye explícitamente a personas por su nacionalidad en vez de basarse en competencias o requisitos laborales, lo que constituye discriminación por origen nacional.",4
+Se requiere ser ciudadano colombiano.,sesgo_nacionalidad,"Condiciona la contratación a la ciudadanía, lo que discrimina por nacionalidad salvo en casos legales excepcionales.",4
+Se busca cajero/a — solo ciudadanos españoles.,sesgo_nacionalidad,"La oferta excluye explícitamente a personas por su nacionalidad en lugar de basarse en capacidades o requisitos laborales, favoreciendo únicamente a ciudadanos españoles y por tanto mostrando discriminación por nacionalidad.",4
+Puestos técnicos: preferencia por peruanos con experiencia.,sesgo_nacionalidad,Prioriza candidatos según su nacionalidad en lugar de criterios neutrales como habilidades o experiencia.,4
+Contrato disponible solo para ciudadanos de la Unión Europea.,sesgo_nacionalidad,"Restricción basada en pertenencia a un conjunto de nacionalidades, excluye a quienes no pertenecen a esa región.",4
+Buscamos ingeniero — solo latinoamericanos.,sesgo_nacionalidad,"Limita la búsqueda a candidatos de una región/nacionalidad, introduciendo sesgo por origen nacional.",4
+Solo aceptamos postulantes cubanos.,sesgo_nacionalidad,Exclusividad por nacionalidad que impide la participación de solicitantes de otras nacionalidades.,4
+No se considerarán candidaturas de venezolanos.,sesgo_nacionalidad,"Exclusión directa y explícita de una nacionalidad concreta, resultado en discriminación por nacionalidad.",4
+Ofrecemos puesto para españoles con residencia en España únicamente.,sesgo_nacionalidad,"Limita la vacante a personas de una nacionalidad específica, excluyendo a solicitantes de otras nacionalidades aunque puedan tener derecho a trabajar.",4
+Solicitamos personal administrativo; no aceptamos extranjeros.,sesgo_nacionalidad,"Rechaza a personas por su condición de extranjero, discriminación por origen nacional.",4
+Profesora de inglés — solo para nativos británicos.,sesgo_nacionalidad,"Relaciona la idoneidad con la nacionalidad (británico) en vez de evaluar competencia lingüística, constituyendo sesgo.",4
+Marketing digital — no se considerarán candidatos de nacionalidad venezolana.,sesgo_nacionalidad,"Exclusión explícita de una nacionalidad concreta (venezolana), discriminatoria por origen nacional.",4
+Atención al cliente — prioridad a candidatos colombianos.,sesgo_nacionalidad,"Otorga prioridad a una nacionalidad específica, afectando la igualdad de oportunidades por motivo de origen.",4
+Técnico de mantenimiento — únicamente para nacionales mexicanos.,sesgo_nacionalidad,"Restringe la contratación a personas de una nacionalidad particular, constituyendo discriminación por nacionalidad.",4
+Auxiliar administrativo — solo para ciudadanos españoles.,sesgo_nacionalidad,"Excluye candidatos por su nacionalidad (solo españoles), lo que constituye discriminación por nacionalidad.",4
+Se requiere candidato con ciudadanía chilena.,sesgo_nacionalidad,"Exige la ciudadanía de un país específico (Chile), limitando el acceso según nacionalidad.",4
+Solo aceptamos solicitudes de extranjeros.,sesgo_nacionalidad,"Discrimina al aceptar únicamente a personas consideradas 'extranjeras', basándose en su origen.",4
+Puesto para profesionales de nacionalidad francesa.,sesgo_nacionalidad,"Solicita la nacionalidad francesa como criterio de elegibilidad, lo que constituye sesgo por nacionalidad.",4
+Oferta abierta únicamente a ciudadanos de Estados Unidos.,sesgo_nacionalidad,Exclusión explícita de postulantes que no sean ciudadanos de un país concreto.,4
+Necesitamos empleados con pasaporte mexicano.,sesgo_nacionalidad,"Requiere un documento de identidad nacional específico (pasaporte mexicano), limitando por nacionalidad.",4
+Vacante: preferencia por candidatos argentinos.,sesgo_nacionalidad,"Indica una preferencia basada en la nacionalidad (argentinos), discriminando por origen.",4
+Se busca personal: solo ciudadanos españoles.,sesgo_nacionalidad,Excluye candidatos por su nacionalidad al exigir ser ciudadano español.,4
+Puesto dirigido exclusivamente a peruanos.,sesgo_nacionalidad,"Restringe la oferta a personas de nacionalidad peruana, constituyendo sesgo por nacionalidad.",4
+Contratación exclusiva para residentes y ciudadanos estadounidenses.,sesgo_nacionalidad,"Limita la contratación a ciudadanos/ residentes de Estados Unidos, discriminando por nacionalidad.",4
+No se aceptan solicitudes de personas de nacionalidad venezolana.,sesgo_nacionalidad,Exclusión directa de candidatos por su nacionalidad (venezolana).,4
+Preferible candidato de nacionalidad española.,sesgo_nacionalidad,"Indica una preferencia basada en la nacionalidad (española), favoreciendo a un grupo nacional.",4
+Preferible candidato mexicano con experiencia.,sesgo_nacionalidad,Indica una preferencia basada en la nacionalidad (mexicana) en lugar de habilidades o experiencia genérica.,4
+"Se busca administrativo, solo para ciudadanos españoles.",sesgo_nacionalidad,"Excluye explícitamente a personas que no sean ciudadanos españoles, discriminación por nacionalidad.",4
+Vacante solo para ciudadanos británicos.,sesgo_nacionalidad,"Limita la participación a ciudadanos de Reino Unido, lo que es un sesgo basado en nacionalidad.",4
+Requerimos trabajador con pasaporte italiano.,sesgo_nacionalidad,"Condiciona la contratación a poseer un pasaporte de Italia, discriminando por nacionalidad.",4
+Preferimos profesionales de países de la Unión Europea.,sesgo_nacionalidad,"Establece una preferencia por candidatos según su pertenencia a países de la UE, introduciendo sesgo nacional.",4
+No se considerarán candidaturas de nacionalidad rumana.,sesgo_nacionalidad,"Rechaza expresamente solicitantes por su nacionalidad (rumana), discriminación directa.",4
+Solo candidatos con pasaporte estadounidense.,sesgo_nacionalidad,"Exige un pasaporte de un país específico (Estados Unidos), discriminando por nacionalidad.",4
+Se buscan vendedores — solo ciudadanos mexicanos.,sesgo_nacionalidad,"Requiere explícitamente la ciudadanía mexicana, excluyendo por nacionalidad a otros candidatos.",4
+Buscamos personal: candidatos de nacionalidad venezolana.,sesgo_nacionalidad,"Solicita candidatos según su nacionalidad (venezolana), lo que condiciona la selección por país de origen.",4
+Extranjeros abstenerse de aplicar.,sesgo_nacionalidad,"Llamado directo a que las personas extranjeras no postulen, manifiesta discriminación por nacionalidad.",4
+"Se solicita gerente, solo para residentes con pasaporte chileno.",sesgo_nacionalidad,"Exige un pasaporte chileno, excluyendo a quienes no tengan esa nacionalidad pese a su idoneidad.",4
+Preferencia: personas nacidas en Perú.,sesgo_nacionalidad,"Se prioriza el lugar de nacimiento (Perú) como criterio de selección, discriminatorio por nacionalidad/origen.",4
+Contratamos solo trabajadores colombianos.,sesgo_nacionalidad,"Limita la contratación a personas de una nacionalidad concreta (colombiana), lo que constituye sesgo por nacionalidad.",4
+Responsable de ventas: nativo de Argentina.,sesgo_nacionalidad,"Solicita explícitamente que el candidato sea nativo de Argentina, condicionando la selección a la nacionalidad/origen.",4
+Puesto disponible únicamente para residentes europeos.,sesgo_nacionalidad,"Restringe la vacante a personas de una región/nacionalidad específica (Europa), excluyendo otras nacionalidades.",4
+No se contratarán extranjeros.,sesgo_nacionalidad,"Rechaza a solicitantes por ser extranjeros, discriminación directa por nacionalidad.",4
+"Se prefiere personal local, sin extranjeros.",sesgo_nacionalidad,"Declara preferencia por locales y rechazo a extranjeros, basándose en la condición de nacionalidad.",4
+Oferta válida solo para titulares de DNI chileno.,sesgo_nacionalidad,"Requiere un documento nacional específico (DNI chileno), implicando restricción por nacionalidad.",4
+Solo se contratará a candidatos españoles.,sesgo_nacionalidad,"Excluye a personas por su nacionalidad, limitando la contratación únicamente a españoles.",4
+Preferible que sea ciudadano mexicano.,sesgo_nacionalidad,Otorga preferencia basada en la nacionalidad (mexicana) en lugar de criterios profesionales.,4
+No se aceptan solicitantes de origen extranjero.,sesgo_nacionalidad,"Rechaza candidaturas por ser de nacionalidad extranjera, discriminación directa por nacionalidad.",4
+Buscamos empleados latinoamericanos para el puesto.,sesgo_nacionalidad,"Establece la región de procedencia (latinoamericana) como requisito, excluyendo otras nacionalidades.",4
+Requerimos nacionalidad argentina para tramitar contrato.,sesgo_nacionalidad,"Condiciona la contratación a poseer la nacionalidad argentina, discriminando por nacionalidad.",4
+Se valorará positivamente si es natural de Colombia.,sesgo_nacionalidad,"Introduce un sesgo favorable hacia candidatos colombianos, basándose en su nacionalidad.",4
+Vacante exclusiva para residentes y ciudadanos españoles.,sesgo_nacionalidad,"Limita la vacante a residentes/ciudadanos de un país concreto, excluyendo a otras nacionalidades.",4
+No se considerarán inmigrantes; solo nacidos en el país.,sesgo_nacionalidad,"Excluye por condición de inmigrante o lugar de nacimiento, discriminando por origen/nacionalidad.",4
+Solo candidatos con ciudadanía europea.,sesgo_nacionalidad,"Restringe la vacante a personas con ciudadanía de países europeos, excluyendo otras nacionalidades.",4
+Vacante abierta únicamente a nacionales de Argentina.,sesgo_nacionalidad,"Oferta dirigida exclusivamente a argentinos, lo que constituye sesgo por nacionalidad.",4
+Se valorará experiencia de profesionales peruanos.,sesgo_nacionalidad,"Otorga ventaja a candidatos de una nacionalidad concreta, generando sesgo nacional.",4
+Buscamos ingeniero colombiano; no se considerarán europeos.,sesgo_nacionalidad,"Favorece una nacionalidad y explícitamente excluye otra región, discriminación por nacionalidad.",4
+Solo candidatos con pasaporte argentino serán aceptados.,sesgo_nacionalidad,"Requiere pasaporte de un país concreto, excluyendo a quienes tengan otra nacionalidad.",4
+Se requiere pasaporte británico.,sesgo_nacionalidad,"Exige un documento de identidad nacional (pasaporte británico), condicionando la postulación a nacionalidad.",4
+Vacante exclusiva para ciudadanos de la Unión Europea.,sesgo_nacionalidad,"Limita el puesto a ciudadanos de una determinada agrupación de nacionalidades (UE), discriminando a otras.",4
+Prioridad a candidatos con ciudadanía estadounidense.,sesgo_nacionalidad,"Otorga prioridad por tener la ciudadanía de Estados Unidos, basando la selección en la nacionalidad.",4
+Contrato disponible solo para titulares de pasaporte canadiense.,sesgo_nacionalidad,"Restringe la contratación a poseedores de pasaporte de Canadá, discriminando por nacionalidad.",4
+Se busca personal latinoamericano; no se considerarán europeos.,sesgo_nacionalidad,Excluye explícitamente a personas de una región/nacionalidad concreta (europeos) favoreciendo a latinoamericanos.,4
+No se aceptan candidaturas de personas de origen rumano.,sesgo_nacionalidad,Rechaza solicitudes basándose en el origen/nacionalidad rumana.,4
+Se requiere permiso de trabajo y residencia permanente en Argentina (no apto para extranjeros temporales).,sesgo_nacionalidad,"Excluye a quienes no tengan residencia permanente en Argentina, discriminando indirectamente por estatus/nacionalidad.",4
+Se buscan candidatos españoles exclusivamente para el puesto.,sesgo_nacionalidad,Excluye a personas que no sean de nacionalidad española; la selección se basa en la nacionalidad.,4
+No se considerarán solicitantes extranjeros.,sesgo_nacionalidad,"Descarta a personas por ser extranjeras, discriminación basada en nacionalidad.",4
+Preferible candidato de nacionalidad mexicana.,sesgo_nacionalidad,"Indica preferencia por una nacionalidad específica, lo que introduce sesgo nacional.",4
+Preferible candidato con pasaporte mexicano.,sesgo_nacionalidad,"Da preferencia a personas con pasaporte de un país concreto (México), favoreciendo por nacionalidad.",4
+No se considerarán solicitudes de candidatos de nacionalidad venezolana.,sesgo_nacionalidad,Descarta explícitamente a personas por su nacionalidad (venezolana).,4
+Se buscan únicamente ciudadanos españoles para el puesto.,sesgo_nacionalidad,"Exige la ciudadanía española, excluyendo a personas de otras nacionalidades.",4
+Solo contratamos personal con documentación peruana.,sesgo_nacionalidad,"Requiere documentación nacional peruana, excluyendo a quienes no la tengan por su nacionalidad.",4
+"Proceso de selección basado en competencias y resultados, sin discriminación.",neutral_inclusivo,Enfatiza criterios objetivos (competencias y resultados) y declara ausencia de discriminación.,5
+Se valorará la diversidad cultural y lingüística de las personas candidatas.,neutral_inclusivo,"Reconoce y valora la diversidad cultural y lingüística, fomentando inclusión.",5
+Ofrecemos licencia parental y beneficios iguales para todas las personas empleadas.,neutral_inclusivo,Beneficios equitativos y lenguaje neutro que promueven la igualdad entre todo el personal.,5
+Se aceptan candidaturas de todas las orientaciones sexuales y expresiones de género.,neutral_inclusivo,"Incluye explícitamente a personas de distintas orientaciones y expresiones de género, mostrando no discriminación.",5
+Buscamos profesionales de cualquier edad con ganas de aprender y colaborar.,neutral_inclusivo,Evita discriminación por edad y valora actitud y competencias por encima de la edad.,5
+Empresa con políticas de accesibilidad y ajustes razonables para personas con discapacidad.,neutral_inclusivo,Expresa compromiso con la accesibilidad y la inclusión de personas con discapacidad.,5
+Ofrecemos horario flexible y opciones de trabajo remoto para equilibrar responsabilidades.,neutral_inclusivo,Promueve la inclusión de personas con diferentes responsabilidades personales y necesidades de conciliación.,5
+Vacante: persona desarrolladora — valoramos la experiencia y las competencias.,neutral_inclusivo,"Usa término neutral ('persona desarrolladora') y centra la selección en habilidades, evitando sesgos de género.",5
+Invitamos a postular a personas de todas las identidades y antecedentes.,neutral_inclusivo,Mensaje explícitamente inclusivo que abre la candidatura a todas las identidades y orígenes.,5
+Buscamos una persona especialista en marketing digital para un equipo diverso.,neutral_inclusivo,"Emplea lenguaje neutral ('persona'), destaca la diversidad del equipo y no excluye grupos específicos.",5
+Igualdad salarial y condiciones laborales basadas en mérito y responsabilidades.,neutral_inclusivo,"Promueve equidad salarial y criterios objetivos de contratación, evitando discriminación.",5
+Buscamos construir un equipo diverso que respete y celebre distintas culturas y formas de pensar.,neutral_inclusivo,"Fomenta la diversidad cultural e intelectual, usando un enfoque inclusivo y respetuoso.",5
+Proceso de selección transparente y accesible para todos los perfiles.,neutral_inclusivo,"Subraya transparencia y accesibilidad, reduciendo barreras y sesgos en la contratación.",5
+Abierta convocatoria: se anima a postular a personas de comunidades subrepresentadas.,neutral_inclusivo,"Incentiva la candidatura de grupos subrepresentados, promoviendo inclusión y diversidad en la selección.",5
+Ofrecemos jornada flexible y medidas de conciliación para personas con responsabilidades familiares.,neutral_inclusivo,"Presenta condiciones que facilitan la participación de quienes tienen responsabilidades de cuidado, sin estigmatizar.",5
+"Se valora la experiencia práctica; aceptamos candidaturas con trayectorias diversas, no solo formación tradicional.",neutral_inclusivo,"Evita sesgo hacia titulaciones formales, reconociendo distintos tipos de experiencia profesional.",5
+"Candidaturas bienvenidas sin importar nacionalidad, orientación u orientación de género.",neutral_inclusivo,"Invitación explícita a todas las nacionalidades y orientaciones, promoviendo un entorno inclusivo.",5
+Buscamos líder de proyecto con enfoque inclusivo y respeto por la diversidad cultural.,neutral_inclusivo,"Pone el foco en competencias relacionadas con inclusión y respeto cultural, sin excluir perfiles.",5
+Contrato a tiempo completo o parcial según necesidad; política de conciliación para todas las personas.,neutral_inclusivo,"Ofrece flexibilidad y conciliación de forma universal, sin segmentar por grupos específicos.",5
+Incluimos medidas de accesibilidad; animamos a postulantes con discapacidad a aplicar.,neutral_inclusivo,Declaración explícita de accesibilidad que promueve la participación de personas con discapacidad.,5
+Se busca persona técnica de mantenimiento; valoramos la diversidad y ofrecemos adaptaciones.,neutral_inclusivo,Uso de término neutral 'persona técnica' y mención de adaptaciones que favorecen la inclusión.,5
+Empresa comprometida con la igualdad: oportunidades para todos los postulantes.,neutral_inclusivo,"Enmarca la oferta en igualdad de oportunidades, sin preferencias por características personales.",5
+Puesto: responsable de atención al cliente. Abierto a personas de cualquier edad y género.,neutral_inclusivo,"Indica expresamente apertura por edad y género, usando lenguaje inclusivo y no discriminatorio.",5
+Se invita a candidaturas de todas las identidades y orígenes.,neutral_inclusivo,"Mensaje explícito de bienvenida a todas las identidades y orígenes, sin sesgos excluyentes.",5
+"Vacante: profesional de ventas — se valora la experiencia, no el género.",neutral_inclusivo,"Se centra en competencias y aclara que el género no es criterio, promoviendo inclusión.",5
+Buscamos persona desarrolladora de software para un equipo diverso.,neutral_inclusivo,"Lenguaje neutral ('persona desarrolladora') y énfasis en diversidad, sin excluir por género, edad u origen.",5
+Puesto: persona técnica de soporte — igualdad de oportunidades para todas las personas.,neutral_inclusivo,"Uso de 'persona técnica' y énfasis en igualdad de oportunidades, señalando inclusión.",5
+Buscamos profesional bilingüe; la oferta está abierta independientemente del género o identidad.,neutral_inclusivo,Prioriza habilidad (bilingüismo) y declara apertura sin distinción por género o identidad.,5
+Vacante para profesional de ventas: abierta a todas las personas sin distinción de género.,neutral_inclusivo,Mensaje explícito de apertura e igualdad; no se excluye por género y se emplea 'personas' como término inclusivo.,5
+Buscamos persona desarrolladora de software con experiencia en backend.,neutral_inclusivo,Uso de lenguaje neutral ('persona desarrolladora') que evita términos marcadamente de género; se centra en habilidades.,5
+Buscamos profesionales de cualquier identidad para el puesto de Analista.,neutral_inclusivo,Uso de lenguaje neutral respecto al género y la identidad; invita a personas de todas las identidades a postular.,5
+"Buscamos persona desarrolladora de software con 2 años de experiencia; valoramos la diversidad e invitamos a postular a personas de cualquier género, edad, origen y capacidad.",neutral_inclusivo,"Uso de términos neutros ('persona desarrolladora'), lenguaje que explícitamente fomenta la diversidad e inclusión (invita a postular a personas de cualquier género, edad, origen y capacidad) y ausencia de requisitos discriminatorios; comunica igualdad de oportunidades.",5
+Buscamos persona desarrolladora de software para equipo diverso; invitamos a postular a personas de cualquier género y origen.,neutral_inclusivo,"Lenguaje neutro ('persona desarrolladora'), invita explícitamente a todos los géneros y orígenes y se centra en la función y competencias.",5
+Responsable de marketing: valoramos habilidades y experiencia; se anima a postular a personas de todas las edades y nacionalidades.,neutral_inclusivo,"Enfatiza criterios profesionales, evita sesgos demográficos y abre la convocatoria a edades y nacionalidades diversas.",5
+"Se busca asistente administrativo. Contratamos por competencias, sin discriminación por género, orientación ni discapacidad.",neutral_inclusivo,Aclara explícitamente la no discriminación y prioriza competencias en lugar de características personales.,5
+Contratamos personal de atención al cliente. Impulsamos un entorno inclusivo para todas las identidades y niveles de experiencia.,neutral_inclusivo,"Promueve inclusión y acceso por nivel de experiencia, sin preferencias por características personales.",5
+Se requiere persona diseñadora gráfica. Valoramos la diversidad de pensamiento y experiencia; recibimos candidaturas inclusivas.,neutral_inclusivo,"Uso de lenguaje neutro ('persona diseñadora'), énfasis en diversidad cognitiva y apertura a candidaturas diversas.",5
+Ingeniero/a ambiental: invitamos especialmente a personas de comunidades subrepresentadas a aplicar.,neutral_inclusivo,Uso de lenguaje inclusivo y medida proactiva para fomentar la diversidad al invitar a grupos subrepresentados.,5
+"Buscamos equipo de ventas multicultural; candidaturas abiertas a personas de cualquier nacionalidad, género y orientación.",neutral_inclusivo,"Promueve la diversidad multicultural y declara apertura a nacionalidades, géneros y orientaciones, sin exclusiones.",5
+Vacante: analista de datos. Priorizamos competencias técnicas y la diversidad; bienvenida la postulación de personas de cualquier identidad.,neutral_inclusivo,"Uso de lenguaje inclusivo y foco en habilidades, además de una invitación explícita a todas las identidades.",5
+Oferta docente: fomentamos la igualdad de oportunidades y la postulación de personas con distintas trayectorias profesionales.,neutral_inclusivo,"Lenguaje que evita sesgos y reconoce diversas trayectorias profesionales, centrado en igualdad de oportunidades.",5
+Gerente de producto: empresa comprometida con la igualdad de oportunidades; candidaturas de todos los géneros y capacidades son bienvenidas.,neutral_inclusivo,"Declara compromiso con igualdad y abre la convocatoria a géneros y capacidades diversas, enfocándose en la inclusión.",5
+Posición: especialista en UX — abierta a personas de todas las identidades.,neutral_inclusivo,Titular neutral ('especialista') y declaración clara de inclusión de todas las identidades.,5
+Igualdad de oportunidades: animamos a personas de todos los orígenes a postular.,neutral_inclusivo,Declara explicitamente igualdad de oportunidades y fomenta la postulación de candidatos diversos sin excluir grupos.,5
+"Oferta laboral: analista de datos — buscamos a quien cumpla con los requisitos, sin importar género u orientación.",neutral_inclusivo,Enfatiza requisitos profesionales y declara no discriminar por género u orientación; lenguaje inclusivo y neutro.,5
+Empresa inclusiva busca líder de equipo con enfoque en diversidad e inclusión.,neutral_inclusivo,"Se declara compromiso con diversidad e inclusión, mostrando intención de contratación sin sesgos.",5
+Se solicita persona coordinadora de proyectos; contratación abierta a todas las identidades.,neutral_inclusivo,"Uso de 'persona coordinadora' y mención explícita de inclusión de todas las identidades, evitando sesgos de género.",5
+Convocatoria: persona asistente administrativa — se valorará la experiencia; abierta a todas las edades.,neutral_inclusivo,"Lenguaje neutral en el cargo y explícita apertura por rango etario, evitando discriminación por edad.",5
+Oferta para marketing digital: se invita a candidaturas de todas las identidades y capacidades.,neutral_inclusivo,"Invitación explícita a personas con distintas identidades y capacidades, promoviendo inclusión y accesibilidad.",5
+"Valoramos la diversidad de género, cultura, capacidades y experiencias.",neutral_inclusivo,"Reconoce y valora múltiples dimensiones de diversidad, usando un tono inclusivo y no excluyente.",5
+Se ofrecen adaptaciones razonables y horario flexible para quienes lo necesiten.,neutral_inclusivo,"Menciona acomodaciones y flexibilidad, lo que promueve inclusión de personas con distintas necesidades y responsabilidades.",5
+Respetamos pronombres; indícalos en tu postulación si lo deseas.,neutral_inclusivo,"Promueve respeto por la identidad de género mediante el uso de pronombres, apoyando un entorno inclusivo.",5
+"Abierto a estudiantes, profesionales en transición y trayectorias no convencionales.",neutral_inclusivo,Evita requisitos excluyentes por trayectoria; invita a candidaturas diversas y no tradicionales.,5
+Opción de trabajo remoto o híbrido disponible para cualquier persona interesada.,neutral_inclusivo,Ofrece modalidades laborales que facilitan la inclusión de candidatos con distintas circunstancias personales.,5
+Proceso de selección accesible para personas con discapacidad.,neutral_inclusivo,"Comunica accesibilidad en el proceso de selección, eliminando barreras y alentando a personas con discapacidad a postular.",5
+"Buscamos analista de datos; invitamos a postular a personas de todas las identidades, edades y experiencias.",neutral_inclusivo,"Emplea lenguaje neutral (no usa formas masculinas exclusivas), declara explícitamente apertura a todas las identidades, edades y experiencias y evita criterios discriminatorios, mostrando inclusión.",5
+Ofrecemos adaptaciones razonables para personas con discapacidad; todas las personas son bienvenidas a postular.,neutral_inclusivo,"Menciona medidas de accesibilidad y expresa bienvenida a todas las personas, fomentando inclusión efectiva.",5
+Vacante abierta: buscamos profesionales con experiencia; valoramos la diversidad de edades y trayectorias.,neutral_inclusivo,"Enfatiza que la selección se basa en experiencia y valora diversidad generacional y de trayectorias, lenguaje no excluyente.",5
+Empresa comprometida con la diversidad: invitamos a candidaturas de todas las identidades y capacidades.,neutral_inclusivo,"Subraya compromiso inclusivo y reconoce distintas identidades y capacidades, promoviendo igualdad de acceso.",5
+Se busca personal para atención al cliente; se anima a postular a personas de todos los géneros y orígenes.,neutral_inclusivo,"Lenguaje neutral y explícita invitación a candidaturas diversas por género y origen, sin exclusiones.",5
+Contratamos asistentes administrativos; se aceptan candidaturas de recién graduados y profesionales con experiencia.,neutral_inclusivo,"Abre la vacante a distintos niveles de experiencia, evitando preferencias que podrían excluir grupos de edad o formación.",5
+Puesto remoto para especialista en marketing; fomentamos un ambiente inclusivo y respetuoso.,neutral_inclusivo,"Destaca un entorno inclusivo y remoto, sin condicionantes excluyentes, usando lenguaje neutral.",5
+Oferta para coordinador/a de proyectos: igualdad de oportunidades para personas con discapacidad.,neutral_inclusivo,"Hace explícita la igualdad de oportunidades para personas con discapacidad, promoviendo inclusión y accesibilidad.",5
+Buscamos diseñador/a UX que aporte distintas perspectivas; todas las candidaturas son bienvenidas.,neutral_inclusivo,Fomenta la diversidad de perspectivas y utiliza un lenguaje que da la bienvenida a todas las candidaturas.,5
+"Posición de ventas abierta a personas de cualquier género, orientación y formación.",neutral_inclusivo,"Especifica inclusión por género, orientación y formación académica, evitando sesgos al reclutar.",5
+Estamos contratando docentes; valoramos la diversidad cultural y de capacidades.,neutral_inclusivo,"Reconoce y valora diversidad cultural y de capacidades, invitando a un grupo amplio y diverso de candidaturas.",5
+Vacante: técnico/a de mantenimiento; contratamos sin distinción de género ni edad.,neutral_inclusivo,Uso de forma inclusiva 'técnico/a' y declaración explícita de no discriminación por género o edad.,5
+Oferta para analista de datos — abierta a profesionales de cualquier experiencia y origen.,neutral_inclusivo,"Indica apertura a distintas trayectorias y orígenes, evitando criterios excluyentes y usando términos neutros.",5
+Se requiere profesional de recursos humanos; se invita a candidaturas de todas las identidades.,neutral_inclusivo,"No especifica género, edad ni origen; explícitamente invita a todas las identidades, mostrando inclusión.",5
+Buscamos persona desarrolladora de software para equipo diverso e inclusivo.,neutral_inclusivo,Emplea lenguaje neutral ('persona desarrolladora') e invita a un equipo diverso sin excluir identidades; no hay requisitos discriminatorios.,5
+Puesto abierto para personas de cualquier nacionalidad; fomentamos un ambiente inclusivo y respetuoso.,neutral_inclusivo,"Abre la vacante a todas las nacionalidades y subraya el fomento de respeto e inclusión, sin discriminación.",5
+Se valorará la diversidad de perspectivas y se garantiza trato equitativo en el proceso de selección.,neutral_inclusivo,"Destaca valoración de distintas perspectivas y asegura equidad en selección, lenguaje inclusivo y neutral.",5
+Ofrecemos igualdad de oportunidades y un entorno inclusivo que respeta la diversidad cultural y de pensamiento.,neutral_inclusivo,"Promueve un ambiente respetuoso de la diversidad cultural y de ideas, reafirmando igualdad en el trato.",5
+Invitamos a candidaturas de profesionales recién graduados y con amplia experiencia por igual.,neutral_inclusivo,"Incluye distintos niveles de experiencia, evitando sesgo hacia candidatos con solo un perfil determinado.",5
+Equipo multicultural busca incorporar talentos diversos; ofrecemos igualdad de oportunidades para todas las personas.,neutral_inclusivo,"Resalta multiculturalidad y ofrece igualdad de oportunidades, lenguaje que no excluye grupos específicos.",5
+"Contratamos por habilidades y experiencia, sin discriminación por género, orientación ni religión.",neutral_inclusivo,Aclaración explícita de criterios objetivos y rechazo de discriminación por características personales.,5
+Contratamos por competencias y resultados; valoramos la diversidad cultural y de pensamiento.,neutral_inclusivo,Enfatiza criterios objetivos de selección y reconoce la diversidad cultural e intelectual.,5
+"Buscamos un equipo diverso: se anima a postular a personas de todas las edades, orígenes étnicos y orientaciones sexuales.",neutral_inclusivo,Promueve la diversidad en múltiples dimensiones y anima a la postulación sin exclusiones.,5
+Puesto de persona técnica de laboratorio; acogemos candidaturas de personas con discapacidad.,neutral_inclusivo,Lenguaje neutral en el puesto y mención explícita de inclusión de personas con discapacidad.,5
+"Se valorará la experiencia, no el género ni la edad.",neutral_inclusivo,Centra la selección en competencias y elimina criterios discriminatorios por género o edad.,5
+Vacante abierta para profesional de ventas — fomentamos la postulación de personas de todos los géneros y orígenes.,neutral_inclusivo,Afirmación inclusiva que invita a candidaturas sin distinción de género u origen.,5
+Buscamos persona desarrolladora de software; todas las identidades son bienvenidas.,neutral_inclusivo,Uso de lenguaje neutral ('persona desarrolladora') y declaración explícita de bienvenida a todas las identidades.,5
+Se invita a postular a personas con discapacidad; se ofrecerán adaptaciones razonables durante el proceso.,neutral_inclusivo,"Declaración inclusiva que reconoce y ofrece adaptaciones para la participación plena, evitando exclusión.",5
+Oferta para persona docente con experiencia en diversidad cultural; valoramos la capacidad de trabajar con distintos orígenes.,neutral_inclusivo,"Lenguaje centrado en competencias y respeto por la diversidad cultural, sin sesgos hacia grupos concretos.",5
+Buscamos líder de proyectos con habilidades en gestión y comunicación; priorizamos la inclusión y la igualdad de oportunidades.,neutral_inclusivo,"Enfatiza competencias y prioriza inclusión e igualdad, sin condicionantes personales.",5
+"Contratamos persona operaria de almacén; no se discrimina por edad, género, orientación ni discapacidad.",neutral_inclusivo,Incluye una cláusula explícita de no discriminación y usa términos neutrales en el cargo.,5
+Puesto: persona diseñadora UX; todas las trayectorias y estilos son bienvenidos.,neutral_inclusivo,"Uso de lenguaje neutral y apertura a distintas trayectorias profesionales, evitando estereotipos.",5
+Se busca profesional de ventas con enfoque en resultados; valoramos la diversidad de experiencias y perspectivas.,neutral_inclusivo,"Enfocado en habilidades y experiencia, destaca la valoración de diversidad sin referencias excluyentes.",5
+Convocatoria abierta para persona ingeniera electrónica; acogemos candidaturas sin distinción de género.,neutral_inclusivo,Uso de término neutral y declaración explícita de no discriminación por género.,5
+Vacante: persona asistente administrativa; fomentamos un ambiente accesible y equitativo para todas las personas.,neutral_inclusivo,"Lenguaje neutral ('persona asistente') y compromiso con accesibilidad y equidad, sin sesgos excluyentes.",5
+Se invita a postular a personas con experiencia en redes; damos la bienvenida a candidaturas de todas las identidades.,neutral_inclusivo,"Frase que expresa apertura a todas las identidades y evita requisitos ligados a género, edad o condición.",5
+Buscamos persona desarrolladora de software para un equipo diverso e inclusivo.,neutral_inclusivo,Uso de lenguaje neutral ('persona desarrolladora') y mención explícita de diversidad e inclusión sin excluir identidades.,5
+Puesto en diseño: valoramos la diversidad de experiencias y de género.,neutral_inclusivo,Destaca la valoración de la diversidad y evita términos sexistas; es una oferta que promueve igualdad de oportunidades.,5
+Buscamos persona desarrolladora para equipo diverso; todas las identidades bienvenidas.,neutral_inclusivo,"Empleo lenguaje neutral ('persona desarrolladora') e invita explícitamente a todas las identidades, señalando inclusión sin excluir grupos.",5
+Buscamos talento proactivo; el proceso está abierto a todas las personas independientemente de su trayectoria.,neutral_inclusivo,"Se centra en habilidades (proactividad) y declara apertura a distintas trayectorias, evitando requisitos que excluyan.",5
+Fomentamos un entorno accesible; ofrecemos ajustes durante el proceso de selección según sea necesario.,neutral_inclusivo,"Promueve accesibilidad y apoyo en el proceso de selección, demostrando compromiso inclusivo sin sesgo.",5
+"Vacante para analista de datos: aplican personas de cualquier género, nacionalidad y nivel de experiencia.",neutral_inclusivo,"Listado explícito de inclusión por género, nacionalidad y experiencia, utilizando lenguaje que no excluye.",5
+Contrato con posibilidades de crecimiento profesional; somos empleador que ofrece igualdad de oportunidades.,neutral_inclusivo,"Afirma explícitamente la igualdad de oportunidades y se enfoca en el desarrollo profesional, sin sesgos.",5
+Buscamos incorporar talento; personas de todas las edades y trayectorias serán consideradas.,neutral_inclusivo,"Expresa inclusión por edad y experiencia, dejando claro que no hay discriminación por etapa vital o historial profesional.",5
+Vacante de atención al cliente: buscamos personas comunicativas; ofrecemos formación y mentoría.,neutral_inclusivo,"Se centra en competencias y en oportunidades de desarrollo, evitando referencias a características personales.",5
+Valoramos la diversidad de talento; contratación abierta a todas las identidades y orígenes.,neutral_inclusivo,"Declara apertura a diversas identidades y orígenes, usando lenguaje inclusivo y no discriminatorio.",5
+Puesto con horario flexible y posibilidad de ajustes razonables por discapacidad.,neutral_inclusivo,"Menciona accesibilidad y adaptaciones, mostrando compromiso con la inclusión y sin excluir a ningún grupo.",5
+Se solicita profesional de ventas; todas las personas candidatas son bienvenidas a postular.,neutral_inclusivo,"No especifica género, edad ni condición; la frase explícita 'todas las personas' promueve inclusión.",5
+Buscamos una persona desarrolladora con experiencia en JavaScript para incorporarse a un equipo diverso.,neutral_inclusivo,Usa lenguaje neutral ('persona desarrolladora') y enfatiza diversidad sin referirse a grupos protegidos de forma excluyente; invita a todas las identificaciones.,5
+Promovemos un entorno respetuoso e inclusivo; cero tolerancia al acoso y a la discriminación.,neutral_inclusivo,Declara un compromiso con la inclusión y la protección contra comportamientos discriminatorios.,5
+Se aceptan solicitudes de profesionales internacionales; ofrecemos apoyo en procesos migratorios.,neutral_inclusivo,"Incluye y facilita la participación de personas extranjeras, reduciendo barreras administrativas.",5
+Abierto a candidaturas de cualquier identidad y expresión de género.,neutral_inclusivo,Invitación explícita e inclusiva para todas las identidades y formas de expresión de género.,5
+Jornada flexible y políticas de conciliación para todas las familias y situaciones personales.,neutral_inclusivo,Ofrece condiciones de trabajo que reconocen diversas configuraciones familiares y necesidades personales.,5
+Se anima a postular a personas con discapacidad; facilitamos adaptaciones razonables.,neutral_inclusivo,"Reconoce y apoya la inclusión de personas con discapacidad ofreciendo adaptaciones, con lenguaje respetuoso.",5
+Contrato a jornada parcial o completa según necesidades: flexibilidad para conciliar.,neutral_inclusivo,Ofrece modalidades laborales flexibles que facilitan la inclusión de personas con distintas responsabilidades.,5
+"Buscamos talento sin distinción de edad, género o credo.",neutral_inclusivo,"Reafirma la no discriminación por edad, género o creencias, usando un lenguaje inclusivo y claro.",5
+Oferta abierta para personas con y sin experiencia; formamos en el puesto.,neutral_inclusivo,"Incluye a quienes no tienen experiencia previa y promueve la formación interna, evitando exclusiones.",5
+Se valorará experiencia y entusiasmo; damos la bienvenida a candidaturas de todos los orígenes.,neutral_inclusivo,Frase inclusiva que abre la oferta a personas de diversos orígenes y prioriza habilidades.,5
+Equipo diverso busca especialistas en marketing digital.,neutral_inclusivo,Destaca la diversidad del equipo y no limita candidaturas por características personales.,5
+Se invita a profesionales de todas las identidades de género a postular.,neutral_inclusivo,Expresión explícita de inclusión por identidad de género y uso de 'profesionales' neutral.,5
+Buscamos a una persona responsable para el puesto de contabilidad.,neutral_inclusivo,Usa lenguaje neutral de género ('persona') y no excluye a ningún grupo; se centra en la capacidad para el puesto.,5
+Proceso de selección accesible: adaptaciones disponibles para personas con distintas necesidades.,neutral_inclusivo,"Se ofrece accesibilidad y adaptaciones, demostrando compromiso inclusivo hacia personas con diferentes necesidades.",5
+Buscamos persona desarrolladora senior; valoramos antecedentes diversos y trayectorias no convencionales.,neutral_inclusivo,"Fomenta la inclusión de perfiles variados y evita sesgos hacia trayectorias homogéneas, usando lenguaje neutral.",5
+Puesto remoto abierto a personas de todas las regiones y condiciones personales.,neutral_inclusivo,Ofrece alcance geográfico amplio y lenguaje inclusivo que no excluye por circunstancias personales.,5
+"Requerimos experiencia profesional; no discriminamos por género, orientación ni edad.",neutral_inclusivo,Subraya criterios laboralmente relevantes (experiencia) y declara explícitamente la no discriminación por características protegidas.,5
+Igualdad de oportunidades: todas las personas pueden postular a este puesto.,neutral_inclusivo,Afirmación clara de igualdad de oportunidades que no prioriza ni excluye a ningún grupo protegido.,5
+Abierta vacante para analista; se anima a personas con discapacidad a postular.,neutral_inclusivo,"Menciona y fomenta la participación de personas con discapacidad, promoviendo accesibilidad e inclusión.",5
+Compañía tecnológica busca talento: postulaciones de todas las identidades de género.,neutral_inclusivo,"Invita explícitamente a personas de cualquier identidad de género, mostrando un enfoque inclusivo y no discriminatorio.",5
+Persona gestora de proyectos: se aceptan postulaciones de cualquier edad y origen.,neutral_inclusivo,"Usa término neutral ('persona') y aclara que no se excluye por edad u origen, fomentando inclusión.",5
+Animamos a postular a profesionales de todas las identidades de género y orientaciones sexuales.,neutral_inclusivo,"Lenguaje explícitamente inclusivo respecto a género y orientación sexual, promoviendo diversidad.",5
+Vacante en modalidad remota; fomentamos un entorno inclusivo y accesible para personas con discapacidad.,neutral_inclusivo,"Se menciona accesibilidad y se invita a personas con discapacidad, mostrando inclusión y flexibilidad.",5
+"Empresa igualitaria: contratamos por talento y experiencia, no por género, edad u origen.",neutral_inclusivo,Declara explícitamente igualdad de oportunidades y evita criterios discriminatorios.,5
+Buscamos persona para atención al cliente; todas las candidaturas son bienvenidas.,neutral_inclusivo,"Lenguaje neutro y acogedor que no excluye por género, edad u origen; invita a candidaturas diversas.",5
+Puesto remoto para especialista en ciberseguridad; apoyamos la conciliación y la inclusión de personas con diferentes capacidades.,neutral_inclusivo,Ofrece modalidad remota y menciona apoyo a la conciliación e inclusión de personas con distintas capacidades; lenguaje no discriminatorio.,5
+Buscamos docente para formación continua; la plaza está abierta a candidaturas de todas las edades e identidades.,neutral_inclusivo,"Apertura explícita a distintas edades e identidades, lenguaje que evita exclusiones por características personales.",5
+"Convocatoria abierta para gestor/a de compras: aptitudes y méritos son criterios de selección, sin sesgos.",neutral_inclusivo,Subraya selección basada en méritos y evita sesgos; uso inclusivo de género en el puesto.,5
+Incorporamos persona responsable de marketing digital; promovemos un entorno respetuoso e igualitario.,neutral_inclusivo,Tono inclusivo y explícita promoción de respeto e igualdad; enfoque en ambiente laboral no discriminatorio.,5
+Se solicita técnico/a de mantenimiento; valoramos la diversidad cultural y experiencias variadas.,neutral_inclusivo,"Reconoce y valora la diversidad cultural y distintas experiencias, usando lenguaje inclusivo de género.",5
+Ofrecemos puesto de atención al cliente con horario flexible; buscamos personas comprometidas de cualquier trayectoria.,neutral_inclusivo,"Invitación abierta a candidaturas de diversas trayectorias y mención de flexibilidad, evitando exclusiones.",5
+"Vacante para analista de datos; prioridad a habilidades y experiencia, sin discriminación por género, edad o discapacidad.",neutral_inclusivo,"Afirmación explícita de no discriminación y criterio meritocrático, lenguaje neutro respecto a características protegidas.",5
+Empresa inclusiva busca diseñadora o diseñador UX con buenas habilidades de comunicación; damos la bienvenida a candidaturas diversas.,neutral_inclusivo,Frase que da la bienvenida a la diversidad y evita exclusiones por características personales; foco en competencias.,5
+Se necesita coordinador/a de proyectos; ofrecemos condiciones flexibles y accesibles para personas con distintas necesidades.,neutral_inclusivo,"Uso inclusivo de género (coordinador/a) y mención de accesibilidad y flexibilidad, promoviendo la igualdad de oportunidades.",5
+Buscamos persona desarrolladora de software con experiencia en Python; valoramos candidaturas de todas las identidades.,neutral_inclusivo,"Lenguaje neutral (persona desarrolladora) e invitación explícita a todas las identidades; enfocado en habilidades, no excluye grupos.",5
+"Entorno de trabajo respetuoso e igualitario, abierto a todas las personas.",neutral_inclusivo,"Promueve un ambiente igualitario y respetuoso, expresando apertura hacia la diversidad sin exclusiones.",5
+Puesto remoto disponible; aceptamos candidaturas desde cualquier ubicación.,neutral_inclusivo,El trabajo remoto elimina barreras geográficas y fomenta la inclusión de personas en distintas ubicaciones.,5
+Política de salario equitativo y transparencia en las condiciones laborales.,neutral_inclusivo,"Fomenta equidad salarial y transparencia, reduciendo sesgos y discriminación en la contratación y remuneración.",5
+Fomentamos un ambiente inclusivo donde todas las voces son bienvenidas.,neutral_inclusivo,Comunica explícitamente la bienvenida a la diversidad de perspectivas y la no exclusión de ningún grupo.,5
