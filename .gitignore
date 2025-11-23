@@ -229,5 +229,5 @@ __marimo__/
 .vscode/
 
 # Local model files
-my_model/
-results/
+model-*/
+results-*/
