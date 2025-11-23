@@ -227,3 +227,6 @@ __marimo__/
 *.rej
 *.~*
 .vscode/
+
+# Local model files
+my_model/
