@@ -1,6 +1,9 @@
 import pandas as pd
 import os
+import pickle
+import numpy as np
 from sklearn.model_selection import train_test_split
+from sentence_transformers import SentenceTransformer
 from transformers import (
     AutoTokenizer, 
     AutoModelForSequenceClassification, 
@@ -19,7 +22,7 @@ class ModelTrainer:
     """
 
     def __init__(self):
-        pass
+        self.embedding_model_name = "sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
 
     def _load_dataset(self, file_path, required_columns, drop_na_subset, test_size=0.2, stratify_col=None, preprocess_fn=None):
         if not os.path.exists(file_path):
@@ -119,69 +122,63 @@ class ModelTrainer:
         tokenizer.save_pretrained(f"./{output_dir}")
         print(f"Bias detection model saved to {output_dir}")
 
-    def train_debiasing(self, 
-                        model_name="google/mt5-base", 
-                        dataset_path="dataset-debiasing.csv",
-                        output_dir="model-debiasing"):
+    def generate_embeddings_vector_store(self, 
+                                         dataset_path="dataset-debiasing.csv",
+                                         output_dir="vector_store"):
         """
-        Train a seq2seq model for debiasing.
+        Generate embeddings for the debiasing dataset and save them for fast retrieval.
         """
-        print(f"Training Debiasing Model: {model_name}")
-
-        dataset_train, dataset_test = self._load_dataset(
-            dataset_path,
-            required_columns=['texto_sesgado', 'texto_corregido'],
-            drop_na_subset=['texto_sesgado', 'texto_corregido']
-        )
-
-        tokenizer = AutoTokenizer.from_pretrained(model_name)
-        model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
-
-        def preprocess_function(examples):
-            inputs = ["debias: " + text for text in examples["texto_sesgado"]]
-            targets = examples["texto_corregido"]
-            
-            model_inputs = tokenizer(inputs, max_length=128, truncation=True, padding="max_length")
-            labels = tokenizer(text_target=targets, max_length=128, truncation=True, padding="max_length")
-
-            model_inputs["labels"] = labels["input_ids"]
-            return model_inputs
-
-        encoded_dataset_train = dataset_train.map(preprocess_function, batched=True)
-        encoded_dataset_test = dataset_test.map(preprocess_function, batched=True)
-
-        data_collator = DataCollatorForSeq2Seq(tokenizer=tokenizer, model=model)
-
-        training_args = Seq2SeqTrainingArguments(
-            output_dir=f"./results-{output_dir}",
-            eval_strategy="epoch",
-            save_strategy="epoch",
-            learning_rate=5e-5,
-            per_device_train_batch_size=8,
-            per_device_eval_batch_size=8,
-            num_train_epochs=5,
-            weight_decay=0.01,
-            predict_with_generate=True,
-            load_best_model_at_end=True,
-            logging_dir=f'./logs-{output_dir}',
-            save_total_limit=2,
-        )
-
-        trainer = Seq2SeqTrainer(
-            model=model,
-            args=training_args,
-            train_dataset=encoded_dataset_train,
-            eval_dataset=encoded_dataset_test,
-            tokenizer=tokenizer,
-            data_collator=data_collator,
-        )
-
-        trainer.train()
-        print(trainer.evaluate())
-
-        model.save_pretrained(f"./{output_dir}")
-        tokenizer.save_pretrained(f"./{output_dir}")
-        print(f"Debiasing model saved to {output_dir}")
+        print(f"Generating embeddings vector store from {dataset_path}")
+        
+        if not os.path.exists(dataset_path):
+            raise FileNotFoundError(f"Dataset not found at {dataset_path}")
+        
+        df = pd.read_csv(dataset_path)
+        print(f"Loaded {len(df)} records")
+        
+        df = df.dropna(subset=['texto_sesgado', 'texto_corregido'])
+        print(f"Records after cleaning: {len(df)}")
+        
+        print(f"Loading embedding model: {self.embedding_model_name}")
+        embedding_model = SentenceTransformer(self.embedding_model_name)
+        
+        print("Generating embeddings...")
+        biased_texts = df['texto_sesgado'].tolist()
+        embeddings = embedding_model.encode(biased_texts, show_progress_bar=True, batch_size=32)
+        
+        os.makedirs(output_dir, exist_ok=True)
+        
+        embeddings_path = os.path.join(output_dir, "embeddings.npy")
+        np.save(embeddings_path, embeddings)
+        print(f"Embeddings saved to {embeddings_path}")
+        
+        examples = []
+        for _, row in df.iterrows():
+            examples.append({
+                'texto_sesgado': row['texto_sesgado'],
+                'texto_corregido': row['texto_corregido'],
+                'tipo_sesgo': row.get('tipo_sesgo', ''),
+                'explicacion': row.get('explicacion', '')
+            })
+        
+        store_path = os.path.join(output_dir, "store.pkl")
+        with open(store_path, 'wb') as f:
+            pickle.dump(examples, f)
+        print(f"Examples saved to {store_path}")
+        
+        metadata = {
+            'embedding_model': self.embedding_model_name,
+            'num_examples': len(examples),
+            'embedding_dim': embeddings.shape[1]
+        }
+        metadata_path = os.path.join(output_dir, "metadata.pkl")
+        with open(metadata_path, 'wb') as f:
+            pickle.dump(metadata, f)
+        print(f"Metadata saved to {metadata_path}")
+        
+        print(f"✓ Vector store created with {len(examples)} examples")
+        print(f"  Embedding dimension: {embeddings.shape[1]}")
+        print(f"  Model: {self.embedding_model_name}")
 
 if __name__ == "__main__":
     trainer = ModelTrainer()
@@ -191,3 +188,6 @@ if __name__ == "__main__":
     
     # Uncomment to train debiasing
     # trainer.train_debiasing()
+    
+    # Generate embeddings vector store (run after having the dataset)
+    trainer.generate_embeddings_vector_store()
