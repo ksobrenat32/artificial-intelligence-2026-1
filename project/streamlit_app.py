@@ -49,7 +49,6 @@ def load_analyzer():
     with st.spinner("Cargando modelos de IA... Esto puede tomar unos minutos la primera vez."):
         analyzer = DiversIA_AI_Analyzer(
             model_path="model-bias-detection",
-            vector_store_path="vector_store",
             llm_model="TinyLlama/TinyLlama-1.1B-Chat-v1.0"
         )
 
@@ -160,7 +159,7 @@ def main():
         st.error(f"Error cargando el analizador: {str(e)}")
         return
 
-    st.header(" Ingresa tu texto")
+    st.header("Ingresa tu texto")
 
     if analysis_mode == "Frase individual":
         user_input = st.text_input(
@@ -175,27 +174,27 @@ def main():
                     result = analyze_single_phrase(analyzer, user_input)
 
                     if result and result.get("bias_type") and result["confidence"] >= confidence_threshold:
-                        st.markdown("###⚠️ Sesgo Detectado")
+                        st.markdown("### ⚠️ Sesgo Detectado")
 
                         col1, col2 = st.columns([2, 1])
 
                         with col1:
                             st.markdown(f'<div class="bias-card">', unsafe_allow_html=True)
-                            st.write(f"** Frase analizada:** {result['text']}")
-                            st.write(f"** Tipo de sesgo:** {result['bias_type'].title()}")
-                            st.write(f"** Confianza:** {result['confidence']:.1%}")
+                            st.markdown(f"**Frase analizada:** {result['text']}")
+                            st.markdown(f"**Tipo de sesgo:** {result['bias_type'].title()}")
+                            st.markdown(f"**Confianza:** {result['confidence']:.1%}")
                             # if result.get('explanation'):
-                            #     st.write(f"**💭 Explicación:** {result['explanation']}")
-                            # st.markdown('</div>', unsafe_allow_html=True)
+                            #     st.markdown(f"**💭 Explicación:** {result['explanation']}")
+                            st.markdown('</div>', unsafe_allow_html=True)
                         with col2:
                             st.metric("Nivel de Sesgo", f"{result['confidence']:.1%}",
                                      delta=None, delta_color="inverse")
 
                         if result.get('suggestion'):
                             st.markdown("### 💡 Sugerencia de Corrección")
-                            st.markdown(f'<div class="suggestion-card">', unsafe_allow_html=True)
-                            st.write(f"** Versión corregida:** {result['suggestion']}")
-                            st.markdown('</div>', unsafe_allow_html=True)
+                            st.markdown(f'''<div class="suggestion-card">
+                                <strong>Versión corregida:</strong> {result['suggestion']}
+                            </div>''', unsafe_allow_html=True)
 
                             # Show comparison
                             st.markdown("### 📊 Comparación")
@@ -211,10 +210,10 @@ def main():
                         # No bias detected
                         st.markdown("### ✅ Texto Seguro")
                         st.markdown(f'<div class="safe-card">', unsafe_allow_html=True)
-                        st.write(f"** Frase analizada:** {user_input}")
-                        st.write("** Resultado:** No se detectaron sesgos significativos en esta frase.")
+                        st.markdown(f"**Frase analizada:** {user_input}")
+                        st.markdown("**Resultado:** No se detectaron sesgos significativos en esta frase.")
                         if result:
-                            st.write(f"** Confianza máxima:** {result['confidence']:.1%}")
+                            st.markdown(f"**Confianza máxima:** {result['confidence']:.1%}")
                         st.markdown('</div>', unsafe_allow_html=True)
             else:
                 st.warning("⚠️ Por favor ingresa una frase para analizar.")
@@ -242,15 +241,15 @@ def main():
                                 col1, col2 = st.columns([3, 1])
 
                                 with col1:
-                                    st.write(f"** Frase:** {finding['text']}")
-                                    st.write(f"** Tipo de sesgo:** {finding['bias_type'].title()}")
+                                    st.markdown(f"**Frase:** {finding['text']}")
+                                    st.markdown(f"**Tipo de sesgo:** {finding['bias_type'].title()}")
                                     # if finding.get('explanation'):
                                     #     st.write(f"**💭 Explicación:** {finding['explanation']}")
                                 with col2:
                                     st.metric("Confianza", f"{finding['confidence']:.1%}")
 
                                 if finding.get('suggestion'):
-                                    st.markdown("** Sugerencia:**")
+                                    st.markdown("**Sugerencia:**")
                                     st.info(finding['suggestion'])
                                 else:
                                     st.warning("No se pudo generar sugerencia automática.")
@@ -274,7 +273,7 @@ def main():
                     else:
                         st.markdown("### ✅ Texto Seguro")
                         st.markdown(f'<div class="safe-card">', unsafe_allow_html=True)
-                        st.write("** Resultado:** No se detectaron sesgos significativos en este texto.")
+                        st.markdown("**Resultado:** No se detectaron sesgos significativos en este texto.")
                         sentences_count = len([s for s in re.split(r'[.!?;\n:]+', user_input) if s.strip() and len(s.strip()) > 10])
                         st.write(f"**📊 Frases analizadas:** {sentences_count}")
                         st.markdown('</div>', unsafe_allow_html=True)
