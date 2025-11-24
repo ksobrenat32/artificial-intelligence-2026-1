@@ -3,6 +3,7 @@ import torch
 import pandas as pd
 import numpy as np
 import pickle
+import re
 from transformers import pipeline
 from sentence_transformers import SentenceTransformer
 from pathlib import Path
@@ -256,9 +257,18 @@ class DiversIA_AI_Analyzer:
     def evaluate_job_posting(self, full_text):
         """
         Splits the job posting into sentences and analyzes each semantically.
+        Uses newlines and all punctuation marks for better segmentation.
         """
         print(f"\n--- Starting Analysis with AI (Deep Learning) ---")
-        sentences = [s.strip() for s in full_text.split('.') if s.strip()]
+
+        # Split by multiple punctuation marks and newlines for better segmentation
+        # This regex splits on: periods, exclamation marks, question marks, newlines, semicolons, and colons
+        sentence_pattern = r'[.!?;\n:]+'
+        sentences = re.split(sentence_pattern, full_text)
+
+        # Clean and filter sentences
+        sentences = [s.strip() for s in sentences if s.strip() and len(s.strip()) > 10]
+
         findings = []
 
         for sentence in sentences:
@@ -287,7 +297,7 @@ class DiversIA_AI_Analyzer:
 
                 # Generate unbiased suggestion
                 suggestion = self.generate_unbiased_phrase(sentence)
-                
+
                 findings.append({
                     "text": sentence,
                     "bias_type": display,
@@ -327,11 +337,11 @@ if __name__ == "__main__":
     # - "meta-llama/Llama-3.2-3B-Instruct" (needs authentication)
     # - "TinyLlama/TinyLlama-1.1B-Chat-v1.0" (fast, smaller)
     ia_diversia = DiversIA_AI_Analyzer(
-        model_path="model-bias-detection", 
+        model_path="model-bias-detection",
         vector_store_path="vector_store",
-        llm_model="Qwen/Qwen2.5-3B-Instruct"
+        llm_model="TinyLlama/TinyLlama-1.1B-Chat-v1.0"
     )
-    
+
     if ia_diversia.clasificador is None:
         print("\n⚠️  No model available. To train the model:")
         print("    python3 training.py")

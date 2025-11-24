@@ -231,3 +231,4 @@ __marimo__/
 # Local model files
 model-*/
 results-*/
+vector_*/
